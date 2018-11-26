@@ -25,6 +25,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://192.168.137.1/multihospital_new/HDSplashscreen.aspx')
 
+WebUI.navigateToUrl('http://192.168.137.1/multihospital_new/HDSplashscreen.aspx1')
+
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('DispensaryToStore/Page_KDMC/a_Dispensary Store'))
