@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select--Blood Transfu</name>
+   <tag></tag>
+   <elementGuidId>239df74d-cdfb-45df-a980-61240043a6d6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>optmedicine</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--Blood Transfusion set, sterile non-toxicCatherters folley sterile with two ways hemostatic bags of different capacities of bulb 5 to 15 and 30 to 50 c.c as per I.S.I specification sizes 14Catherters folley sterile with two ways hemostatic bags of different capacities of bulb 5 to 15 and 30 to 50 c.c as per I.S.I specification sizes 16Disposable (Plastic) Gloves made of 100% virgin EVA (Ethylene Vinyl Acetate co-polymer) 25 micron thickness 100% free of pin holes size largeDisposable Airways - size - 2,3,4Endotracheul tube plain plastic disposable size no. 2, 2.5, 3, 3.5, 4Infant feeding tube P.V.C. non-toxic sterile disposable pyrogen free X-Ray opaque line and siliconised Infant feeding tube P.V.C. non-toxic sterile disposable pyrogen free X-Ray opaque line and siliconised with stright packing size 5Infant feeding tube P.V.C. non-toxic sterile disposable pyrogen free X-Ray opaque line and siliconised with stright packing size 6Infant feeding tube P.V.C. non-toxic sterile disposable pyrogen free X-Ray opaque line and siliconised with stright packing size 7Infant feeding tube P.V.C. non-toxic sterile disposable pyrogen free X-Ray opaque line and siliconised with stright packing size 8Infusion sets-Sterile Non-toxic P.V.C. with soft transparent tubing and plastic murphy drip with needle no.20 leakproof in double polythelene packing (Batch No. Mfg. date, sterility date aird method etc., must be mentioned with plastic spikes) as per I.S.I specificationNasal ProngNon Sterile superior qualtiy granular surface latex rubber surgical glove size 6 1/2 inchesNon Sterile superior qualtiy granular surface latex rubber surgical glove size 7 inchesOxygen face mask adultOxygen face mask paediatricRomovac drain size - 14,16Rubber sheeting, water proof, resistant to ageing dishinfectant detergent, sterilizable (Mackintosh) superior qulaity non creasing with 90-95 cms.Ryle's tube P.V.C. non-toxic sterile disposable pyrogen free with X-ray opaque line size with stright packing 18Ryle's tube P.V.C. non-toxic sterile disposable pyrogen free with X-ray opaque line size with stright packing 20Ryle's tube P.V.C. non-toxic sterile disposable pyrogen free with X-Ray opaque linea) size with stright packing 12Ryle's tube P.V.C. non-toxic sterile disposable pyrogen free with X-Ray opaque linea) size with stright packing 14Ryle's tube P.V.C. non-toxic sterile disposable pyrogen free with X-Ray opaque linea) size with stright packing 16Scalp vein set P.V.C. sterile pyrogen free non-toxic needle sharp bevelled 30-40 cms,I.S.I. Specification guage size 21Scalp vein set P.V.C. sterile pyrogen free non-toxic needle sharp bevelled 30-40 cms,I.S.I. Specification guage size 22Scalp vein set P.V.C. sterile pyrogen free non-toxic needle sharp bevelled 30-40 cms,I.S.I. Specification guage size 23Scalp vein set P.V.C. sterile pyrogen free non-toxic needle sharp bevelled 30-40 cms,I.S.I. Specification guage size 24Sterile disposable superior qulaity granular surface latex rubber surgical gloves for operation theatre use for size 6 1/2 inchesSterile disposable superior qulaity granular surface latex rubber surgical gloves for operation theatre use for size 6 inchesSterile disposable superior qulaity granular surface latex rubber surgical gloves for operation theatre use for size 7 inchesSterile disposable superior qulaity granular surface latex rubber surgical gloves for operation theatre use for size 7.5 inchesSterile disposable superior qulaity granular surface latex rubber surgical gloves for operation theatre use for size 8 inchesStethoscope peadiatric microtone Urine bags, sterile plastic superior quality 2000ml., capacity for adult having non returnable valve.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;optmedicine&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

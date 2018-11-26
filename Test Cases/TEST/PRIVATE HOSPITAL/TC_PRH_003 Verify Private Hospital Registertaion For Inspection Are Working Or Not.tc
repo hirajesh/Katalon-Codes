@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PRH_003 Verify Private Hospital Registertaion For Inspection Are Working Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e077f78-27d0-45f2-bc1b-8e8dce715398</testCaseGuid>
+</TestCaseEntity>

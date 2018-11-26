@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PHAR_007 Verify Schedule 7 Pharmacy Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8e8f6d4-1942-477f-a517-98f253b7a839</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Inpatient_Suit" time="118" tests="0" failures="3" errors="0">
+   <testsuite name="Inpatient_Suit" tests="0" failures="3" errors="0" time="118" timestamp="2018-05-14 16:07:58" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/Inpatient_Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_160751"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_160751\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_160751\\1526294317482.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_160751\\1526294357144.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_160751\\1526294395765.png"/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.71.2"/>
+         <property name="sessionId" value="dee3b5e59f5e14a4f65aa86718bb41c6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not" classname="Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id(&quot;form1&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-10 col-sm-10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2 col-sm-2&quot;]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)"/>
+         <system-out><![CDATA[2018-05-14 16:07:58 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)
+
+2018-05-14 16:07:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 16:08:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 16:08:02 - [TEST_STEP][PASSED] - Statement - out.println("Verify Schedule 5 Inpatient Request Are Working Successfully Or Not"): null
+
+2018-05-14 16:08:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 16:08:05 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 16:08:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 16:08:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 16:08:06 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)
+
+2018-05-14 16:08:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_160751\\1526294317482.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-14 16:07:58 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not" classname="Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id(&quot;form1&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-10 col-sm-10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2 col-sm-2&quot;]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)"/>
+         <system-out><![CDATA[2018-05-14 16:08:38 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)
+
+2018-05-14 16:08:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 16:08:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-14 16:08:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 16:08:41 - [TEST_STEP][PASSED] - Statement - out.println("Verify Schedule 8 Inpatient Request Are Working Successfully Or Not"): null
+
+2018-05-14 16:08:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 16:08:44 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 16:08:44 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 16:08:46 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 16:08:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)
+
+2018-05-14 16:09:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_160751\\1526294357144.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-14 16:08:38 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not" classname="Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id(&quot;form1&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-10 col-sm-10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2 col-sm-2&quot;]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)"/>
+         <system-out><![CDATA[2018-05-14 16:09:17 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)
+
+2018-05-14 16:09:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 16:09:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-14 16:09:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 16:09:21 - [TEST_STEP][PASSED] - Statement - out.println("Verify Schedule 12 Inpatient Request Are Working Successfully Or Not"): null
+
+2018-05-14 16:09:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 16:09:23 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 16:09:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 16:09:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 16:09:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)
+
+2018-05-14 16:09:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_160751\\1526294395765.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-14 16:09:17 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-14 16:07:58 - [TEST_SUITE][FAILED] - Inpatient_Suit: Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-14 16:07:58 - [TEST_SUITE][FAILED] - Inpatient_Suit: Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' located by 'By.xpath: id("form1")/div[@class="row"]/div[@class="col-md-10 col-sm-10"]/div[@class="row"]/div[@class="col-md-2 col-sm-2"]/label[1]/a[1][count(. | //*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')]) = count(//*[@href = 'InpatientLogin.aspx' and @title = 'In Patient' and (text() = 'In Patient' or . = 'In Patient')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

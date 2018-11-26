@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TEST,,,2018-07-31 17:02:00,2018-07-31 17:02:01,1.799s,ERROR
+,,,,,,
+Test Cases/TEST/GRN RECEIVE IN CMS/dp,,,2018-07-31 17:02:00,2018-07-31 17:02:01,1.195s,ERROR
+Statement - Exceldataa = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo_Account),,,2018-07-31 17:02:00,2018-07-31 17:02:01,0.852s,PASSED
+,,,,,,
+Test Cases/TEST/GRN RECEIVE IN CMS/dp,,,2018-07-31 17:02:01,2018-07-31 17:02:01,0.055s,ERROR
+Statement - Exceldataa = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo_Account),,,2018-07-31 17:02:01,2018-07-31 17:02:01,0.037s,PASSED
+,,,,,,
+Test Cases/TEST/GRN RECEIVE IN CMS/dp,,,2018-07-31 17:02:01,2018-07-31 17:02:01,0.050s,ERROR
+Statement - Exceldataa = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo_Account),,,2018-07-31 17:02:01,2018-07-31 17:02:01,0.033s,PASSED
+,,,,,,
+Test Cases/TEST/GRN RECEIVE IN CMS/dp,,,2018-07-31 17:02:01,2018-07-31 17:02:01,0.062s,ERROR
+Statement - Exceldataa = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo_Account),,,2018-07-31 17:02:01,2018-07-31 17:02:01,0.045s,PASSED

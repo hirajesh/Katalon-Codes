@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dispensary_Cms_Suite" time="20" tests="0" failures="1" errors="0">
+   <testsuite name="Dispensary_Cms_Suite" tests="0" failures="1" errors="0" time="20" timestamp="2018-06-10 22:27:10" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/Dispensary_Cms_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180610_155243"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180610_155243\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180610_155243\\1528649850476.png"/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="169.254.189.85"/>
+         <property name="sessionId" value="b5b3a50cd6773a2350d8ba7e543a9440"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by index '1' of object 'Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj' (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '169.254.189.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-06-10 22:27:11 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to select option by index '1' of object 'Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj' (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '169.254.189.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-10 22:27:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-10 22:27:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-10 22:27:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-06-10 22:27:16 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-06-10 22:27:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-10 22:27:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-10 22:27:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' is clicked on
+
+2018-06-10 22:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' is clicked on
+
+2018-06-10 22:27:18 - [TEST_STEP][PASSED] - setText: Text 'rajaram' is set on object 'Object Repository/DispensaryToCms/Page_Dispensary Store Login/input_txtusername'
+
+2018-06-10 22:27:18 - [MESSAGE][PASSED] - Text 'rajaram' is set on object 'Object Repository/DispensaryToCms/Page_Dispensary Store Login/input_txtusername'
+
+2018-06-10 22:27:18 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/DispensaryToCms/Page_Dispensary Store Login/input_txtpassword'
+
+2018-06-10 22:27:18 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/DispensaryToCms/Page_Dispensary Store Login/input_txtpassword'
+
+2018-06-10 22:27:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-10 22:27:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-10 22:27:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DispensaryToCms/Page_Dispensary Store Login/button_Sign in' is clicked on
+
+2018-06-10 22:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/DispensaryToCms/Page_Dispensary Store Login/button_Sign in' is clicked on
+
+2018-06-10 22:27:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-10 22:27:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-10 22:27:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DispensaryToCms/Page_Dispensary Store/a_CMS' is clicked on
+
+2018-06-10 22:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/DispensaryToCms/Page_Dispensary Store/a_CMS' is clicked on
+
+2018-06-10 22:27:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-10 22:27:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-10 22:27:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DispensaryToCms/Page_Dispensary Store/a_Request Send' is clicked on
+
+2018-06-10 22:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/DispensaryToCms/Page_Dispensary Store/a_Request Send' is clicked on
+
+2018-06-10 22:27:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-10 22:27:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-10 22:27:30 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--'
+
+2018-06-10 22:27:30 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--'
+
+2018-06-10 22:27:30 - [TEST_STEP][FAILED] - selectOptionByIndex: Unable to select option by index '1' of object 'Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj' (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '169.254.189.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-10 22:27:30 - [MESSAGE][FAILED] - Unable to select option by index '1' of object 'Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj' (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '169.254.189.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180610_155243\\1528649850476.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-10 22:27:11 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to select option by index '1' of object 'Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj' (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '169.254.189.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-10 22:27:10 - [TEST_SUITE][FAILED] - Dispensary_Cms_Suite: Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to select option by index '1' of object 'Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj' (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '169.254.189.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-06-10 22:27:10 - [TEST_SUITE][FAILED] - Dispensary_Cms_Suite: Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to select option by index '1' of object 'Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj' (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '169.254.189.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Request Item Dispensary</name>
+   <tag></tag>
+   <elementGuidId>ff06cd40-58f9-43ea-9321-63142d43bf57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;connector&quot;)/div[3]/aside[1]/section/ul/li[12]/ul/li[1]/a[count(. | //a[@href = 'DSP_MedReqApprovalHealthPost.aspx' and (text() = 'Request Item Dispensary' or . = 'Request Item Dispensary')]) = count(//a[@href = 'DSP_MedReqApprovalHealthPost.aspx' and (text() = 'Request Item Dispensary' or . = 'Request Item Dispensary')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>DSP_MedReqApprovalHealthPost.aspx</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>changemenu(29)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Request Item Dispensary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;connector&quot;)/div[3]/aside[1]/section/ul/li[12]/ul/li[1]/a</value>
+   </webElementProperties>
+</WebElementEntity>

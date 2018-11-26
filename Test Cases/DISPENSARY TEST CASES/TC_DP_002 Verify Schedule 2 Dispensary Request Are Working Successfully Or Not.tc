@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DP_002 Verify Schedule 2 Dispensary Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa95065b-e199-45cb-ade6-df07ef204499</testCaseGuid>
+</TestCaseEntity>

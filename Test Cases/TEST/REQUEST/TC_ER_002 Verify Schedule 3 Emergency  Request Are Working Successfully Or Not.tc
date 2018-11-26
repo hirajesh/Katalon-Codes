@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ER_002 Verify Schedule 3 Emergency  Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd942ce4-39c7-4e1c-9bac-0c075d893bf3</testCaseGuid>
+</TestCaseEntity>

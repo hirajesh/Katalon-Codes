@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PHAR_006 Verify Schedule 6 Pharmacy Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>580ce5f0-16d4-48f4-8f2e-3ebabf205ba1</testCaseGuid>
+</TestCaseEntity>

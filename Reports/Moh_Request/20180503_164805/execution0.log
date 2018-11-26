@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-03T16:48:11</date>
+  <millis>1525346291387</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Moh_Request</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Moh_Request</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Moh_Request</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:11</date>
+  <millis>1525346291405</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Quality Analyst - DESKTOP-BLFTK83&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Quality Analyst - DESKTOP-BLFTK83</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:11</date>
+  <millis>1525346291406</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:11</date>
+  <millis>1525346291407</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.71.2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.71.2</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:11</date>
+  <millis>1525346291408</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.1.1</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:11</date>
+  <millis>1525346291684</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MohRequestSchedule2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MohRequestSchedule2</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MohRequestSchedule2</property>
+  <property name="source">C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Test Cases\\MohRequestSchedule2.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:11</date>
+  <millis>1525346291716</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:11</date>
+  <millis>1525346291987</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:12</date>
+  <millis>1525346292240</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:12</date>
+  <millis>1525346292245</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:12</date>
+  <millis>1525346292271</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294758</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;da3fd19deabb43317823f6572db0ba28&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">da3fd19deabb43317823f6572db0ba28</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294797</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 66.0.3359.139&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 66.0.3359.139</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294798</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294801</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294802</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294803</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294803</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294804</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - i = 1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294805</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - i = 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294805</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294823</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:14</date>
+  <millis>1525346294824</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;http://192.168.137.1/multihospital_new/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:19</date>
+  <millis>1525346299869</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://192.168.137.1/multihospital_new/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:19</date>
+  <millis>1525346299870</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:19</date>
+  <millis>1525346299870</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:19</date>
+  <millis>1525346299880</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Maximizing current window</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301006</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301007</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301008</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301017</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/sd/Page_KDMC/a_CMS&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301050</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301051</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301062</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/sd/Page_KDMC/a_CMS&amp;apos; located by &amp;apos;By.xpath: //a[@href = &amp;apos;CMSLogin.aspx&amp;apos; and @title = &amp;apos;Central Medical Stores&amp;apos; and (text() = &amp;apos;CMS&amp;apos; or . = &amp;apos;CMS&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301099</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/sd/Page_KDMC/a_CMS&amp;apos; located by &amp;apos;By.xpath: //a[@href = &amp;apos;CMSLogin.aspx&amp;apos; and @title = &amp;apos;Central Medical Stores&amp;apos; and (text() = &amp;apos;CMS&amp;apos; or . = &amp;apos;CMS&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301099</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/sd/Page_KDMC/a_CMS&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301888</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/sd/Page_KDMC/a_CMS&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301890</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301890</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301891</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/sd/Page_CMS login/input_txtusername&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301918</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301919</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301919</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301920</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/sd/Page_CMS login/input_txtusername&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @name = &amp;apos;txtusername&amp;apos; and @id = &amp;apos;txtusername&amp;apos; and @placeholder = &amp;apos;Username&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301943</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/sd/Page_CMS login/input_txtusername&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @name = &amp;apos;txtusername&amp;apos; and @id = &amp;apos;txtusername&amp;apos; and @placeholder = &amp;apos;Username&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301943</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/sd/Page_CMS login/input_txtusername&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301975</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301976</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/sd/Page_CMS login/input_txtusername&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @name = &amp;apos;txtusername&amp;apos; and @id = &amp;apos;txtusername&amp;apos; and @placeholder = &amp;apos;Username&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301988</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/sd/Page_CMS login/input_txtusername&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @name = &amp;apos;txtusername&amp;apos; and @id = &amp;apos;txtusername&amp;apos; and @placeholder = &amp;apos;Username&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:21</date>
+  <millis>1525346301992</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/sd/Page_CMS login/input_txtusername&amp;apos; to value &amp;apos;bala&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302044</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;bala&amp;apos; is set on object &amp;apos;Object Repository/sd/Page_CMS login/input_txtusername&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302045</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302045</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302046</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/sd/Page_CMS login/input_txtpassword&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302051</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302051</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302051</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302052</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/sd/Page_CMS login/input_txtpassword&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;password&amp;apos; and @name = &amp;apos;txtpassword&amp;apos; and @id = &amp;apos;txtpassword&amp;apos; and @placeholder = &amp;apos;Password&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302076</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/sd/Page_CMS login/input_txtpassword&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;password&amp;apos; and @name = &amp;apos;txtpassword&amp;apos; and @id = &amp;apos;txtpassword&amp;apos; and @placeholder = &amp;apos;Password&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302076</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/sd/Page_CMS login/input_txtpassword&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302104</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302105</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/sd/Page_CMS login/input_txtpassword&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;password&amp;apos; and @name = &amp;apos;txtpassword&amp;apos; and @id = &amp;apos;txtpassword&amp;apos; and @placeholder = &amp;apos;Password&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302124</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/sd/Page_CMS login/input_txtpassword&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;password&amp;apos; and @name = &amp;apos;txtpassword&amp;apos; and @id = &amp;apos;txtpassword&amp;apos; and @placeholder = &amp;apos;Password&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302125</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/sd/Page_CMS login/input_txtpassword&amp;apos; to value &amp;apos;123&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302184</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;123&amp;apos; is set on object &amp;apos;Object Repository/sd/Page_CMS login/input_txtpassword&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302184</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302185</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:22</date>
+  <millis>1525346302204</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:26</date>
+  <millis>1525346306206</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:26</date>
+  <millis>1525346306207</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:26</date>
+  <millis>1525346306207</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:26</date>
+  <millis>1525346306208</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/sd/Page_CMS login/button_Sign in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:26</date>
+  <millis>1525346306217</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:26</date>
+  <millis>1525346306218</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:26</date>
+  <millis>1525346306219</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/sd/Page_CMS login/button_Sign in&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnSubmit\&amp;quot;)[count(. | //button[@type = &amp;apos;submit&amp;apos; and @id = &amp;apos;btnSubmit&amp;apos; and (text() = &amp;apos;Sign in&amp;apos; or . = &amp;apos;Sign in&amp;apos;)]) = count(//button[@type = &amp;apos;submit&amp;apos; and @id = &amp;apos;btnSubmit&amp;apos; and (text() = &amp;apos;Sign in&amp;apos; or . = &amp;apos;Sign in&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:26</date>
+  <millis>1525346306252</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/sd/Page_CMS login/button_Sign in&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnSubmit\&amp;quot;)[count(. | //button[@type = &amp;apos;submit&amp;apos; and @id = &amp;apos;btnSubmit&amp;apos; and (text() = &amp;apos;Sign in&amp;apos; or . = &amp;apos;Sign in&amp;apos;)]) = count(//button[@type = &amp;apos;submit&amp;apos; and @id = &amp;apos;btnSubmit&amp;apos; and (text() = &amp;apos;Sign in&amp;apos; or . = &amp;apos;Sign in&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:26</date>
+  <millis>1525346306252</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/sd/Page_CMS login/button_Sign in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:27</date>
+  <millis>1525346307650</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/sd/Page_CMS login/button_Sign in&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:27</date>
+  <millis>1525346307651</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:27</date>
+  <millis>1525346307651</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:27</date>
+  <millis>1525346307652</millis>
+  <sequence>81</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:29</date>
+  <millis>1525346309653</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:29</date>
+  <millis>1525346309654</millis>
+  <sequence>83</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:29</date>
+  <millis>1525346309654</millis>
+  <sequence>84</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:29</date>
+  <millis>1525346309655</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/sd/Page_KDMC - CMS/a_Request to MOH&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:29</date>
+  <millis>1525346309662</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:29</date>
+  <millis>1525346309662</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:29</date>
+  <millis>1525346309663</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/sd/Page_KDMC - CMS/a_Request to MOH&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;skin-blue  pace-done\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;wrapper row-offcanvas row-offcanvas-left\&amp;quot;]/aside[@class=\&amp;quot;left-side sidebar-offcanvas\&amp;quot;]/section[@class=\&amp;quot;sidebar\&amp;quot;]/ul[@class=\&amp;quot;sidebar-menu\&amp;quot;]/li[2]/a[1][count(. | //a[@href = &amp;apos;CMSRequesttoMOH.aspx&amp;apos; and (text() = &amp;apos;Request to MOH &amp;apos; or . = &amp;apos;Request to MOH &amp;apos;)]) = count(//a[@href = &amp;apos;CMSRequesttoMOH.aspx&amp;apos; and (text() = &amp;apos;Request to MOH &amp;apos; or . = &amp;apos;Request to MOH &amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:29</date>
+  <millis>1525346309697</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/sd/Page_KDMC - CMS/a_Request to MOH&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;skin-blue  pace-done\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-12\&amp;quot;]/div[@class=\&amp;quot;wrapper row-offcanvas row-offcanvas-left\&amp;quot;]/aside[@class=\&amp;quot;left-side sidebar-offcanvas\&amp;quot;]/section[@class=\&amp;quot;sidebar\&amp;quot;]/ul[@class=\&amp;quot;sidebar-menu\&amp;quot;]/li[2]/a[1][count(. | //a[@href = &amp;apos;CMSRequesttoMOH.aspx&amp;apos; and (text() = &amp;apos;Request to MOH &amp;apos; or . = &amp;apos;Request to MOH &amp;apos;)]) = count(//a[@href = &amp;apos;CMSRequesttoMOH.aspx&amp;apos; and (text() = &amp;apos;Request to MOH &amp;apos; or . = &amp;apos;Request to MOH &amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:29</date>
+  <millis>1525346309697</millis>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/sd/Page_KDMC - CMS/a_Request to MOH&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:30</date>
+  <millis>1525346310282</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/sd/Page_KDMC - CMS/a_Request to MOH&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:30</date>
+  <millis>1525346310282</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:30</date>
+  <millis>1525346310283</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:30</date>
+  <millis>1525346310284</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312284</millis>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312285</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312285</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312286</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312301</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312301</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking value parameter</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312302</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312302</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--&amp;apos; located by &amp;apos;By.xpath: //select[@id = &amp;apos;drpreqtype&amp;apos; and (text() = &amp;apos;\n                        --Select--\n                        Weekly/Monthly\n                        Quarterly\n                    &amp;apos; or . = &amp;apos;\n                        --Select--\n                        Weekly/Monthly\n                        Quarterly\n                    &amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312326</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--&amp;apos; located by &amp;apos;By.xpath: //select[@id = &amp;apos;drpreqtype&amp;apos; and (text() = &amp;apos;\n                        --Select--\n                        Weekly/Monthly\n                        Quarterly\n                    &amp;apos; or . = &amp;apos;\n                        --Select--\n                        Weekly/Monthly\n                        Quarterly\n                    &amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312370</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--&amp;apos; with value &amp;apos;Weekly/Monthly&amp;apos; using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312497</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option at index &amp;apos;1&amp;apos; with value &amp;apos;Weekly/Monthly&amp;apos; is selected  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312510</millis>
+  <sequence>106</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;Weekly/Monthly&amp;apos; are selected in object &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312511</millis>
+  <sequence>107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312511</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:32</date>
+  <millis>1525346312512</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:34</date>
+  <millis>1525346314512</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:34</date>
+  <millis>1525346314512</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:34</date>
+  <millis>1525346314513</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(sd/Page_KDMC - CMS/select_--Select--Albendazole))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2018-05-03T16:48:34</date>
+  <millis>1525346314513</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--Albendazole&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:34</date>
+  <millis>1525346314528</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:34</date>
+  <millis>1525346314528</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:48:34</date>
+  <millis>1525346314529</millis>
+  <sequence>116</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--Albendazole&amp;apos; located by &amp;apos;By.xpath: //select[@id = &amp;apos;optmedicine&amp;apos; and (text() = &amp;apos;--Select--Albendazole  (single dose)-400 mgAmlodepin -5 mgAmoxycilin- 250 mg, Cloxacilin-250 mgAmoxycillin -250 mgAmoxycillin - 250 mg, Clavulanic Acid 125 mg Amoxycillin - 500 mg -500 mgAmoxycillin - 500mg, Clavulanic Acid 125 mgAmoxycillin(Dispersable)-125  mgAmoxycilline - 875 mg, Clavulanic Acid 125 mgAntacid (dried Alum, Hydrox gel - 240mg. Mag Hydrox - 100mg, carb - 60 mg, activated dimethicome - 25 mg)Atenolol-50 mgAzithromycin-250 mgBisacodyl-5 mgCefixime -200 mgCetrizine -10 mgChloroquin -150 mgChlorpheniramine maleate -4 mgCiprofloxacin-500 mgClarithromycin-500 mgClopidogrel-75 mgClotrimazole Vag with Applicator-100 mgCycloserine -250 mgDexamethasone-0.5 mgDibasic calcium phospate dihydrate 500 mg. vitamin D3 200 iuDiclofenac 50 mg with paracetamol - 500 mgDicyclomin HCL -20 mgDomperidone -10 mgDoxycylone -100 mgErythomycin salt -500 mgEthambutol -800 mgEthambutol -200 mgEthambutol -400 mgEthionamide -250 mgEtophylline - 77 mg. Theophylline - 23 mgFerrous Ascorbate 100 mg, Folic Acid 1.5 mgFlucanzole single dose-150 mgFolic Acid-5 mgFolic Acide 0.1 mg, Ferrous Sulphate 67 mg (small)Furazelidone-100 mgGibenciamide -5 mgGlimipride-1 mgGriseofulvin -125 mgIbuprofen 400mg+Pracetamol 325mg-5 mgIsoniazid -100 mgIsoniazid -300 mglbuprolen 400 mg + Paracetamol 325 mg--Levocetrizine hcl -5 mgLevofloxacin -250 mgLevofloxacin -500 mgLinezolid-600 mgMebendazole -100 mgMeiformin HCL -500 mgMoxifloxacin-400 mgMultivitamin (Vitamin B1+B2+b6+B12+NiacinamideOmeprazole -20 mgOndensetron-8 mgParacetamol-500 mgPhenytonin Sodium-100 mgPhyrizinamide -500 mgPrednisolone-5 mgPrimaquine -2.5 mgprimaquine -7.5 mgPyrizinamide -750 mgRamipril -2.5 mgRanitidine-150 mgRifampicin-150 mgRifampicin -450 mgSalbutamol-4 mgtestmed-350mgTetracycline HCL -250 mgTrypsin and chymotrypsin 100000 A.V.Vit B Complex&amp;apos; or . = &amp;apos;--Select--Albendazole  (single dose)-400 mgAmlodepin -5 mgAmoxycilin- 250 mg, Cloxacilin-250 mgAmoxycillin -250 mgAmoxycillin - 250 mg, Clavulanic Acid 125 mg Amoxycillin - 500 mg -500 mgAmoxycillin - 500mg, Clavulanic Acid 125 mgAmoxycillin(Dispersable)-125  mgAmoxycilline - 875 mg, Clavulanic Acid 125 mgAntacid (dried Alum, Hydrox gel - 240mg. Mag Hydrox - 100mg, carb - 60 mg, activated dimethicome - 25 mg)Atenolol-50 mgAzithromycin-250 mgBisacodyl-5 mgCefixime -200 mgCetrizine -10 mgChloroquin -150 mgChlorpheniramine maleate -4 mgCiprofloxacin-500 mgClarithromycin-500 mgClopidogrel-75 mgClotrimazole Vag with Applicator-100 mgCycloserine -250 mgDexamethasone-0.5 mgDibasic calcium phospate dihydrate 500 mg. vitamin D3 200 iuDiclofenac 50 mg with paracetamol - 500 mgDicyclomin HCL -20 mgDomperidone -10 mgDoxycylone -100 mgErythomycin salt -500 mgEthambutol -800 mgEthambutol -200 mgEthambutol -400 mgEthionamide -250 mgEtophylline - 77 mg. Theophylline - 23 mgFerrous Ascorbate 100 mg, Folic Acid 1.5 mgFlucanzole single dose-150 mgFolic Acid-5 mgFolic Acide 0.1 mg, Ferrous Sulphate 67 mg (small)Furazelidone-100 mgGibenciamide -5 mgGlimipride-1 mgGriseofulvin -125 mgIbuprofen 400mg+Pracetamol 325mg-5 mgIsoniazid -100 mgIsoniazid -300 mglbuprolen 400 mg + Paracetamol 325 mg--Levocetrizine hcl -5 mgLevofloxacin -250 mgLevofloxacin -500 mgLinezolid-600 mgMebendazole -100 mgMeiformin HCL -500 mgMoxifloxacin-400 mgMultivitamin (Vitamin B1+B2+b6+B12+NiacinamideOmeprazole -20 mgOndensetron-8 mgParacetamol-500 mgPhenytonin Sodium-100 mgPhyrizinamide -500 mgPrednisolone-5 mgPrimaquine -2.5 mgprimaquine -7.5 mgPyrizinamide -750 mgRamipril -2.5 mgRanitidine-150 mgRifampicin-150 mgRifampicin -450 mgSalbutamol-4 mgtestmed-350mgTetracycline HCL -250 mgTrypsin and chymotrypsin 100000 A.V.Vit B Complex&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:49:06</date>
+  <millis>1525346346178</millis>
+  <sequence>117</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to get total options of object &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--Albendazole&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--Albendazole&amp;apos; located by &amp;apos;By.xpath: //select[@id = &amp;apos;optmedicine&amp;apos; and (text() = &amp;apos;--Select--Albendazole  (single dose)-400 mgAmlodepin -5 mgAmoxycilin- 250 mg, Cloxacilin-250 mgAmoxycillin -250 mgAmoxycillin - 250 mg, Clavulanic Acid 125 mg Amoxycillin - 500 mg -500 mgAmoxycillin - 500mg, Clavulanic Acid 125 mgAmoxycillin(Dispersable)-125  mgAmoxycilline - 875 mg, Clavulanic Acid 125 mgAntacid (dried Alum, Hydrox gel - 240mg. Mag Hydrox - 100mg, carb - 60 mg, activated dimethicome - 25 mg)Atenolol-50 mgAzithromycin-250 mgBisacodyl-5 mgCefixime -200 mgCetrizine -10 mgChloroquin -150 mgChlorpheniramine maleate -4 mgCiprofloxacin-500 mgClarithromycin-500 mgClopidogrel-75 mgClotrimazole Vag with Applicator-100 mgCycloserine -250 mgDexamethasone-0.5 mgDibasic calcium phospate dihydrate 500 mg. vitamin D3 200 iuDiclofenac 50 mg with paracetamol - 500 mgDicyclomin HCL -20 mgDomperidone -10 mgDoxycylone -100 mgErythomycin salt -500 mgEthambutol -800 mgEthambutol -200 mgEthambutol -400 mgEthionamide -250 mgEtophylline - 77 mg. Theophylline - 23 mgFerrous Ascorbate 100 mg, Folic Acid 1.5 mgFlucanzole single dose-150 mgFolic Acid-5 mgFolic Acide 0.1 mg, Ferrous Sulphate 67 mg (small)Furazelidone-100 mgGibenciamide -5 mgGlimipride-1 mgGriseofulvin -125 mgIbuprofen 400mg+Pracetamol 325mg-5 mgIsoniazid -100 mgIsoniazid -300 mglbuprolen 400 mg + Paracetamol 325 mg--Levocetrizine hcl -5 mgLevofloxacin -250 mgLevofloxacin -500 mgLinezolid-600 mgMebendazole -100 mgMeiformin HCL -500 mgMoxifloxacin-400 mgMultivitamin (Vitamin B1+B2+b6+B12+NiacinamideOmeprazole -20 mgOndensetron-8 mgParacetamol-500 mgPhenytonin Sodium-100 mgPhyrizinamide -500 mgPrednisolone-5 mgPrimaquine -2.5 mgprimaquine -7.5 mgPyrizinamide -750 mgRamipril -2.5 mgRanitidine-150 mgRifampicin-150 mgRifampicin -450 mgSalbutamol-4 mgtestmed-350mgTetracycline HCL -250 mgTrypsin and chymotrypsin 100000 A.V.Vit B Complex&amp;apos; or . = &amp;apos;--Select--Albendazole  (single dose)-400 mgAmlodepin -5 mgAmoxycilin- 250 mg, Cloxacilin-250 mgAmoxycillin -250 mgAmoxycillin - 250 mg, Clavulanic Acid 125 mg Amoxycillin - 500 mg -500 mgAmoxycillin - 500mg, Clavulanic Acid 125 mgAmoxycillin(Dispersable)-125  mgAmoxycilline - 875 mg, Clavulanic Acid 125 mgAntacid (dried Alum, Hydrox gel - 240mg. Mag Hydrox - 100mg, carb - 60 mg, activated dimethicome - 25 mg)Atenolol-50 mgAzithromycin-250 mgBisacodyl-5 mgCefixime -200 mgCetrizine -10 mgChloroquin -150 mgChlorpheniramine maleate -4 mgCiprofloxacin-500 mgClarithromycin-500 mgClopidogrel-75 mgClotrimazole Vag with Applicator-100 mgCycloserine -250 mgDexamethasone-0.5 mgDibasic calcium phospate dihydrate 500 mg. vitamin D3 200 iuDiclofenac 50 mg with paracetamol - 500 mgDicyclomin HCL -20 mgDomperidone -10 mgDoxycylone -100 mgErythomycin salt -500 mgEthambutol -800 mgEthambutol -200 mgEthambutol -400 mgEthionamide -250 mgEtophylline - 77 mg. Theophylline - 23 mgFerrous Ascorbate 100 mg, Folic Acid 1.5 mgFlucanzole single dose-150 mgFolic Acid-5 mgFolic Acide 0.1 mg, Ferrous Sulphate 67 mg (small)Furazelidone-100 mgGibenciamide -5 mgGlimipride-1 mgGriseofulvin -125 mgIbuprofen 400mg+Pracetamol 325mg-5 mgIsoniazid -100 mgIsoniazid -300 mglbuprolen 400 mg + Paracetamol 325 mg--Levocetrizine hcl -5 mgLevofloxacin -250 mgLevofloxacin -500 mgLinezolid-600 mgMebendazole -100 mgMeiformin HCL -500 mgMoxifloxacin-400 mgMultivitamin (Vitamin B1+B2+b6+B12+NiacinamideOmeprazole -20 mgOndensetron-8 mgParacetamol-500 mgPhenytonin Sodium-100 mgPhyrizinamide -500 mgPrednisolone-5 mgPrimaquine -2.5 mgprimaquine -7.5 mgPyrizinamide -750 mgRamipril -2.5 mgRanitidine-150 mgRifampicin-150 mgRifampicin -450 mgSalbutamol-4 mgtestmed-350mgTetracycline HCL -250 mgTrypsin and chymotrypsin 100000 A.V.Vit B Complex&amp;apos;)]&amp;apos; not found)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1525346345835.png</property>
+</record>
+<record>
+  <date>2018-05-03T16:49:06</date>
+  <millis>1525346346179</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(sd/Page_KDMC - CMS/select_--Select--Albendazole))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:49:06</date>
+  <millis>1525346346180</millis>
+  <sequence>119</sequence>
+  <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MohRequestSchedule2 FAILED because (of) Unable to get total options of object &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--Albendazole&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/sd/Page_KDMC - CMS/select_--Select--Albendazole&amp;apos; located by &amp;apos;By.xpath: //select[@id = &amp;apos;optmedicine&amp;apos; and (text() = &amp;apos;--Select--Albendazole  (single dose)-400 mgAmlodepin -5 mgAmoxycilin- 250 mg, Cloxacilin-250 mgAmoxycillin -250 mgAmoxycillin - 250 mg, Clavulanic Acid 125 mg Amoxycillin - 500 mg -500 mgAmoxycillin - 500mg, Clavulanic Acid 125 mgAmoxycillin(Dispersable)-125  mgAmoxycilline - 875 mg, Clavulanic Acid 125 mgAntacid (dried Alum, Hydrox gel - 240mg. Mag Hydrox - 100mg, carb - 60 mg, activated dimethicome - 25 mg)Atenolol-50 mgAzithromycin-250 mgBisacodyl-5 mgCefixime -200 mgCetrizine -10 mgChloroquin -150 mgChlorpheniramine maleate -4 mgCiprofloxacin-500 mgClarithromycin-500 mgClopidogrel-75 mgClotrimazole Vag with Applicator-100 mgCycloserine -250 mgDexamethasone-0.5 mgDibasic calcium phospate dihydrate 500 mg. vitamin D3 200 iuDiclofenac 50 mg with paracetamol - 500 mgDicyclomin HCL -20 mgDomperidone -10 mgDoxycylone -100 mgErythomycin salt -500 mgEthambutol -800 mgEthambutol -200 mgEthambutol -400 mgEthionamide -250 mgEtophylline - 77 mg. Theophylline - 23 mgFerrous Ascorbate 100 mg, Folic Acid 1.5 mgFlucanzole single dose-150 mgFolic Acid-5 mgFolic Acide 0.1 mg, Ferrous Sulphate 67 mg (small)Furazelidone-100 mgGibenciamide -5 mgGlimipride-1 mgGriseofulvin -125 mgIbuprofen 400mg+Pracetamol 325mg-5 mgIsoniazid -100 mgIsoniazid -300 mglbuprolen 400 mg + Paracetamol 325 mg--Levocetrizine hcl -5 mgLevofloxacin -250 mgLevofloxacin -500 mgLinezolid-600 mgMebendazole -100 mgMeiformin HCL -500 mgMoxifloxacin-400 mgMultivitamin (Vitamin B1+B2+b6+B12+NiacinamideOmeprazole -20 mgOndensetron-8 mgParacetamol-500 mgPhenytonin Sodium-100 mgPhyrizinamide -500 mgPrednisolone-5 mgPrimaquine -2.5 mgprimaquine -7.5 mgPyrizinamide -750 mgRamipril -2.5 mgRanitidine-150 mgRifampicin-150 mgRifampicin -450 mgSalbutamol-4 mgtestmed-350mgTetracycline HCL -250 mgTrypsin and chymotrypsin 100000 A.V.Vit B Complex&amp;apos; or . = &amp;apos;--Select--Albendazole  (single dose)-400 mgAmlodepin -5 mgAmoxycilin- 250 mg, Cloxacilin-250 mgAmoxycillin -250 mgAmoxycillin - 250 mg, Clavulanic Acid 125 mg Amoxycillin - 500 mg -500 mgAmoxycillin - 500mg, Clavulanic Acid 125 mgAmoxycillin(Dispersable)-125  mgAmoxycilline - 875 mg, Clavulanic Acid 125 mgAntacid (dried Alum, Hydrox gel - 240mg. Mag Hydrox - 100mg, carb - 60 mg, activated dimethicome - 25 mg)Atenolol-50 mgAzithromycin-250 mgBisacodyl-5 mgCefixime -200 mgCetrizine -10 mgChloroquin -150 mgChlorpheniramine maleate -4 mgCiprofloxacin-500 mgClarithromycin-500 mgClopidogrel-75 mgClotrimazole Vag with Applicator-100 mgCycloserine -250 mgDexamethasone-0.5 mgDibasic calcium phospate dihydrate 500 mg. vitamin D3 200 iuDiclofenac 50 mg with paracetamol - 500 mgDicyclomin HCL -20 mgDomperidone -10 mgDoxycylone -100 mgErythomycin salt -500 mgEthambutol -800 mgEthambutol -200 mgEthambutol -400 mgEthionamide -250 mgEtophylline - 77 mg. Theophylline - 23 mgFerrous Ascorbate 100 mg, Folic Acid 1.5 mgFlucanzole single dose-150 mgFolic Acid-5 mgFolic Acide 0.1 mg, Ferrous Sulphate 67 mg (small)Furazelidone-100 mgGibenciamide -5 mgGlimipride-1 mgGriseofulvin -125 mgIbuprofen 400mg+Pracetamol 325mg-5 mgIsoniazid -100 mgIsoniazid -300 mglbuprolen 400 mg + Paracetamol 325 mg--Levocetrizine hcl -5 mgLevofloxacin -250 mgLevofloxacin -500 mgLinezolid-600 mgMebendazole -100 mgMeiformin HCL -500 mgMoxifloxacin-400 mgMultivitamin (Vitamin B1+B2+b6+B12+NiacinamideOmeprazole -20 mgOndensetron-8 mgParacetamol-500 mgPhenytonin Sodium-100 mgPhyrizinamide -500 mgPrednisolone-5 mgPrimaquine -2.5 mgprimaquine -7.5 mgPyrizinamide -750 mgRamipril -2.5 mgRanitidine-150 mgRifampicin-150 mgRifampicin -450 mgSalbutamol-4 mgtestmed-350mgTetracycline HCL -250 mgTrypsin and chymotrypsin 100000 A.V.Vit B Complex&amp;apos;)]&amp;apos; not found)</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to get total options of object 'Object Repository/sd/Page_KDMC - CMS/select_--Select--Albendazole' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/sd/Page_KDMC - CMS/select_--Select--Albendazole' located by 'By.xpath: //select[@id = 'optmedicine' and (text() = '--Select--Albendazole  (single dose)-400 mgAmlodepin -5 mgAmoxycilin- 250 mg, Cloxacilin-250 mgAmoxycillin -250 mgAmoxycillin - 250 mg, Clavulanic Acid 125 mg Amoxycillin - 500 mg -500 mgAmoxycillin - 500mg, Clavulanic Acid 125 mgAmoxycillin(Dispersable)-125  mgAmoxycilline - 875 mg, Clavulanic Acid 125 mgAntacid (dried Alum, Hydrox gel - 240mg. Mag Hydrox - 100mg, carb - 60 mg, activated dimethicome - 25 mg)Atenolol-50 mgAzithromycin-250 mgBisacodyl-5 mgCefixime -200 mgCetrizine -10 mgChloroquin -150 mgChlorpheniramine maleate -4 mgCiprofloxacin-500 mgClarithromycin-500 mgClopidogrel-75 mgClotrimazole Vag with Applicator-100 mgCycloserine -250 mgDexamethasone-0.5 mgDibasic calcium phospate dihydrate 500 mg. vitamin D3 200 iuDiclofenac 50 mg with paracetamol - 500 mgDicyclomin HCL -20 mgDomperidone -10 mgDoxycylone -100 mgErythomycin salt -500 mgEthambutol -800 mgEthambutol -200 mgEthambutol -400 mgEthionamide -250 mgEtophylline - 77 mg. Theophylline - 23 mgFerrous Ascorbate 100 mg, Folic Acid 1.5 mgFlucanzole single dose-150 mgFolic Acid-5 mgFolic Acide 0.1 mg, Ferrous Sulphate 67 mg (small)Furazelidone-100 mgGibenciamide -5 mgGlimipride-1 mgGriseofulvin -125 mgIbuprofen 400mg+Pracetamol 325mg-5 mgIsoniazid -100 mgIsoniazid -300 mglbuprolen 400 mg + Paracetamol 325 mg--Levocetrizine hcl -5 mgLevofloxacin -250 mgLevofloxacin -500 mgLinezolid-600 mgMebendazole -100 mgMeiformin HCL -500 mgMoxifloxacin-400 mgMultivitamin (Vitamin B1+B2+b6+B12+NiacinamideOmeprazole -20 mgOndensetron-8 mgParacetamol-500 mgPhenytonin Sodium-100 mgPhyrizinamide -500 mgPrednisolone-5 mgPrimaquine -2.5 mgprimaquine -7.5 mgPyrizinamide -750 mgRamipril -2.5 mgRanitidine-150 mgRifampicin-150 mgRifampicin -450 mgSalbutamol-4 mgtestmed-350mgTetracycline HCL -250 mgTrypsin and chymotrypsin 100000 A.V.Vit B Complex' or . = '--Select--Albendazole  (single dose)-400 mgAmlodepin -5 mgAmoxycilin- 250 mg, Cloxacilin-250 mgAmoxycillin -250 mgAmoxycillin - 250 mg, Clavulanic Acid 125 mg Amoxycillin - 500 mg -500 mgAmoxycillin - 500mg, Clavulanic Acid 125 mgAmoxycillin(Dispersable)-125  mgAmoxycilline - 875 mg, Clavulanic Acid 125 mgAntacid (dried Alum, Hydrox gel - 240mg. Mag Hydrox - 100mg, carb - 60 mg, activated dimethicome - 25 mg)Atenolol-50 mgAzithromycin-250 mgBisacodyl-5 mgCefixime -200 mgCetrizine -10 mgChloroquin -150 mgChlorpheniramine maleate -4 mgCiprofloxacin-500 mgClarithromycin-500 mgClopidogrel-75 mgClotrimazole Vag with Applicator-100 mgCycloserine -250 mgDexamethasone-0.5 mgDibasic calcium phospate dihydrate 500 mg. vitamin D3 200 iuDiclofenac 50 mg with paracetamol - 500 mgDicyclomin HCL -20 mgDomperidone -10 mgDoxycylone -100 mgErythomycin salt -500 mgEthambutol -800 mgEthambutol -200 mgEthambutol -400 mgEthionamide -250 mgEtophylline - 77 mg. Theophylline - 23 mgFerrous Ascorbate 100 mg, Folic Acid 1.5 mgFlucanzole single dose-150 mgFolic Acid-5 mgFolic Acide 0.1 mg, Ferrous Sulphate 67 mg (small)Furazelidone-100 mgGibenciamide -5 mgGlimipride-1 mgGriseofulvin -125 mgIbuprofen 400mg+Pracetamol 325mg-5 mgIsoniazid -100 mgIsoniazid -300 mglbuprolen 400 mg + Paracetamol 325 mg--Levocetrizine hcl -5 mgLevofloxacin -250 mgLevofloxacin -500 mgLinezolid-600 mgMebendazole -100 mgMeiformin HCL -500 mgMoxifloxacin-400 mgMultivitamin (Vitamin B1+B2+b6+B12+NiacinamideOmeprazole -20 mgOndensetron-8 mgParacetamol-500 mgPhenytonin Sodium-100 mgPhyrizinamide -500 mgPrednisolone-5 mgPrimaquine -2.5 mgprimaquine -7.5 mgPyrizinamide -750 mgRamipril -2.5 mgRanitidine-150 mgRifampicin-150 mgRifampicin -450 mgSalbutamol-4 mgtestmed-350mgTetracycline HCL -250 mgTrypsin and chymotrypsin 100000 A.V.Vit B Complex')]' not found)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeywordAndReturnInt</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword</class>
+      <method>getNumberOfTotalOption</method>
+      <line>89</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.GetNumberOfTotalOptionKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>getNumberOfTotalOption</method>
+      <line>1917</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getNumberOfTotalOption$5</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>125</line>
+    </frame>
+    <frame>
+      <class>Script1525346263256</class>
+      <method>run</method>
+      <line>42</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>286</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>265</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>201</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1525346290154</class>
+      <method>run</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>263</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>518</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>507</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>653</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>process</method>
+      <line>370</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:49:06</date>
+  <millis>1525346346181</millis>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MohRequestSchedule2</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-05-03T16:49:06</date>
+  <millis>1525346346818</millis>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Moh_Request</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

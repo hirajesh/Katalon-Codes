@@ -1,0 +1,320 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Investigation_Suite,Chrome 66.0.3359.181,It Contains All Schedule Investigation Request,2018-05-22 15:39:24,2018-05-22 15:51:38,12m - 14.629s,FAILED
+,,,,,,
+Test Cases/INVESTIGATION TEST CASES/TC_INV_001 Verify Schedule 4 Investigation Request Are Working Successfully Or Not,Chrome 66.0.3359.181,,2018-05-22 15:39:24,2018-05-22 15:42:39,3m - 14.785s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-22 15:39:25,2018-05-22 15:39:27,2.784s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-22 15:39:27,2018-05-22 15:39:29,1.832s,PASSED
+"Statement - out.println("" Verify Schedule 4 Investigation Request Are Working Successfully Or Not"")",Chrome 66.0.3359.181,,2018-05-22 15:39:29,2018-05-22 15:39:29,0.017s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-22 15:39:29,2018-05-22 15:39:30,1.144s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:39:30,2018-05-22 15:39:31,0.760s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:39:31,2018-05-22 15:39:31,0.128s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:39:31,2018-05-22 15:39:31,0.125s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:39:31,2018-05-22 15:39:34,3.016s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:39:34,2018-05-22 15:39:35,0.737s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:39:35,2018-05-22 15:39:37,1.687s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:39:37,2018-05-22 15:39:39,2.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:39:39,2018-05-22 15:39:39,0.525s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:39:39,2018-05-22 15:39:39,0.183s,PASSED
+Statement - medicineslength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/select_--Select--Automatic x-r)),Chrome 66.0.3359.181,,2018-05-22 15:39:39,2018-05-22 15:39:40,0.080s,PASSED
+"Statement - For ([e = 1, e < medicineslength, (e++)])",Chrome 66.0.3359.181,,2018-05-22 15:39:40,2018-05-22 15:39:47,7.606s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/input_txtno), ""value"")",Chrome 66.0.3359.181,,2018-05-22 15:39:47,2018-05-22 15:39:47,0.044s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.181,,2018-05-22 15:39:47,2018-05-22 15:39:47,0.001s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.181,,2018-05-22 15:39:47,2018-05-22 15:39:47,0.003s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-22 15:39:47,2018-05-22 15:39:47,0.045s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:39:47,2018-05-22 15:39:47,0.094s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:39:47,2018-05-22 15:39:50,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:39:50,2018-05-22 15:39:51,0.493s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:39:51,2018-05-22 15:39:54,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:39:54,2018-05-22 15:39:54,0.098s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:39:54,2018-05-22 15:39:54,0.416s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:39:54,2018-05-22 15:39:57,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:39:57,2018-05-22 15:39:58,0.681s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:39:58,2018-05-22 15:39:58,0.116s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:39:58,2018-05-22 15:39:58,0.101s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:39:58,2018-05-22 15:40:01,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:01,2018-05-22 15:40:02,0.667s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:02,2018-05-22 15:40:05,2.935s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:40:05,2018-05-22 15:40:05,0.179s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:40:05,2018-05-22 15:40:05,0.174s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:05,2018-05-22 15:40:05,0.123s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC - CMO/input_1), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.181,,2018-05-22 15:40:05,2018-05-22 15:40:05,0.016s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:05,2018-05-22 15:40:06,0.655s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:40:06,2018-05-22 15:40:08,2.002s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:40:08,2018-05-22 15:40:08,0.159s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:08,2018-05-22 15:40:08,0.082s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:40:08,2018-05-22 15:40:10,2.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:10,2018-05-22 15:40:11,0.497s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:40:11,2018-05-22 15:40:14,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:14,2018-05-22 15:40:14,0.117s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:14,2018-05-22 15:40:14,0.497s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:40:14,2018-05-22 15:40:17,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:17,2018-05-22 15:40:19,1.201s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:40:19,2018-05-22 15:40:19,0.115s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:40:19,2018-05-22 15:40:19,0.105s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:40:19,2018-05-22 15:40:22,3.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:22,2018-05-22 15:40:23,1.437s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:40:23,2018-05-22 15:40:26,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:26,2018-05-22 15:40:26,0.192s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:26,2018-05-22 15:40:27,1.001s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_Store/input_1), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.181,,2018-05-22 15:40:27,2018-05-22 15:40:27,0.004s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:40:27,2018-05-22 15:40:28,0.775s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:40:28,2018-05-22 15:40:30,2.002s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_Store/select_--Select--E.C.G. Jelly)),Chrome 66.0.3359.181,,2018-05-22 15:40:30,2018-05-22 15:40:30,0.069s,PASSED
+"Statement - For ([a = 1, a < selectedoptions, (a++)])",Chrome 66.0.3359.181,,2018-05-22 15:40:30,2018-05-22 15:41:50,1m - 19.809s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-22 15:41:50,2018-05-22 15:41:50,0.056s,PASSED
+Statement - Try,Chrome 66.0.3359.181,,2018-05-22 15:41:50,2018-05-22 15:42:04,14.042s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:42:04,2018-05-22 15:42:07,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:42:07,2018-05-22 15:42:39,31.669s,FAILED
+,,,,,,
+Test Cases/INVESTIGATION TEST CASES/TC_INV_002 Verify Schedule 5 Investigation Request Are Working Successfully Or No,Chrome 66.0.3359.181,,2018-05-22 15:42:39,2018-05-22 15:45:43,3m - 4.479s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-05-22 15:42:39,2018-05-22 15:42:42,2.661s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-22 15:42:42,2018-05-22 15:42:43,1.550s,PASSED
+"Statement - out.println("" Verify Schedule 5 Investigation Request Are Working Successfully Or Not"")",Chrome 66.0.3359.181,,2018-05-22 15:42:43,2018-05-22 15:42:43,0.001s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-22 15:42:43,2018-05-22 15:42:44,1.136s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:42:44,2018-05-22 15:42:45,0.725s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:42:45,2018-05-22 15:42:45,0.116s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:42:45,2018-05-22 15:42:45,0.123s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:42:45,2018-05-22 15:42:48,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:42:48,2018-05-22 15:42:49,0.680s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:42:49,2018-05-22 15:42:51,1.684s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:42:51,2018-05-22 15:42:53,2.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:42:53,2018-05-22 15:42:53,0.518s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:42:53,2018-05-22 15:42:53,0.158s,PASSED
+Statement - medicineslength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/select_--Select--Automatic x-r)),Chrome 66.0.3359.181,,2018-05-22 15:42:53,2018-05-22 15:42:54,0.065s,PASSED
+"Statement - For ([e = 1, e < medicineslength, (e++)])",Chrome 66.0.3359.181,,2018-05-22 15:42:54,2018-05-22 15:43:02,8.018s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/input_txtno), ""value"")",Chrome 66.0.3359.181,,2018-05-22 15:43:02,2018-05-22 15:43:02,0.035s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.181,,2018-05-22 15:43:02,2018-05-22 15:43:02,0.000s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.181,,2018-05-22 15:43:02,2018-05-22 15:43:02,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-22 15:43:02,2018-05-22 15:43:02,0.033s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:02,2018-05-22 15:43:02,0.069s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:02,2018-05-22 15:43:05,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:05,2018-05-22 15:43:05,0.477s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:05,2018-05-22 15:43:08,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:08,2018-05-22 15:43:08,0.093s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:08,2018-05-22 15:43:09,0.429s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:09,2018-05-22 15:43:12,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:12,2018-05-22 15:43:12,0.422s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:43:12,2018-05-22 15:43:12,0.123s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:43:12,2018-05-22 15:43:12,0.140s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:12,2018-05-22 15:43:15,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:15,2018-05-22 15:43:16,0.719s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:16,2018-05-22 15:43:18,2.132s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:43:18,2018-05-22 15:43:18,0.182s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:43:18,2018-05-22 15:43:19,0.158s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:19,2018-05-22 15:43:19,0.365s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC - CMO/input_1), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.181,,2018-05-22 15:43:19,2018-05-22 15:43:19,0.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:19,2018-05-22 15:43:20,0.613s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:20,2018-05-22 15:43:22,2.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:43:22,2018-05-22 15:43:22,0.216s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:22,2018-05-22 15:43:22,0.080s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:22,2018-05-22 15:43:24,2.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:24,2018-05-22 15:43:24,0.616s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:24,2018-05-22 15:43:27,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:27,2018-05-22 15:43:28,0.111s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:28,2018-05-22 15:43:28,0.480s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:28,2018-05-22 15:43:31,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:31,2018-05-22 15:43:32,0.776s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:43:32,2018-05-22 15:43:32,0.110s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:43:32,2018-05-22 15:43:32,0.102s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:32,2018-05-22 15:43:35,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:35,2018-05-22 15:43:37,1.486s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:37,2018-05-22 15:43:40,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:40,2018-05-22 15:43:40,0.158s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:40,2018-05-22 15:43:40,0.700s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_Store/input_1), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.181,,2018-05-22 15:43:40,2018-05-22 15:43:40,0.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:43:40,2018-05-22 15:43:42,1.194s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:43:42,2018-05-22 15:43:44,2.001s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_Store/select_--Select--E.C.G. Jelly)),Chrome 66.0.3359.181,,2018-05-22 15:43:44,2018-05-22 15:43:44,0.082s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.181,,2018-05-22 15:43:44,2018-05-22 15:45:35,1m - 50.998s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-22 15:45:35,2018-05-22 15:45:35,0.037s,PASSED
+Statement - Try,Chrome 66.0.3359.181,,2018-05-22 15:45:35,2018-05-22 15:45:39,4.140s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:45:39,2018-05-22 15:45:42,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:45:42,2018-05-22 15:45:42,0.117s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:45:42,2018-05-22 15:45:43,0.676s,PASSED
+closeBrowser,Chrome 66.0.3359.181,,2018-05-22 15:45:43,2018-05-22 15:45:43,0.690s,PASSED
+"Statement - out.println(""Schedule 5 Investigation Request Are Working Successfully"")",Chrome 66.0.3359.181,,2018-05-22 15:45:43,2018-05-22 15:45:43,0.000s,PASSED
+,,,,,,
+Test Cases/INVESTIGATION TEST CASES/TC_INV_003 Verify Schedule 6 Investigation Request Are Working Successfully Or Not,Chrome 66.0.3359.181,,2018-05-22 15:45:43,2018-05-22 15:47:28,1m - 44.396s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-22 15:45:44,2018-05-22 15:45:46,2.101s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-22 15:45:46,2018-05-22 15:45:48,2.260s,PASSED
+"Statement - out.println("" Verify Schedule 6 Investigation Request Are Working Successfully Or Not"")",Chrome 66.0.3359.181,,2018-05-22 15:45:48,2018-05-22 15:45:48,0.001s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-22 15:45:48,2018-05-22 15:45:49,1.135s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:45:49,2018-05-22 15:45:50,0.663s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:45:50,2018-05-22 15:45:50,0.104s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:45:50,2018-05-22 15:45:50,0.106s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:45:50,2018-05-22 15:45:53,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:45:53,2018-05-22 15:45:54,0.821s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:45:54,2018-05-22 15:45:56,1.701s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:45:56,2018-05-22 15:45:58,2.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:45:58,2018-05-22 15:45:58,0.532s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:45:58,2018-05-22 15:45:58,0.175s,PASSED
+Statement - medicineslength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/select_--Select--Automatic x-r)),Chrome 66.0.3359.181,,2018-05-22 15:45:58,2018-05-22 15:45:58,0.063s,PASSED
+"Statement - For ([e = 1, e < medicineslength, (e++)])",Chrome 66.0.3359.181,,2018-05-22 15:45:58,2018-05-22 15:46:04,5.990s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/input_txtno), ""value"")",Chrome 66.0.3359.181,,2018-05-22 15:46:04,2018-05-22 15:46:04,0.033s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.181,,2018-05-22 15:46:04,2018-05-22 15:46:04,0.001s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.181,,2018-05-22 15:46:04,2018-05-22 15:46:04,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-22 15:46:04,2018-05-22 15:46:04,0.033s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:04,2018-05-22 15:46:04,0.085s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:04,2018-05-22 15:46:07,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:07,2018-05-22 15:46:08,0.614s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:08,2018-05-22 15:46:11,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:11,2018-05-22 15:46:11,0.098s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:11,2018-05-22 15:46:12,0.494s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:12,2018-05-22 15:46:15,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:15,2018-05-22 15:46:15,0.647s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:46:15,2018-05-22 15:46:15,0.111s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:46:15,2018-05-22 15:46:16,0.191s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:16,2018-05-22 15:46:19,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:19,2018-05-22 15:46:19,0.723s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:19,2018-05-22 15:46:21,2.154s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:46:21,2018-05-22 15:46:22,0.187s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:46:22,2018-05-22 15:46:22,0.433s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:22,2018-05-22 15:46:22,0.073s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC - CMO/input_1), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.181,,2018-05-22 15:46:22,2018-05-22 15:46:22,0.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:22,2018-05-22 15:46:23,0.633s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:23,2018-05-22 15:46:25,2.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:46:25,2018-05-22 15:46:25,0.180s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:25,2018-05-22 15:46:25,0.082s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:25,2018-05-22 15:46:27,2.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:27,2018-05-22 15:46:28,0.483s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:28,2018-05-22 15:46:31,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:31,2018-05-22 15:46:31,0.099s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:31,2018-05-22 15:46:31,0.445s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:31,2018-05-22 15:46:34,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:34,2018-05-22 15:46:35,0.814s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:46:35,2018-05-22 15:46:35,0.100s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:46:35,2018-05-22 15:46:35,0.095s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:35,2018-05-22 15:46:38,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:38,2018-05-22 15:46:40,1.620s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:40,2018-05-22 15:46:43,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:43,2018-05-22 15:46:43,0.159s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:43,2018-05-22 15:46:44,0.826s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_Store/input_1), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.181,,2018-05-22 15:46:44,2018-05-22 15:46:44,0.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:46:44,2018-05-22 15:46:45,1.177s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:46:45,2018-05-22 15:46:47,2.001s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_Store/select_--Select--E.C.G. Jelly)),Chrome 66.0.3359.181,,2018-05-22 15:46:47,2018-05-22 15:46:47,0.080s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.181,,2018-05-22 15:46:47,2018-05-22 15:47:28,40.776s,FAILED
+,,,,,,
+Test Cases/INVESTIGATION TEST CASES/TC_INV_004 Verify Schedule 8 Investigation Request Are Working Successfully Or Not,Chrome 66.0.3359.181,,2018-05-22 15:47:28,2018-05-22 15:50:02,2m - 34.531s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-05-22 15:47:28,2018-05-22 15:47:31,2.610s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-22 15:47:31,2018-05-22 15:47:33,1.994s,PASSED
+"Statement - out.println("" Verify Schedule 8 Investigation Request Are Working Successfully Or Not"")",Chrome 66.0.3359.181,,2018-05-22 15:47:33,2018-05-22 15:47:33,0.001s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-22 15:47:33,2018-05-22 15:47:34,1.140s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:47:34,2018-05-22 15:47:34,0.566s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:47:34,2018-05-22 15:47:34,0.109s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:47:34,2018-05-22 15:47:34,0.109s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:47:34,2018-05-22 15:47:37,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:47:37,2018-05-22 15:47:38,0.726s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:47:38,2018-05-22 15:47:40,1.704s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:47:40,2018-05-22 15:47:42,2.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:47:42,2018-05-22 15:47:42,0.491s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:47:42,2018-05-22 15:47:43,0.174s,PASSED
+Statement - medicineslength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/select_--Select--Automatic x-r)),Chrome 66.0.3359.181,,2018-05-22 15:47:43,2018-05-22 15:47:43,0.058s,PASSED
+"Statement - For ([e = 1, e < medicineslength, (e++)])",Chrome 66.0.3359.181,,2018-05-22 15:47:43,2018-05-22 15:47:51,8.533s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/input_txtno), ""value"")",Chrome 66.0.3359.181,,2018-05-22 15:47:51,2018-05-22 15:47:51,0.033s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.181,,2018-05-22 15:47:51,2018-05-22 15:47:51,0.000s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.181,,2018-05-22 15:47:51,2018-05-22 15:47:51,0.001s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-22 15:47:51,2018-05-22 15:47:51,0.036s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:47:51,2018-05-22 15:47:51,0.085s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:47:51,2018-05-22 15:47:54,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:47:54,2018-05-22 15:47:55,0.442s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:47:55,2018-05-22 15:47:58,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:47:58,2018-05-22 15:47:58,0.121s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:47:58,2018-05-22 15:47:58,0.399s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:47:58,2018-05-22 15:48:01,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:01,2018-05-22 15:48:02,0.411s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:48:02,2018-05-22 15:48:02,0.118s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:48:02,2018-05-22 15:48:02,0.119s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:48:02,2018-05-22 15:48:05,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:05,2018-05-22 15:48:06,0.692s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:06,2018-05-22 15:48:08,2.090s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:48:08,2018-05-22 15:48:08,0.174s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:48:08,2018-05-22 15:48:08,0.446s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:08,2018-05-22 15:48:08,0.086s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC - CMO/input_1), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.181,,2018-05-22 15:48:08,2018-05-22 15:48:08,0.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:08,2018-05-22 15:48:09,0.628s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:48:09,2018-05-22 15:48:11,2.000s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:48:11,2018-05-22 15:48:11,0.142s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:11,2018-05-22 15:48:11,0.086s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:48:11,2018-05-22 15:48:13,2.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:13,2018-05-22 15:48:14,0.450s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:48:14,2018-05-22 15:48:17,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:17,2018-05-22 15:48:17,0.100s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:17,2018-05-22 15:48:17,0.508s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:48:17,2018-05-22 15:48:20,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:20,2018-05-22 15:48:21,0.886s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:48:21,2018-05-22 15:48:21,0.105s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:48:21,2018-05-22 15:48:21,0.101s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:48:21,2018-05-22 15:48:24,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:24,2018-05-22 15:48:26,1.636s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:48:26,2018-05-22 15:48:29,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:29,2018-05-22 15:48:29,0.166s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:29,2018-05-22 15:48:30,0.636s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_Store/input_1), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.181,,2018-05-22 15:48:30,2018-05-22 15:48:30,0.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:48:30,2018-05-22 15:48:31,0.669s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:48:31,2018-05-22 15:48:33,2.001s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_Store/select_--Select--E.C.G. Jelly)),Chrome 66.0.3359.181,,2018-05-22 15:48:33,2018-05-22 15:48:33,0.071s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.181,,2018-05-22 15:48:33,2018-05-22 15:49:54,1m - 21.205s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-22 15:49:54,2018-05-22 15:49:54,0.033s,PASSED
+Statement - Try,Chrome 66.0.3359.181,,2018-05-22 15:49:54,2018-05-22 15:49:58,4.096s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:49:58,2018-05-22 15:50:01,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:01,2018-05-22 15:50:01,0.099s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:01,2018-05-22 15:50:02,0.556s,PASSED
+closeBrowser,Chrome 66.0.3359.181,,2018-05-22 15:50:02,2018-05-22 15:50:02,0.644s,PASSED
+"Statement - out.println(""Schedule 8 Investigation Request Are Working Successfully"")",Chrome 66.0.3359.181,,2018-05-22 15:50:02,2018-05-22 15:50:02,0.000s,PASSED
+,,,,,,
+Test Cases/INVESTIGATION TEST CASES/TC_INV_005 Verify Schedule 10 Investigation Request Are Working Successfully Or No,Chrome 66.0.3359.181,,2018-05-22 15:50:02,2018-05-22 15:50:49,46.290s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-22 15:50:02,2018-05-22 15:50:05,2.012s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-22 15:50:05,2018-05-22 15:50:06,1.873s,PASSED
+"Statement - out.println("" Verify Schedule 10 Investigation Request Are Working Successfully Or Not"")",Chrome 66.0.3359.181,,2018-05-22 15:50:06,2018-05-22 15:50:06,0.001s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-22 15:50:06,2018-05-22 15:50:08,1.135s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:08,2018-05-22 15:50:08,0.772s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:50:08,2018-05-22 15:50:08,0.110s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:50:08,2018-05-22 15:50:08,0.099s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:50:08,2018-05-22 15:50:11,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:11,2018-05-22 15:50:12,0.672s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:12,2018-05-22 15:50:14,1.670s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:50:14,2018-05-22 15:50:16,2.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:16,2018-05-22 15:50:16,0.482s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:50:16,2018-05-22 15:50:17,0.247s,PASSED
+Statement - medicineslength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/select_--Select--Automatic x-r)),Chrome 66.0.3359.181,,2018-05-22 15:50:17,2018-05-22 15:50:17,0.061s,PASSED
+"Statement - For ([e = 1, e < medicineslength, (e++)])",Chrome 66.0.3359.181,,2018-05-22 15:50:17,2018-05-22 15:50:26,9.173s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/input_txtno), ""value"")",Chrome 66.0.3359.181,,2018-05-22 15:50:26,2018-05-22 15:50:26,0.034s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.181,,2018-05-22 15:50:26,2018-05-22 15:50:26,0.001s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.181,,2018-05-22 15:50:26,2018-05-22 15:50:26,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-22 15:50:26,2018-05-22 15:50:26,0.031s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:26,2018-05-22 15:50:26,0.071s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:50:26,2018-05-22 15:50:29,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:29,2018-05-22 15:50:29,0.487s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:50:29,2018-05-22 15:50:32,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:32,2018-05-22 15:50:33,0.110s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:33,2018-05-22 15:50:33,0.399s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:50:33,2018-05-22 15:50:36,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:36,2018-05-22 15:50:36,0.402s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:50:36,2018-05-22 15:50:36,0.119s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:50:36,2018-05-22 15:50:37,0.113s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:50:37,2018-05-22 15:50:40,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:40,2018-05-22 15:50:40,0.759s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:40,2018-05-22 15:50:42,2.046s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:50:42,2018-05-22 15:50:43,0.211s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:50:43,2018-05-22 15:50:43,0.460s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:43,2018-05-22 15:50:48,5.076s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC - CMO/input_1), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.181,,2018-05-22 15:50:48,2018-05-22 15:50:48,0.005s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:48,2018-05-22 15:50:49,0.429s,FAILED
+,,,,,,
+Test Cases/INVESTIGATION TEST CASES/TC_INV_006 Verify Schedule 11 Investigation Request Are Working Successfully Or No,Chrome 66.0.3359.181,,2018-05-22 15:50:49,2018-05-22 15:51:38,49.203s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-22 15:50:49,2018-05-22 15:50:51,2.595s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-22 15:50:51,2018-05-22 15:50:53,1.818s,PASSED
+"Statement - out.println("" Verify Schedule 11 Investigation Request Are Working Successfully Or Not"")",Chrome 66.0.3359.181,,2018-05-22 15:50:53,2018-05-22 15:50:53,0.001s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-22 15:50:53,2018-05-22 15:50:54,1.136s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:54,2018-05-22 15:50:55,0.824s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:50:55,2018-05-22 15:50:55,0.137s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-22 15:50:55,2018-05-22 15:50:55,0.194s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:50:55,2018-05-22 15:50:58,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:58,2018-05-22 15:50:59,0.699s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:50:59,2018-05-22 15:51:01,1.666s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-22 15:51:01,2018-05-22 15:51:03,2.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-22 15:51:03,2018-05-22 15:51:03,0.509s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-05-22 15:51:03,2018-05-22 15:51:04,0.208s,PASSED
+Statement - medicineslength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(lab/Page_KDMC/select_--Select--Automatic x-r)),Chrome 66.0.3359.181,,2018-05-22 15:51:04,2018-05-22 15:51:04,0.066s,PASSED
+"Statement - For ([e = 1, e < medicineslength, (e++)])",Chrome 66.0.3359.181,,2018-05-22 15:51:04,2018-05-22 15:51:38,34.158s,FAILED

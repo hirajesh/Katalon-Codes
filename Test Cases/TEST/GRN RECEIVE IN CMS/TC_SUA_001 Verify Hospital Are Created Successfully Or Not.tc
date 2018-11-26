@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The Super Able To Create The Admin User</description>
+   <name>TC_SUA_001 Verify Hospital Are Created Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a668f1b1-e595-4216-80b3-edc011389156</testCaseGuid>
+   <variable>
+      <defaultValue>'&quot;Team Hospital&quot;'</defaultValue>
+      <description></description>
+      <id>89392ffb-1af6-4420-abc7-cc23d145ff16</id>
+      <masked>false</masked>
+      <name>HospitalName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb8115bc-a3eb-401c-a940-5b2818bbd598</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

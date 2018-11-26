@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PHAR_012 Verify Schedule 12 Pharmacy Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de8dd679-d1b5-4bcd-93f1-f418895ddf56</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dispensary_Cms_Suite" time="431" tests="0" failures="12" errors="0">
+   <testsuite name="Dispensary_Cms_Suite" tests="0" failures="12" errors="0" time="431" timestamp="2018-05-30 18:29:32" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/Dispensary_Cms_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685209315.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685245549.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685281393.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685317288.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685352996.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685388841.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685424646.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685460467.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685496283.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685532197.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685568027.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685603759.png"/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="169.254.189.85"/>
+         <property name="sessionId" value="b2ab78ee64380543580db5318659c61a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:29:33 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:29:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:29:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:29:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:29:36 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:29:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:29:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:29:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:30:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685209315.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:29:33 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_014 Verify Schedule 2 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_014 Verify Schedule 2 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:30:09 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_014 Verify Schedule 2 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_014 Verify Schedule 2 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:30:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:30:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:30:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:30:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:30:13 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:30:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:30:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:30:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:30:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685245549.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:30:09 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_014 Verify Schedule 2 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_014 Verify Schedule 2 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_015 Verify Schedule 3 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_015 Verify Schedule 3 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:30:45 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_015 Verify Schedule 3 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_015 Verify Schedule 3 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:30:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:30:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:30:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:30:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:30:48 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:30:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:30:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:30:50 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:31:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685281393.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:30:45 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_015 Verify Schedule 3 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_015 Verify Schedule 3 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_016 Verify Schedule 4 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_016 Verify Schedule 4 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:31:21 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_016 Verify Schedule 4 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_016 Verify Schedule 4 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:31:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:31:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:31:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:31:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:31:24 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:31:24 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:31:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:31:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:31:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685317288.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:31:21 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_016 Verify Schedule 4 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_016 Verify Schedule 4 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_017 Verify Schedule 5 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_017 Verify Schedule 5 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:31:57 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_017 Verify Schedule 5 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_017 Verify Schedule 5 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:31:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:31:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:32:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:32:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:32:00 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:32:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:32:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:32:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:32:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685352996.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:31:57 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_017 Verify Schedule 5 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_017 Verify Schedule 5 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_018 Verify Schedule 6 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_018 Verify Schedule 6 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:32:33 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_018 Verify Schedule 6 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_018 Verify Schedule 6 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:32:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:32:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:32:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:32:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:32:36 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:32:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:32:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:32:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:33:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685388841.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:32:33 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_018 Verify Schedule 6 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_018 Verify Schedule 6 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_019 Verify Schedule 7 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_019 Verify Schedule 7 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:33:09 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_019 Verify Schedule 7 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_019 Verify Schedule 7 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:33:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:33:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:33:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:33:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:33:12 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:33:12 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:33:13 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:33:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:33:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685424646.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:33:09 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_019 Verify Schedule 7 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_019 Verify Schedule 7 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_020 Verify Schedule 8 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_020 Verify Schedule 8 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:33:44 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_020 Verify Schedule 8 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_020 Verify Schedule 8 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:33:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:33:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:33:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:33:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:33:48 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:33:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:33:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:33:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:34:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685460467.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:33:44 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_020 Verify Schedule 8 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_020 Verify Schedule 8 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_021 Verify Schedule 9 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_021 Verify Schedule 9 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:34:20 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_021 Verify Schedule 9 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_021 Verify Schedule 9 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:34:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:34:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:34:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:34:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:34:23 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:34:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:34:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:34:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:34:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685496283.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:34:20 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_021 Verify Schedule 9 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_021 Verify Schedule 9 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_022 Verify Schedule 10 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_022 Verify Schedule 10 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:34:56 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_022 Verify Schedule 10 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_022 Verify Schedule 10 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:34:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:34:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:34:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:34:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:34:59 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:34:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:35:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:35:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:35:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685532197.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:34:56 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_022 Verify Schedule 10 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_022 Verify Schedule 10 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_023 Verify Schedule 11 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_023 Verify Schedule 11 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:35:32 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_023 Verify Schedule 11 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_023 Verify Schedule 11 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:35:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:35:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:35:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:35:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:35:35 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:35:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:35:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:35:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:36:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685568027.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:35:32 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_023 Verify Schedule 11 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_023 Verify Schedule 11 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DISPENSARY TEST CASES/TC_DP_024 Verify Schedule 12 Dispensary To CMS Request Are Working Successfully Or Not" classname="Test Cases/DISPENSARY TEST CASES/TC_DP_024 Verify Schedule 12 Dispensary To CMS Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)"/>
+         <system-out><![CDATA[2018-05-30 18:36:08 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_024 Verify Schedule 12 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_024 Verify Schedule 12 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:36:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 18:36:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-30 18:36:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 18:36:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:36:11 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/HDSplashscreen.aspx' successfully
+
+2018-05-30 18:36:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 18:36:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 18:36:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+
+2018-05-30 18:36:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Dispensary_Cms_Suite\\20180530_182922\\1527685603759.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 18:36:08 - [TEST_CASE][FAILED] - Test Cases/DISPENSARY TEST CASES/TC_DP_024 Verify Schedule 12 Dispensary To CMS Request Are Working Successfully Or Not: Test Cases/DISPENSARY TEST CASES/TC_DP_024 Verify Schedule 12 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-30 18:29:32 - [TEST_SUITE][FAILED] - Dispensary_Cms_Suite: Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-30 18:29:32 - [TEST_SUITE][FAILED] - Dispensary_Cms_Suite: Test Cases/DISPENSARY TEST CASES/TC_DP_013 Verify Schedule 1 Dispensary To CMS Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DispensaryToCms/Page_KDMC/a_Dispensary Store' located by 'By.xpath: //a[@href = '#' and @title = 'Dispensary Store' and (text() = ' Dispensary Store ' or . = ' Dispensary Store ')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

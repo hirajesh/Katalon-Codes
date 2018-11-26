@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select--Amoxycillin 2</name>
+   <tag></tag>
+   <elementGuidId>7468b554-cd45-4a2f-b96d-f28b3d7e426f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>optmedicine</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--Amoxycillin 200 mg, clavulanic acid 28.25 mg / 5ml-28.25 mgAzithromycin dry syrup -200 mgCefimime dropCephalexin -125 mgClobetasal proptonate cream 0.05%Clotrimazole 1% and lignocaine HCl 2% Ear dropsClotrimazole 1% dusting powderDiclofenac sodium 1% w/w gelDisodium Hydrogen citrate 1.37 gm / 5 ml.-1.37 gmEach 5 ml of antacid liquid containing activated dimethcone 125 mg Magnesium Hydroxide 100 mg, Alluminium Hydroxidegel 425 mg and sorbital solution 645 mg or nearestExpectorantFluubiprofen 0.03% Eye dropFramycetin sulphate 1% w/w ointmentLbuprofen 100mg, paracetamol 125mg/5mlLignocaine jelly 2% (sterile)Metronidazole -400 mgMiconazole cream 2% w/wMulti - Vitamin dropNasal preperation xylometazoline HCL nasal decogestant drop NorFloxacin Eye/Ear dropsOndensetron drop-30 mlOpthalmic and Aural Preparations Ciprofloxacin hcl -0.3% eye dropOral Liquid Albendozole suspension -200 mgOral Rchydration Salt (WHO Formula)-21.8 mgOral Rchydration Salt KidOral rehydration salt kid Paracetamol -125 mgParacetamol drop-125 mgPermithrin 5% creamPovidone lodine Ointment 5%-250 gmProtein Powder -200 gmProtein Powder Salbutamol -2 mgSodium Hypochlorite USP Grade - 1 as per IS 1-1673/1992 (Water purifier liquid)Tobramycin Eye drop 0.3%-0.3 mgTobramycin Eye drop 0.3%, dexamethasone sodium 0.1% eye drop</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;optmedicine&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

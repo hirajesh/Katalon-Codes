@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_HP_006 Verify Schedule 6 Healthpost Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e34c63af-3234-4a28-847f-57c6fa5d4567</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST" time="39" tests="0" failures="0" errors="4">
+   <testsuite name="TEST" tests="0" failures="0" errors="4" time="39" timestamp="2018-06-09 13:26:30" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/TEST">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\TEST\\20180609_132620"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\TEST\\20180609_132620\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="169.254.189.85"/>
+         <property name="sessionId" value="de9ed7a6033ddbf36c1337740b6d0ee6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@1763992e' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData'"/>
+         <system-out><![CDATA[2018-06-09 13:26:31 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@1763992e' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData'
+
+2018-06-09 13:26:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-09 13:26:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-09 13:26:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-06-09 13:26:36 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-06-09 13:26:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-06-09 13:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-06-09 13:26:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-09 13:26:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-09 13:26:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-09 13:26:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-09 13:26:41 - [TEST_STEP][PASSED] - Statement - Exceldata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DemoTestData): Reading excel file with source file 'C:\Users\Quality Analyst\Desktop\Logindata.xlsx' and sheet name 'Sheet1']]></system-out>
+         <system-err><![CDATA[2018-06-09 13:26:31 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@1763992e' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData']]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@ccd1bc3' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData'"/>
+         <system-out><![CDATA[2018-06-09 13:26:42 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@ccd1bc3' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData'
+
+2018-06-09 13:26:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-09 13:26:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-09 13:26:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-09 13:26:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-06-09 13:26:46 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-06-09 13:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-06-09 13:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-06-09 13:26:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-09 13:26:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-09 13:26:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-09 13:26:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-09 13:26:51 - [TEST_STEP][PASSED] - Statement - Exceldata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DemoTestData): Reading excel file with source file 'C:\Users\Quality Analyst\Desktop\Logindata.xlsx' and sheet name 'Sheet1']]></system-out>
+         <system-err><![CDATA[2018-06-09 13:26:42 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@ccd1bc3' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData']]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@4d23015c' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData'"/>
+         <system-out><![CDATA[2018-06-09 13:26:51 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@4d23015c' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData'
+
+2018-06-09 13:26:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-09 13:26:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-09 13:26:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-09 13:26:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-06-09 13:26:55 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-06-09 13:26:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-06-09 13:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-06-09 13:26:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-09 13:26:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-09 13:26:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-09 13:27:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-09 13:27:00 - [TEST_STEP][PASSED] - Statement - Exceldata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DemoTestData): Reading excel file with source file 'C:\Users\Quality Analyst\Desktop\Logindata.xlsx' and sheet name 'Sheet1']]></system-out>
+         <system-err><![CDATA[2018-06-09 13:26:51 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@4d23015c' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData']]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@55cff952' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData'"/>
+         <system-out><![CDATA[2018-06-09 13:27:00 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@55cff952' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData'
+
+2018-06-09 13:27:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-09 13:27:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-09 13:27:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-09 13:27:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-06-09 13:27:04 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-06-09 13:27:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-06-09 13:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-06-09 13:27:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-09 13:27:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-09 13:27:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-09 13:27:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-09 13:27:09 - [TEST_STEP][PASSED] - Statement - Exceldata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DemoTestData): Reading excel file with source file 'C:\Users\Quality Analyst\Desktop\Logindata.xlsx' and sheet name 'Sheet1']]></system-out>
+         <system-err><![CDATA[2018-06-09 13:27:00 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@55cff952' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData']]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-09 13:26:30 - [TEST_SUITE][ERROR] - TEST: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@1763992e' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData']]></system-out>
+      <system-err><![CDATA[2018-06-09 13:26:30 - [TEST_SUITE][ERROR] - TEST: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.testdata.reader.SheetPOI@1763992e' with class 'com.kms.katalon.core.testdata.reader.SheetPOI' to class 'com.kms.katalon.core.testdata.InternalData']]></system-err>
+   </testsuite>
+</testsuites>

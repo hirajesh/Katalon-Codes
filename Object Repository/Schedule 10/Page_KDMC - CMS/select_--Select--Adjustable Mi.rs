@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select--Adjustable Mi</name>
+   <tag></tag>
+   <elementGuidId>90518037-5dbc-4f7f-88f1-5a7823cabdaf</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>optmedicine</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--Adjustable Micropipettes - 200 ul Adjustable Micropipettes - 5 ul Capillary tubes (Westergens Pipettes) TopCoverslips - 22x22x0.1 mm English Glass (For clinincal path. As per ISI specificationDisposable ESR tubesElectronincs Timer 30 or 60 minutes with alarmESR Tubes (westergens Pipettes) TopGlass marking pens (Red/Blue/Black)Micropipettes - 10 mlMicropipettes - 20 mlMicropipetts - 10ulMicropipetts - 20 uMicrotips - Blue / White tips (Big)Microtips - YellowPencils, glass marking superior Red and Blue head resistlingPipettes - 10ml BorosilTorniquest (Adult / Paediatric)Tubes, glass for centrifuge machine non graduated 15 c.c hard glass (U)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;optmedicine&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

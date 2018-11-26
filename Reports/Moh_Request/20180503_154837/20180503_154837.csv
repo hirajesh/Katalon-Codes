@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Moh_Request,Firefox 59.0,,2018-05-03 15:48:54,2018-05-03 15:49:23,29.076s,FAILED
+,,,,,,
+Test Cases/test,Firefox 59.0,,2018-05-03 15:48:54,2018-05-03 15:49:22,28.341s,FAILED
+openBrowser,Firefox 59.0,,2018-05-03 15:48:54,2018-05-03 15:49:01,6.654s,PASSED
+Statement - i = 1,Firefox 59.0,,2018-05-03 15:49:01,2018-05-03 15:49:01,0.001s,PASSED
+navigateToUrl,Firefox 59.0,,2018-05-03 15:49:01,2018-05-03 15:49:22,21.402s,FAILED

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="nn" time="0" tests="0" failures="0" errors="4">
+   <testsuite name="nn" tests="0" failures="0" errors="4" time="0" timestamp="2018-06-02 11:41:27" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/nn">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\nn\\20180602_114116"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\nn\\20180602_114116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="hostAddress" value="169.254.189.85"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/Login" classname="Test Cases/TEST/GRN RECEIVE IN CMS/Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case."/>
+         <system-out><![CDATA[2018-06-02 11:41:27 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/Login: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.
+
+2018-06-02 11:41:28 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo_Account): null]]></system-out>
+         <system-err><![CDATA[2018-06-02 11:41:27 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/Login: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/Login" classname="Test Cases/TEST/GRN RECEIVE IN CMS/Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case."/>
+         <system-out><![CDATA[2018-06-02 11:41:28 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/Login: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.
+
+2018-06-02 11:41:28 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo_Account): null]]></system-out>
+         <system-err><![CDATA[2018-06-02 11:41:28 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/Login: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/Login" classname="Test Cases/TEST/GRN RECEIVE IN CMS/Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case."/>
+         <system-out><![CDATA[2018-06-02 11:41:28 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/Login: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.
+
+2018-06-02 11:41:28 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo_Account): null]]></system-out>
+         <system-err><![CDATA[2018-06-02 11:41:28 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/Login: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/Login" classname="Test Cases/TEST/GRN RECEIVE IN CMS/Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case."/>
+         <system-out><![CDATA[2018-06-02 11:41:28 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/Login: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.
+
+2018-06-02 11:41:28 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo_Account): null]]></system-out>
+         <system-err><![CDATA[2018-06-02 11:41:28 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/Login: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-02 11:41:27 - [TEST_SUITE][ERROR] - nn: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-06-02 11:41:27 - [TEST_SUITE][ERROR] - nn: Test Cases/TEST/GRN RECEIVE IN CMS/Login FAILED because (of) Variable 'Demo_Account' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

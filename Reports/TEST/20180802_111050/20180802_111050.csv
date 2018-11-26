@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TEST,Chrome 67.0.3396.99,,2018-08-02 11:10:56,2018-08-02 11:11:46,49.911s,INCOMPLETE
+,,,,,,
+Test Cases/TEST/GRN RECEIVE IN CMS/dp,Chrome 67.0.3396.99,,2018-08-02 11:10:56,2018-08-02 11:11:31,34.371s,ERROR
+openBrowser,Chrome 67.0.3396.99,,2018-08-02 11:10:57,2018-08-02 11:11:00,3.331s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-08-02 11:11:00,2018-08-02 11:11:21,20.900s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-02 11:11:21,2018-08-02 11:11:23,1.777s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-08-02 11:11:23,2018-08-02 11:11:24,1.150s,PASSED
+delay,Chrome 67.0.3396.99,,2018-08-02 11:11:24,2018-08-02 11:11:27,3.025s,PASSED
+Statement - Exceldata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data),Chrome 67.0.3396.99,,2018-08-02 11:11:27,2018-08-02 11:11:28,0.703s,PASSED
+delay,Chrome 67.0.3396.99,,2018-08-02 11:11:28,2018-08-02 11:11:31,3.001s,PASSED
+Statement - For (def index : (1..(Exceldata.getRowNumbers() - 1))),Chrome 67.0.3396.99,,2018-08-02 11:11:31,2018-08-02 11:11:31,0.044s,PASSED
+,,,,,,
+Test Cases/TEST/GRN RECEIVE IN CMS/dp,Chrome 67.0.3396.99,,2018-08-02 11:11:31,2018-08-02 11:11:43,12.107s,ERROR
+openBrowser,Chrome 67.0.3396.99,,2018-08-02 11:11:31,2018-08-02 11:11:34,3.113s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-08-02 11:11:34,2018-08-02 11:11:35,1.443s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-02 11:11:35,2018-08-02 11:11:36,0.360s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-08-02 11:11:36,2018-08-02 11:11:37,1.131s,PASSED
+delay,Chrome 67.0.3396.99,,2018-08-02 11:11:37,2018-08-02 11:11:40,3.001s,PASSED
+Statement - Exceldata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data),Chrome 67.0.3396.99,,2018-08-02 11:11:40,2018-08-02 11:11:40,0.026s,PASSED
+delay,Chrome 67.0.3396.99,,2018-08-02 11:11:40,2018-08-02 11:11:43,3.001s,PASSED
+Statement - For (def index : (1..(Exceldata.getRowNumbers() - 1))),Chrome 67.0.3396.99,,2018-08-02 11:11:43,2018-08-02 11:11:43,0.008s,PASSED
+,,,,,,
+Test Cases/TEST/GRN RECEIVE IN CMS/dp,Chrome 67.0.3396.99,,2018-08-02 11:11:43,2018-08-02 11:11:46,3.034s,INCOMPLETE
+openBrowser,Chrome 67.0.3396.99,,2018-08-02 11:11:43,2018-08-02 11:11:46,3.010s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-08-02 11:11:46,2018-08-02 11:11:46,0.001s,INCOMPLETE

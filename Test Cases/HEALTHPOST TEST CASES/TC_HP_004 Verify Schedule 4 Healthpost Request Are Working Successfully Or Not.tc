@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_HP_004 Verify Schedule 4 Healthpost Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09da3aaa-67ad-44b2-b24d-750b46e7cfd4</testCaseGuid>
+</TestCaseEntity>

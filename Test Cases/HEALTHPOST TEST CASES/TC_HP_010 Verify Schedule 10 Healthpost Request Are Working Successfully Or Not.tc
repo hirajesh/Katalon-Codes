@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_HP_010 Verify Schedule 10 Healthpost Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2193aa9-bbef-4a2f-bd93-d5646eed276d</testCaseGuid>
+</TestCaseEntity>

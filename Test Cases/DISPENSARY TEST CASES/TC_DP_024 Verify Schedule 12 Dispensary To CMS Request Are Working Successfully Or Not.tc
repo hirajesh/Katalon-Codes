@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DP_024 Verify Schedule 12 Dispensary To CMS Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c04368d-41e2-413e-ada8-525f559df1e8</testCaseGuid>
+</TestCaseEntity>

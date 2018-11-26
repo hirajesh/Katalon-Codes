@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select--Automatic x-r</name>
+   <tag></tag>
+   <elementGuidId>67d23e9f-cafc-4225-ab29-d96263a67eea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;fldproduct&quot;)[count(. | //select[@id = 'fldproduct']) = count(//select[@id = 'fldproduct'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>fldproduct</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>loadval()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--Automatic x-ray film processor fixer - 5 ltr jarContact Jelly for UltrasonographyDental X-Ray FilmsE.C.G. JellyE.C.G. Roll - 20 mtr.Lead Letters A and Z 1/2 inchesLead Letters L and R 1/2 inchesLead Nos. 0 to 9 1/2 inchesPolyster base round corner x-ray films - 10 inchesx12 inchesPolyster base round corner x-ray films - 12 inchesx15 inchesPolyster base round corner x-ray films - 8 inchesx10 inchesX-ray developing powder (to make 22.5 ltr. Solution)X-Ray Fixture power (to make 13.5 ltr. Solution)X-Ray Fixture power (to make 22.5 ltr. Solution)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;fldproduct&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST" time="17" tests="0" failures="0" errors="1">
+   <testsuite name="TEST" tests="0" failures="0" errors="1" time="17" timestamp="2018-07-28 11:20:18" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/TEST">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\TEST\\20180728_112006"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\TEST\\20180728_112006\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.154.2"/>
+         <property name="sessionId" value="fd94e695f2c6aaabc40553546c169885"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/DemoTestData' because (of) 'java.io.FileNotFoundException: C:\Users\Quality Analyst\Desktop\Logindata.xlsx'"/>
+         <system-out><![CDATA[2018-07-28 11:20:18 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/DemoTestData' because (of) 'java.io.FileNotFoundException: C:\Users\Quality Analyst\Desktop\Logindata.xlsx'
+
+2018-07-28 11:20:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-28 11:20:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-28 11:20:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-07-28 11:20:30 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-07-28 11:20:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-07-28 11:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Page_KDMC/a_CMO' is clicked on
+
+2018-07-28 11:20:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-28 11:20:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-28 11:20:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-28 11:20:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-28 11:20:34 - [TEST_STEP][PASSED] - Statement - Exceldata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DemoTestData): Reading excel file with source file 'C:\Users\Quality Analyst\Desktop\Logindata.xlsx' and sheet name 'Sheet1']]></system-out>
+         <system-err><![CDATA[2018-07-28 11:20:18 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/DemoTestData' because (of) 'java.io.FileNotFoundException: C:\Users\Quality Analyst\Desktop\Logindata.xlsx']]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="INCOMPLETE">
+         <system-out><![CDATA[2018-07-28 11:20:34 - [TEST_CASE][INCOMPLETE] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: null
+
+2018-07-28 11:20:34 - [TEST_STEP][INCOMPLETE] - openBrowser: A browser is already opened. Closing browser and opening a new one
+
+2018-07-28 11:20:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one]]></system-out>
+         <system-err><![CDATA[2018-07-28 11:20:34 - [TEST_CASE][INCOMPLETE] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-28 11:20:18 - [TEST_SUITE][INCOMPLETE] - TEST: null]]></system-out>
+      <system-err><![CDATA[2018-07-28 11:20:18 - [TEST_SUITE][INCOMPLETE] - TEST: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,2373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Inpatient_Suit" time="382" tests="1" failures="2" errors="0">
+   <testsuite name="Inpatient_Suit" tests="1" failures="2" errors="0" time="382" timestamp="2018-05-14 14:42:30" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/Inpatient_Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_144224"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_144224\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_144224\\1526289294314.png, C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_144224\\1526289532042.png"/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.71.2"/>
+         <property name="sessionId" value="596aa6af7c78b165deef32020e917f8d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not" classname="Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Inpatient Request/Page_Store/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_Store/button_OK' located by 'By.xpath: /html[1]/body[@class=&quot;skin-blue  pace-done modal-open&quot;]/div[@class=&quot;bootbox modal fade bootbox-alert in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary&quot;][count(. | //button[@type = 'button' and (text() = 'OK' or . = 'OK')]) = count(//button[@type = 'button' and (text() = 'OK' or . = 'OK')])]' not found)"/>
+         <system-out><![CDATA[2018-05-14 14:42:31 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_Store/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_Store/button_OK' located by 'By.xpath: /html[1]/body[@class="skin-blue  pace-done modal-open"]/div[@class="bootbox modal fade bootbox-alert in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-primary"][count(. | //button[@type = 'button' and (text() = 'OK' or . = 'OK')]) = count(//button[@type = 'button' and (text() = 'OK' or . = 'OK')])]' not found)
+
+2018-05-14 14:42:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 14:42:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 14:42:34 - [TEST_STEP][PASSED] - Statement - out.println("Verify Schedule 5 Inpatient Request Are Working Successfully Or Not"): null
+
+2018-05-14 14:42:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 14:42:39 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 14:42:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 14:42:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 14:42:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' is clicked on
+
+2018-05-14 14:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' is clicked on
+
+2018-05-14 14:42:41 - [TEST_STEP][PASSED] - setText: Text 'brintha' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtusername'
+
+2018-05-14 14:42:41 - [MESSAGE][PASSED] - Text 'brintha' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtusername'
+
+2018-05-14 14:42:41 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtpassword'
+
+2018-05-14 14:42:41 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtpassword'
+
+2018-05-14 14:42:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:42:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:42:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/button_Sign in' is clicked on
+
+2018-05-14 14:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/button_Sign in' is clicked on
+
+2018-05-14 14:42:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:42:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:42:49 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 300, y = 300
+
+2018-05-14 14:42:49 - [MESSAGE][PASSED] - Browser is scrolled to position x = 300, y = 300
+
+2018-05-14 14:42:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:42:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:42:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/Multihospital_New/StoresRequest.aspx' successfully
+
+2018-05-14 14:42:53 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/Multihospital_New/StoresRequest.aspx' successfully
+
+2018-05-14 14:42:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:42:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:42:56 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-14 14:42:59 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-14 14:42:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:43:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:43:02 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--ChildrensGene'
+
+2018-05-14 14:43:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--ChildrensGene'
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - Statement - Inpatient_RequestNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/input_txtno), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txtno' is: 'RNO/14052018/53'
+
+2018-05-14 14:43:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txtno' is: 'RNO/14052018/53'
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - Statement - RequestNo = Inpatient_RequestNumber.split("/")[2]: null
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - Statement - out.println("RqID : " + RequestNo): null
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i)): 17 options of object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:43:03 - [MESSAGE][PASSED] - 17 options of object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i < selectedoptions, (i++)]): Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:03 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:04 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:04 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:04 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:04 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:04 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:04 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:04 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:05 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:05 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:05 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:05 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:05 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:05 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [4] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:05 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:05 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:05 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:05 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:05 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:05 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:06 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:06 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:06 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:06 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:06 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:06 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [6] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:06 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:06 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:06 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:06 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:06 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:06 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [7] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:06 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:06 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:07 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:07 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:07 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:07 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [8] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:07 - [MESSAGE][PASSED] - All options with index in [8] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:07 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:07 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:07 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:07 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:07 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [9] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:07 - [MESSAGE][PASSED] - All options with index in [9] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:07 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:08 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:08 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:08 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:08 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [10] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:08 - [MESSAGE][PASSED] - All options with index in [10] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:08 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:09 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:09 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:09 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:09 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [11] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:09 - [MESSAGE][PASSED] - All options with index in [11] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:09 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:09 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:09 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:09 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:09 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [12] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:10 - [MESSAGE][PASSED] - All options with index in [12] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:10 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:10 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:10 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:10 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:10 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [13] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:10 - [MESSAGE][PASSED] - All options with index in [13] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:10 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:10 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:10 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:10 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:10 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:11 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:11 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:11 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:11 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:11 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:11 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [15] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:11 - [MESSAGE][PASSED] - All options with index in [15] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:11 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:11 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:12 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:12 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:43:12 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [16] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:12 - [MESSAGE][PASSED] - All options with index in [16] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:43:12 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:12 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:43:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:43:12 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Inpatient Request/Page_KDMC/input_btnsave' successfully
+
+2018-05-14 14:43:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Inpatient Request/Page_KDMC/input_btnsave' successfully
+
+2018-05-14 14:43:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/input_btnsave' is clicked on
+
+2018-05-14 14:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/input_btnsave' is clicked on
+
+2018-05-14 14:43:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:43:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:43:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_OK' is clicked on
+
+2018-05-14 14:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_OK' is clicked on
+
+2018-05-14 14:43:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:43:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:43:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_Sign out' is clicked on
+
+2018-05-14 14:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_Sign out' is clicked on
+
+2018-05-14 14:43:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:43:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:43:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_CMO' is clicked on
+
+2018-05-14 14:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_CMO' is clicked on
+
+2018-05-14 14:43:28 - [TEST_STEP][PASSED] - setText: Text 'guru' is set on object 'Object Repository/Inpatient Request/Page_CMO login/input_txtusername'
+
+2018-05-14 14:43:29 - [MESSAGE][PASSED] - Text 'guru' is set on object 'Object Repository/Inpatient Request/Page_CMO login/input_txtusername'
+
+2018-05-14 14:43:29 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Inpatient Request/Page_CMO login/input_txtpassword'
+
+2018-05-14 14:43:29 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Inpatient Request/Page_CMO login/input_txtpassword'
+
+2018-05-14 14:43:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:43:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:43:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_CMO login/button_Sign in' is clicked on
+
+2018-05-14 14:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_CMO login/button_Sign in' is clicked on
+
+2018-05-14 14:43:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:43:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:43:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_Department Wise Request' is clicked on
+
+2018-05-14 14:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_Department Wise Request' is clicked on
+
+2018-05-14 14:43:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:43:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:43:41 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--ALL--'
+
+2018-05-14 14:43:41 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--ALL--'
+
+2018-05-14 14:43:41 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--ALL--                _1'
+
+2018-05-14 14:43:41 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--ALL--                _1'
+
+2018-05-14 14:43:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_btnsearch' is clicked on
+
+2018-05-14 14:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_btnsearch' is clicked on
+
+2018-05-14 14:43:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:43:43 - [TEST_STEP][PASSED] - Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC - CMO/input_1), "xpath", "equals", "//*[@id=" + RequestNo + "]", true): Modify property of object successfully
+
+2018-05-14 14:43:43 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-05-14 14:43:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_1' is clicked on
+
+2018-05-14 14:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_1' is clicked on
+
+2018-05-14 14:43:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:43:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:43:45 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--Select--'
+
+2018-05-14 14:43:46 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--Select--'
+
+2018-05-14 14:43:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:43:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:43:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_btnupdate' is clicked on
+
+2018-05-14 14:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_btnupdate' is clicked on
+
+2018-05-14 14:43:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:43:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:43:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/button_OK' is clicked on
+
+2018-05-14 14:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/button_OK' is clicked on
+
+2018-05-14 14:43:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:44:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:44:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:44:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_Sign out' is clicked on
+
+2018-05-14 14:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_Sign out' is clicked on
+
+2018-05-14 14:44:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:44:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:44:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_Divisional Store' is clicked on
+
+2018-05-14 14:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_Divisional Store' is clicked on
+
+2018-05-14 14:44:05 - [TEST_STEP][PASSED] - setText: Text 'ragu' is set on object 'Object Repository/Inpatient Request/Page_Divisonal Store Login/input_txtusername'
+
+2018-05-14 14:44:05 - [MESSAGE][PASSED] - Text 'ragu' is set on object 'Object Repository/Inpatient Request/Page_Divisonal Store Login/input_txtusername'
+
+2018-05-14 14:44:05 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Inpatient Request/Page_Divisonal Store Login/input_txtpassword'
+
+2018-05-14 14:44:05 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Inpatient Request/Page_Divisonal Store Login/input_txtpassword'
+
+2018-05-14 14:44:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:44:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:44:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Divisonal Store Login/button_Sign in' is clicked on
+
+2018-05-14 14:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Divisonal Store Login/button_Sign in' is clicked on
+
+2018-05-14 14:44:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:44:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:44:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/a_Inpatient Request' is clicked on
+
+2018-05-14 14:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/a_Inpatient Request' is clicked on
+
+2018-05-14 14:44:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/a_Request Item Inpatient' is clicked on
+
+2018-05-14 14:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/a_Request Item Inpatient' is clicked on
+
+2018-05-14 14:44:15 - [TEST_STEP][PASSED] - setText: Text 'RNO/14052018/53' is set on object 'Object Repository/Inpatient Request/Page_Store/input'
+
+2018-05-14 14:44:16 - [MESSAGE][PASSED] - Text 'RNO/14052018/53' is set on object 'Object Repository/Inpatient Request/Page_Store/input'
+
+2018-05-14 14:44:16 - [TEST_STEP][PASSED] - Statement - InpID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_1), "xpath", "equals", "//*[@id=" + RequestNo + "]", true): Modify property of object successfully
+
+2018-05-14 14:44:16 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-05-14 14:44:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/input_1' is clicked on
+
+2018-05-14 14:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/input_1' is clicked on
+
+2018-05-14 14:44:20 - [TEST_STEP][PASSED] - Statement - medicine = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--Alcohol Rub i)): 0 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:44:20 - [MESSAGE][PASSED] - 0 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:44:20 - [TEST_STEP][PASSED] - Statement - For ([j = 1, j <= medicine - 1, (j++)]): null
+
+2018-05-14 14:44:20 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Inpatient Request/Page_Store/input_btnSubmit' successfully
+
+2018-05-14 14:44:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Inpatient Request/Page_Store/input_btnSubmit' successfully
+
+2018-05-14 14:44:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/input_btnSubmit' is clicked on
+
+2018-05-14 14:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/input_btnSubmit' is clicked on
+
+2018-05-14 14:44:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:44:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:44:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Inpatient Request/Page_Store/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_Store/button_OK' located by 'By.xpath: /html[1]/body[@class="skin-blue  pace-done modal-open"]/div[@class="bootbox modal fade bootbox-alert in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-primary"][count(. | //button[@type = 'button' and (text() = 'OK' or . = 'OK')]) = count(//button[@type = 'button' and (text() = 'OK' or . = 'OK')])]' not found)
+
+2018-05-14 14:44:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Inpatient Request/Page_Store/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_Store/button_OK' located by 'By.xpath: /html[1]/body[@class="skin-blue  pace-done modal-open"]/div[@class="bootbox modal fade bootbox-alert in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-primary"][count(. | //button[@type = 'button' and (text() = 'OK' or . = 'OK')]) = count(//button[@type = 'button' and (text() = 'OK' or . = 'OK')])]' not found)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_144224\\1526289294314.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-14 14:42:31 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_Store/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_Store/button_OK' located by 'By.xpath: /html[1]/body[@class="skin-blue  pace-done modal-open"]/div[@class="bootbox modal fade bootbox-alert in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-primary"][count(. | //button[@type = 'button' and (text() = 'OK' or . = 'OK')]) = count(//button[@type = 'button' and (text() = 'OK' or . = 'OK')])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not" classname="Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not" status="PASSED">
+         <system-out><![CDATA[2018-05-14 14:44:54 - [TEST_CASE][PASSED] - Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not
+
+2018-05-14 14:44:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 14:44:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-14 14:44:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 14:44:57 - [TEST_STEP][PASSED] - Statement - out.println("Verify Schedule 8 Inpatient Request Are Working Successfully Or Not"): null
+
+2018-05-14 14:44:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 14:45:03 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 14:45:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 14:45:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 14:45:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' is clicked on
+
+2018-05-14 14:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' is clicked on
+
+2018-05-14 14:45:07 - [TEST_STEP][PASSED] - setText: Text 'brintha' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtusername'
+
+2018-05-14 14:45:07 - [MESSAGE][PASSED] - Text 'brintha' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtusername'
+
+2018-05-14 14:45:07 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtpassword'
+
+2018-05-14 14:45:07 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtpassword'
+
+2018-05-14 14:45:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:45:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:45:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/button_Sign in' is clicked on
+
+2018-05-14 14:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/button_Sign in' is clicked on
+
+2018-05-14 14:45:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:45:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:45:15 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 300, y = 300
+
+2018-05-14 14:45:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 300, y = 300
+
+2018-05-14 14:45:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:45:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:45:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/Multihospital_New/StoresRequest.aspx' successfully
+
+2018-05-14 14:45:18 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/Multihospital_New/StoresRequest.aspx' successfully
+
+2018-05-14 14:45:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:45:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:45:21 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-14 14:45:21 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-14 14:45:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:45:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:45:24 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--ChildrensGene'
+
+2018-05-14 14:45:24 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--ChildrensGene'
+
+2018-05-14 14:45:24 - [TEST_STEP][PASSED] - Statement - Inpatient_RequestNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/input_txtno), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txtno' is: 'RNO/14052018/54'
+
+2018-05-14 14:45:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txtno' is: 'RNO/14052018/54'
+
+2018-05-14 14:45:24 - [TEST_STEP][PASSED] - Statement - RequestNo = Inpatient_RequestNumber.split("/")[2]: null
+
+2018-05-14 14:45:24 - [TEST_STEP][PASSED] - Statement - out.println("RqID : " + RequestNo): null
+
+2018-05-14 14:45:24 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:25 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:25 - [TEST_STEP][PASSED] - Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i)): 18 options of object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:45:25 - [MESSAGE][PASSED] - 18 options of object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:45:25 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i < selectedoptions, (i++)]): Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:25 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:25 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:25 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:25 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:25 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:25 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:26 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:26 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:26 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:26 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:26 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:26 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:26 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:26 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:26 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:26 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [4] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:26 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:26 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:26 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:27 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:27 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:27 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:27 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:27 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:27 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:27 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:27 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:27 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [6] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:27 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:27 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:27 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:27 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:28 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:28 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [7] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:28 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:28 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:28 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:28 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:28 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:28 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [8] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:28 - [MESSAGE][PASSED] - All options with index in [8] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:28 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:28 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:28 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:29 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:29 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [9] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:29 - [MESSAGE][PASSED] - All options with index in [9] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:29 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:29 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:29 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:29 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:29 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [10] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:29 - [MESSAGE][PASSED] - All options with index in [10] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:29 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:29 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:29 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:30 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:30 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [11] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:30 - [MESSAGE][PASSED] - All options with index in [11] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:30 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:30 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:30 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:30 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:30 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [12] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:30 - [MESSAGE][PASSED] - All options with index in [12] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:30 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:30 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:31 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:31 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:31 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [13] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:31 - [MESSAGE][PASSED] - All options with index in [13] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:31 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:31 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:31 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:31 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:31 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:31 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:31 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:32 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:32 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:32 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:32 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [15] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:32 - [MESSAGE][PASSED] - All options with index in [15] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:32 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:32 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:32 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:32 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:32 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [16] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:33 - [MESSAGE][PASSED] - All options with index in [16] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:33 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:33 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:33 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:33 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:45:33 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [17] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:33 - [MESSAGE][PASSED] - All options with index in [17] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:45:33 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:33 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:45:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:45:33 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Inpatient Request/Page_KDMC/input_btnsave' successfully
+
+2018-05-14 14:45:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Inpatient Request/Page_KDMC/input_btnsave' successfully
+
+2018-05-14 14:45:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/input_btnsave' is clicked on
+
+2018-05-14 14:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/input_btnsave' is clicked on
+
+2018-05-14 14:45:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:45:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:45:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_OK' is clicked on
+
+2018-05-14 14:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_OK' is clicked on
+
+2018-05-14 14:45:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:45:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:45:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:45:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_Sign out' is clicked on
+
+2018-05-14 14:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_Sign out' is clicked on
+
+2018-05-14 14:45:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:45:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:45:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_CMO' is clicked on
+
+2018-05-14 14:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_CMO' is clicked on
+
+2018-05-14 14:45:44 - [TEST_STEP][PASSED] - setText: Text 'guru' is set on object 'Object Repository/Inpatient Request/Page_CMO login/input_txtusername'
+
+2018-05-14 14:45:45 - [MESSAGE][PASSED] - Text 'guru' is set on object 'Object Repository/Inpatient Request/Page_CMO login/input_txtusername'
+
+2018-05-14 14:45:45 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Inpatient Request/Page_CMO login/input_txtpassword'
+
+2018-05-14 14:45:45 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Inpatient Request/Page_CMO login/input_txtpassword'
+
+2018-05-14 14:45:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:45:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:45:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_CMO login/button_Sign in' is clicked on
+
+2018-05-14 14:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_CMO login/button_Sign in' is clicked on
+
+2018-05-14 14:45:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:45:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:45:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_Department Wise Request' is clicked on
+
+2018-05-14 14:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_Department Wise Request' is clicked on
+
+2018-05-14 14:45:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:45:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:45:55 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--ALL--'
+
+2018-05-14 14:45:55 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--ALL--'
+
+2018-05-14 14:45:55 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--ALL--                _1'
+
+2018-05-14 14:45:55 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--ALL--                _1'
+
+2018-05-14 14:45:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_btnsearch' is clicked on
+
+2018-05-14 14:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_btnsearch' is clicked on
+
+2018-05-14 14:45:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:45:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:45:57 - [TEST_STEP][PASSED] - Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC - CMO/input_1), "xpath", "equals", "//*[@id=" + RequestNo + "]", true): Modify property of object successfully
+
+2018-05-14 14:45:57 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-05-14 14:45:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_1' is clicked on
+
+2018-05-14 14:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_1' is clicked on
+
+2018-05-14 14:45:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:45:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:45:59 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--Select--'
+
+2018-05-14 14:45:59 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC - CMO/select_--Select--'
+
+2018-05-14 14:45:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_btnupdate' is clicked on
+
+2018-05-14 14:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/input_btnupdate' is clicked on
+
+2018-05-14 14:46:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/button_OK' is clicked on
+
+2018-05-14 14:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/button_OK' is clicked on
+
+2018-05-14 14:46:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:46:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:46:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:46:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_Sign out' is clicked on
+
+2018-05-14 14:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC - CMO/a_Sign out' is clicked on
+
+2018-05-14 14:46:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:46:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_Divisional Store' is clicked on
+
+2018-05-14 14:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_Divisional Store' is clicked on
+
+2018-05-14 14:46:13 - [TEST_STEP][PASSED] - setText: Text 'ragu' is set on object 'Object Repository/Inpatient Request/Page_Divisonal Store Login/input_txtusername'
+
+2018-05-14 14:46:13 - [MESSAGE][PASSED] - Text 'ragu' is set on object 'Object Repository/Inpatient Request/Page_Divisonal Store Login/input_txtusername'
+
+2018-05-14 14:46:13 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Inpatient Request/Page_Divisonal Store Login/input_txtpassword'
+
+2018-05-14 14:46:13 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Inpatient Request/Page_Divisonal Store Login/input_txtpassword'
+
+2018-05-14 14:46:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:46:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:46:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Divisonal Store Login/button_Sign in' is clicked on
+
+2018-05-14 14:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Divisonal Store Login/button_Sign in' is clicked on
+
+2018-05-14 14:46:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:46:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:46:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/a_Inpatient Request' is clicked on
+
+2018-05-14 14:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/a_Inpatient Request' is clicked on
+
+2018-05-14 14:46:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/a_Request Item Inpatient' is clicked on
+
+2018-05-14 14:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/a_Request Item Inpatient' is clicked on
+
+2018-05-14 14:46:21 - [TEST_STEP][PASSED] - setText: Text 'RNO/14052018/54' is set on object 'Object Repository/Inpatient Request/Page_Store/input'
+
+2018-05-14 14:46:22 - [MESSAGE][PASSED] - Text 'RNO/14052018/54' is set on object 'Object Repository/Inpatient Request/Page_Store/input'
+
+2018-05-14 14:46:22 - [TEST_STEP][PASSED] - Statement - InpID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_1), "xpath", "equals", "//*[@id=" + RequestNo + "]", true): Modify property of object successfully
+
+2018-05-14 14:46:22 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-05-14 14:46:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/input_1' is clicked on
+
+2018-05-14 14:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/input_1' is clicked on
+
+2018-05-14 14:46:22 - [TEST_STEP][PASSED] - Statement - medicine = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--Alcohol Rub i)): 18 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:46:22 - [MESSAGE][PASSED] - 18 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:46:22 - [TEST_STEP][PASSED] - Statement - For ([j = 1, j <= medicine - 1, (j++)]): null
+
+2018-05-14 14:46:22 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:23 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:25 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:25 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:25 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:46:25 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:25 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:25 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:46:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:27 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:27 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:46:27 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:46:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:46:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:46:28 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:28 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:28 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:46:28 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:28 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:30 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:30 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:46:30 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:30 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:30 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:46:30 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:31 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:33 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '987'
+
+2018-05-14 14:46:33 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '987'
+
+2018-05-14 14:46:33 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:46:33 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:46:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:46:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:46:34 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:34 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:34 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:46:34 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:34 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:36 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:36 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:46:36 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:36 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:36 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:46:36 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:36 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:38 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:38 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:38 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:46:38 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:46:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:46:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:46:39 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:39 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:39 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:46:39 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [4] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:40 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:42 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:42 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:42 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:46:42 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:42 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:42 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:46:42 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:42 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:44 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:44 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:44 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:46:44 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:46:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:46:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:46:45 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:45 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:45 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:46:45 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:45 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:47 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:47 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:47 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:46:47 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:47 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:47 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:46:47 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:47 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:49 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:49 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:46:49 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:46:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:46:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:46:50 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:51 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:51 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:46:51 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [6] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:51 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:53 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:53 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:53 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:46:53 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:53 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:53 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:46:53 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:53 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:55 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:55 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:46:55 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:46:55 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:46:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:46:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:46:56 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:56 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:46:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:46:56 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:46:56 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [7] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:56 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:46:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:46:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:46:58 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:58 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:46:58 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:46:58 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:59 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:46:59 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:46:59 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:59 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:46:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:01 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:01 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:01 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:47:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:47:02 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:02 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:02 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:47:02 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [8] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:02 - [MESSAGE][PASSED] - All options with index in [8] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:04 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:04 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:04 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:04 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:04 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:04 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:06 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:06 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:06 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:47:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:47:07 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:07 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:07 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:47:07 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [9] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:08 - [MESSAGE][PASSED] - All options with index in [9] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:10 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:10 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:10 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:10 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:10 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:10 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:10 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:12 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:12 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:12 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:47:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:47:13 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:13 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:13 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:47:13 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [10] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:13 - [MESSAGE][PASSED] - All options with index in [10] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:15 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:15 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:15 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:16 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:16 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:16 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:16 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:18 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:18 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:18 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:18 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:47:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:47:19 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:19 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:19 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:47:19 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [11] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:19 - [MESSAGE][PASSED] - All options with index in [11] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:21 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:21 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:21 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:21 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:21 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:21 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:21 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:23 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:23 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:23 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:23 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:47:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:47:24 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:25 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:25 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:47:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [12] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:25 - [MESSAGE][PASSED] - All options with index in [12] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:27 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:27 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:27 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:27 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:27 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:27 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:27 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:29 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:29 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:29 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:29 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:47:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:47:30 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:30 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:30 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:47:30 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [13] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:31 - [MESSAGE][PASSED] - All options with index in [13] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:33 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:33 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:33 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:33 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:33 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:33 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:33 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:33 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:35 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '990'
+
+2018-05-14 14:47:35 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:35 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:47:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:47:36 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:36 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:36 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:47:36 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:36 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:38 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '10'
+
+2018-05-14 14:47:38 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '10'
+
+2018-05-14 14:47:38 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:38 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:38 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:38 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:38 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:38 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:40 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '1990'
+
+2018-05-14 14:47:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '1990'
+
+2018-05-14 14:47:40 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:40 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:47:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:47:41 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:42 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:42 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:47:42 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [15] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:42 - [MESSAGE][PASSED] - All options with index in [15] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:44 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '10'
+
+2018-05-14 14:47:44 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '10'
+
+2018-05-14 14:47:44 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:44 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:44 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:44 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:44 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:44 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:46 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '1990'
+
+2018-05-14 14:47:46 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '1990'
+
+2018-05-14 14:47:46 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:46 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-14 14:47:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-14 14:47:47 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:47 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_Store/input_txtqty'
+
+2018-05-14 14:47:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_Add' is clicked on
+
+2018-05-14 14:47:47 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-05-14 14:47:47 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [16] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:48 - [MESSAGE][PASSED] - All options with index in [16] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:50 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:50 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:50 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:50 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:50 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:50 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:50 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:50 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:52 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '20000'
+
+2018-05-14 14:47:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '20000'
+
+2018-05-14 14:47:52 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:52 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:52 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-05-14 14:47:52 - [TEST_STEP][PASSED] - Statement - out.println("Stock Is Less Than Requested Qty"): null
+
+2018-05-14 14:47:52 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [17] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:52 - [MESSAGE][PASSED] - All options with index in [17] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:47:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:54 - [TEST_STEP][PASSED] - Statement - RequestedQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txttotal), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:54 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txttotal' is: '5'
+
+2018-05-14 14:47:54 - [TEST_STEP][PASSED] - Statement - out.println("RequestedQty IS : " + RequestedQty): null
+
+2018-05-14 14:47:54 - [TEST_STEP][PASSED] - Statement - BatchNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--BA2910)): 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:54 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910' counted
+
+2018-05-14 14:47:54 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k <= BatchNo - 1, (k++)]): null
+
+2018-05-14 14:47:54 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:54 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_Store/select_--Select--BA2910'
+
+2018-05-14 14:47:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:47:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:47:56 - [TEST_STEP][PASSED] - Statement - StockQty = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_txtprice), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '20000'
+
+2018-05-14 14:47:56 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_Store/input_txtprice' is: '20000'
+
+2018-05-14 14:47:56 - [TEST_STEP][PASSED] - Statement - out.println("StockQty IS : " + StockQty): null
+
+2018-05-14 14:47:56 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(StockQty) > java.lang.String.valueOf(RequestedQty)): null
+
+2018-05-14 14:47:56 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-05-14 14:47:56 - [TEST_STEP][PASSED] - Statement - out.println("Stock Is Less Than Requested Qty"): null
+
+2018-05-14 14:47:56 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Inpatient Request/Page_Store/input_btnSubmit' successfully
+
+2018-05-14 14:47:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Inpatient Request/Page_Store/input_btnSubmit' successfully
+
+2018-05-14 14:47:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/input_btnSubmit' is clicked on
+
+2018-05-14 14:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/input_btnSubmit' is clicked on
+
+2018-05-14 14:47:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:48:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:48:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/button_OK' is clicked on
+
+2018-05-14 14:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/button_OK' is clicked on
+
+2018-05-14 14:48:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:48:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:48:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/a_dropdown-toggle' is clicked on
+
+2018-05-14 14:48:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_Store/a_Sign out' is clicked on
+
+2018-05-14 14:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_Store/a_Sign out' is clicked on
+
+2018-05-14 14:48:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 14:48:07 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-14 14:48:07 - [TEST_STEP][PASSED] - Statement - out.println("Schedule 8 Inpatient Request Are Working Successfully"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not" classname="Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '5' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\QUALIT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 596aa6af7c78b165deef32020e917f8d)"/>
+         <system-out><![CDATA[2018-05-14 14:48:07 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to set text '5' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\QUALIT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 596aa6af7c78b165deef32020e917f8d)
+
+2018-05-14 14:48:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 14:48:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 14:48:09 - [TEST_STEP][PASSED] - Statement - out.println("Verify Schedule 12 Inpatient Request Are Working Successfully Or Not"): null
+
+2018-05-14 14:48:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 14:48:16 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/multihospital_new/' successfully
+
+2018-05-14 14:48:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 14:48:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 14:48:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' is clicked on
+
+2018-05-14 14:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/a_In Patient' is clicked on
+
+2018-05-14 14:48:18 - [TEST_STEP][PASSED] - setText: Text 'brintha' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtusername'
+
+2018-05-14 14:48:18 - [MESSAGE][PASSED] - Text 'brintha' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtusername'
+
+2018-05-14 14:48:18 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtpassword'
+
+2018-05-14 14:48:18 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/input_txtpassword'
+
+2018-05-14 14:48:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:48:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:48:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/button_Sign in' is clicked on
+
+2018-05-14 14:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_INPATIENT LOGIN/button_Sign in' is clicked on
+
+2018-05-14 14:48:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:48:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:48:26 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 300, y = 300
+
+2018-05-14 14:48:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 300, y = 300
+
+2018-05-14 14:48:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-14 14:48:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-14 14:48:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.137.1/Multihospital_New/StoresRequest.aspx' successfully
+
+2018-05-14 14:48:33 - [MESSAGE][PASSED] - Navigate to 'http://192.168.137.1/Multihospital_New/StoresRequest.aspx' successfully
+
+2018-05-14 14:48:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:48:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:48:36 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-14 14:48:40 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-14 14:48:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-14 14:48:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--ChildrensGene'
+
+2018-05-14 14:48:43 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--ChildrensGene'
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - Statement - Inpatient_RequestNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/input_txtno), "value"): Attribute 'value' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txtno' is: 'RNO/14052018/55'
+
+2018-05-14 14:48:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txtno' is: 'RNO/14052018/55'
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - Statement - RequestNo = Inpatient_RequestNumber.split("/")[2]: null
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - Statement - out.println("RqID : " + RequestNo): null
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:43 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i)): 20 options of object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:48:43 - [MESSAGE][PASSED] - 20 options of object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i' counted
+
+2018-05-14 14:48:43 - [TEST_STEP][FAILED] - Statement - For ([i = 1, i < selectedoptions, (i++)]): Unable to set text '5' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\QUALIT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 596aa6af7c78b165deef32020e917f8d)
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:43 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:43 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:43 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:44 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:44 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:44 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:44 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:44 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:44 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:44 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:44 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:44 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:44 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:44 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:44 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:44 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:45 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:45 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [4] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:45 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:45 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:45 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:45 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:45 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:45 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:45 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:45 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:45 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:45 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:45 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:45 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [6] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:46 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:46 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:46 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:46 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:46 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:46 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [7] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:46 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:46 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:46 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:46 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:46 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:46 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [8] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:47 - [MESSAGE][PASSED] - All options with index in [8] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:47 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:47 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:47 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:47 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:47 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [9] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:47 - [MESSAGE][PASSED] - All options with index in [9] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:47 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:47 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:47 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:47 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:47 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [10] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:48 - [MESSAGE][PASSED] - All options with index in [10] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:48 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:48 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:48 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:48 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:48 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [11] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:48 - [MESSAGE][PASSED] - All options with index in [11] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:48 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:48 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:48 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:48 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:48 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [12] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:49 - [MESSAGE][PASSED] - All options with index in [12] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:49 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:49 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:49 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:49 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:49 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [13] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:49 - [MESSAGE][PASSED] - All options with index in [13] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:49 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:49 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:49 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:49 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:49 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:50 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:50 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:50 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:50 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:50 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:50 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [15] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:50 - [MESSAGE][PASSED] - All options with index in [15] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:50 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:50 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:50 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:51 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:51 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [16] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:51 - [MESSAGE][PASSED] - All options with index in [16] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:51 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:51 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat'
+
+2018-05-14 14:48:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Inpatient Request/Page_KDMC/button_Add' is clicked on
+
+2018-05-14 14:48:51 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:51 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Schedule 5Dru'
+
+2018-05-14 14:48:51 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [17] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:51 - [MESSAGE][PASSED] - All options with index in [17] are selected on object 'Object Repository/Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i'
+
+2018-05-14 14:48:51 - [TEST_STEP][FAILED] - setText: Unable to set text '5' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\QUALIT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 596aa6af7c78b165deef32020e917f8d)
+
+2018-05-14 14:48:52 - [MESSAGE][FAILED] - Unable to set text '5' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\QUALIT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 596aa6af7c78b165deef32020e917f8d)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Inpatient_Suit\\20180514_144224\\1526289532042.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-14 14:48:07 - [TEST_CASE][FAILED] - Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not: Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to set text '5' of object 'Object Repository/Inpatient Request/Page_KDMC/input_txttreat' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\QUALIT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 596aa6af7c78b165deef32020e917f8d)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-14 14:42:30 - [TEST_SUITE][FAILED] - Inpatient_Suit: Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_Store/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_Store/button_OK' located by 'By.xpath: /html[1]/body[@class="skin-blue  pace-done modal-open"]/div[@class="bootbox modal fade bootbox-alert in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-primary"][count(. | //button[@type = 'button' and (text() = 'OK' or . = 'OK')]) = count(//button[@type = 'button' and (text() = 'OK' or . = 'OK')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-14 14:42:30 - [TEST_SUITE][FAILED] - Inpatient_Suit: Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not FAILED because (of) Unable to click on object 'Object Repository/Inpatient Request/Page_Store/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Inpatient Request/Page_Store/button_OK' located by 'By.xpath: /html[1]/body[@class="skin-blue  pace-done modal-open"]/div[@class="bootbox modal fade bootbox-alert in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-primary"][count(. | //button[@type = 'button' and (text() = 'OK' or . = 'OK')]) = count(//button[@type = 'button' and (text() = 'OK' or . = 'OK')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

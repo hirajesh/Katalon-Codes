@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Moh_Request" time="29" tests="0" failures="1" errors="0">
+   <testsuite name="Moh_Request" tests="0" failures="1" errors="0" time="29" timestamp="2018-05-03 15:48:54" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/Moh_Request">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Moh_Request\\20180503_154837"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Moh_Request\\20180503_154837\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Moh_Request\\20180503_154837\\1525342762750.png"/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.71.2"/>
+         <property name="sessionId" value="581bd895-1989-4262-acd1-1506b97a6fef"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test" classname="Test Cases/test" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&amp;u=http%3A//192.168.137.1/multihospital_new/&amp;c=UTF-8&amp;f=regular&amp;d=The%20server%20at%20192.168.137.1%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7664, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 581bd895-1989-4262-acd1-1506b97a6fef)"/>
+         <system-out><![CDATA[2018-05-03 15:48:54 - [TEST_CASE][FAILED] - Test Cases/test: Test Cases/test FAILED because (of) Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.137.1/multihospital_new/&c=UTF-8&f=regular&d=The%20server%20at%20192.168.137.1%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7664, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 581bd895-1989-4262-acd1-1506b97a6fef)
+
+2018-05-03 15:48:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-03 15:49:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-03 15:49:01 - [TEST_STEP][PASSED] - Statement - i = 1: null
+
+2018-05-03 15:49:01 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.137.1/multihospital_new/&c=UTF-8&f=regular&d=The%20server%20at%20192.168.137.1%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7664, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 581bd895-1989-4262-acd1-1506b97a6fef)
+
+2018-05-03 15:49:22 - [MESSAGE][FAILED] - Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.137.1/multihospital_new/&c=UTF-8&f=regular&d=The%20server%20at%20192.168.137.1%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7664, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 581bd895-1989-4262-acd1-1506b97a6fef)
+[[ATTACHMENT|C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Moh_Request\\20180503_154837\\1525342762750.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-03 15:48:54 - [TEST_CASE][FAILED] - Test Cases/test: Test Cases/test FAILED because (of) Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.137.1/multihospital_new/&c=UTF-8&f=regular&d=The%20server%20at%20192.168.137.1%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7664, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 581bd895-1989-4262-acd1-1506b97a6fef)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-03 15:48:54 - [TEST_SUITE][FAILED] - Moh_Request: Test Cases/test FAILED because (of) Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.137.1/multihospital_new/&c=UTF-8&f=regular&d=The%20server%20at%20192.168.137.1%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7664, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 581bd895-1989-4262-acd1-1506b97a6fef)]]></system-out>
+      <system-err><![CDATA[2018-05-03 15:48:54 - [TEST_SUITE][FAILED] - Moh_Request: Test Cases/test FAILED because (of) Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=http%3A//192.168.137.1/multihospital_new/&c=UTF-8&f=regular&d=The%20server%20at%20192.168.137.1%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7664, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 581bd895-1989-4262-acd1-1506b97a6fef)]]></system-err>
+   </testsuite>
+</testsuites>

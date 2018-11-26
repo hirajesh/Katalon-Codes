@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_INV_003 Verify Schedule 6 Investigation Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>435ca2b1-facd-4167-a304-deae62d8a833</testCaseGuid>
+</TestCaseEntity>

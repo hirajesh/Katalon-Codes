@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PHAR_008 Verify Schedule 8 Pharmacy Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecc6285a-2981-46aa-9706-d9f9ee638523</testCaseGuid>
+</TestCaseEntity>

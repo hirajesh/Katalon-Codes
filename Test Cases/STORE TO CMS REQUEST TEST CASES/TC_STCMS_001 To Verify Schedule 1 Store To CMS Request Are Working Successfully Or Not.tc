@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_STCMS_001 To Verify Schedule 1 Store To CMS Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d0a73e4-8605-4428-9f78-73985bc30eb7</testCaseGuid>
+</TestCaseEntity>

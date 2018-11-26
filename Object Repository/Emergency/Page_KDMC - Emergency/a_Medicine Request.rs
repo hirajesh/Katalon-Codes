@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Medicine Request</name>
+   <tag></tag>
+   <elementGuidId>1dd282c6-86d0-42ff-8154-a39865c1b550</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div/div/aside[1]/section/ul/li[3]/ul/li[2]/a[count(. | //*[@href = 'StoresRequestEmergency.aspx' and @onclick = 'changemenu(3)' and (text() = 'Medicine Request' or . = 'Medicine Request')]) = count(//*[@href = 'StoresRequestEmergency.aspx' and @onclick = 'changemenu(3)' and (text() = 'Medicine Request' or . = 'Medicine Request')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>StoresRequestEmergency.aspx</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>changemenu(3)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Medicine Request</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div/div/aside[1]/section/ul/li[3]/ul/li[2]/a</value>
+   </webElementProperties>
+</WebElementEntity>

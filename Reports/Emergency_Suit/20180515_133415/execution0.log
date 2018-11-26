@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-15T13:34:17</date>
+  <millis>1526371457222</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Emergency_Suit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Emergency_Suit</property>
+  <property name="description">It Contains All The Schedule Emergency Request</property>
+  <property name="id">Test Suites/Emergency_Suit</property>
+</record>
+<record>
+  <date>2018-05-15T13:34:17</date>
+  <millis>1526371457242</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Quality Analyst - DESKTOP-BLFTK83&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Quality Analyst - DESKTOP-BLFTK83</property>
+</record>
+<record>
+  <date>2018-05-15T13:34:17</date>
+  <millis>1526371457243</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-05-15T13:34:17</date>
+  <millis>1526371457243</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.71.2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.71.2</property>
+</record>
+<record>
+  <date>2018-05-15T13:34:17</date>
+  <millis>1526371457245</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.1.1</property>
+</record>
+<record>
+  <date>2018-05-15T13:34:17</date>
+  <millis>1526371457584</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/EMERGENCY TEST CASES/TC_ER_001 Verify Schedule 1 Emergency  Request Are Working Successfully Or Not</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/EMERGENCY TEST CASES/TC_ER_001 Verify Schedule 1 Emergency  Request Are Working Successfully Or Not</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/EMERGENCY TEST CASES/TC_ER_001 Verify Schedule 1 Emergency  Request Are Working Successfully Or Not</property>
+  <property name="source">C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Test Cases\\EMERGENCY TEST CASES\\TC_ER_001 Verify Schedule 1 Emergency  Request Are Working Successfully Or Not.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-05-15T13:34:17</date>
+  <millis>1526371457651</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>

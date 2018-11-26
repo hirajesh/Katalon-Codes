@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Moh_Request" time="7" tests="0" failures="1" errors="0">
+   <testsuite name="Moh_Request" tests="0" failures="1" errors="0" time="7" timestamp="2018-05-03 16:47:55" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/Moh_Request">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Moh_Request\\20180503_164749"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\Moh_Request\\20180503_164749\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value=""/>
+         <property name="hostAddress" value="192.168.71.2"/>
+         <property name="sessionId" value="a57a4144-4ecd-436e-baef-2370b2071a86"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MohRequestSchedule2" classname="Test Cases/MohRequestSchedule2" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 23036, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a57a4144-4ecd-436e-baef-2370b2071a86)"/>
+         <system-out><![CDATA[2018-05-03 16:47:55 - [TEST_CASE][FAILED] - Test Cases/MohRequestSchedule2: Test Cases/MohRequestSchedule2 FAILED because (of) Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 23036, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a57a4144-4ecd-436e-baef-2370b2071a86)
+
+2018-05-03 16:47:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-03 16:48:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-03 16:48:02 - [TEST_STEP][PASSED] - Statement - i = 1: null
+
+2018-05-03 16:48:02 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 23036, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a57a4144-4ecd-436e-baef-2370b2071a86)
+
+2018-05-03 16:48:02 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-03 16:48:02 - [MESSAGE][FAILED] - Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 23036, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a57a4144-4ecd-436e-baef-2370b2071a86)]]></system-out>
+         <system-err><![CDATA[2018-05-03 16:47:55 - [TEST_CASE][FAILED] - Test Cases/MohRequestSchedule2: Test Cases/MohRequestSchedule2 FAILED because (of) Unable to navigate to 'http://192.168.137.1/multihospital_new/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BLFTK83', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 23036, moz:profile: C:\Users\Quality Analyst\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a57a4144-4ecd-436e-baef-2370b2071a86)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-03 16:47:55 - [TEST_SUITE][INCOMPLETE] - Moh_Request: null]]></system-out>
+      <system-err><![CDATA[2018-05-03 16:47:55 - [TEST_SUITE][INCOMPLETE] - Moh_Request: null]]></system-err>
+   </testsuite>
+</testsuites>

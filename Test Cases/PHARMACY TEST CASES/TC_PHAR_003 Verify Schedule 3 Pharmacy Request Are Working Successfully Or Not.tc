@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PHAR_003 Verify Schedule 3 Pharmacy Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3402551-2540-415a-8050-8788f3c21c2a</testCaseGuid>
+</TestCaseEntity>

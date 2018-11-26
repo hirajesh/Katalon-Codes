@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select--Disposable de</name>
+   <tag></tag>
+   <elementGuidId>db426927-8623-46e7-b10a-0891746f7e0a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>optmedicine</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--Disposable dental needle - 26 (1 and 1/2)Disposable needle, sterile - size 21, length - 1 inchesDisposable needle, sterile - size 22, length - 1 inchesDisposable needle, sterile - size 23, length - 1 inchesDisposable needle, sterile - size 24, length - 1 inchesDisposable needle, sterile - size 26, (1/2) length - 1 inchesDisposable spinal needle, size-25 specification - Quinck spinal needle having short cutting point bivel with funnel shaped transparent colour hub. BD makeDisposable spinal needle, size-26 specification - Quinck spinal needle having short cutting point bivel with funnel shaped transparent colour hub. BD makeDisposable Tuberculin syring with needlesI.V. Canulas - disposable, sterile tyvek packing, vergin rediopaque, poly tetra, Fluro Eylene (P.T.F.E) catheter with Hydrophobic filter and taper tip. As per I.S.O - 10555-B Length - 30mm to 50mm size 24Sterile disaposable Hypodermic Plastic syringe - size - 10 C.C without needle Sterile disaposable Hypodermic Plastic syringe - size - 20 C.C without needle Sterile disaposable Hypodermic Plastic syringe - size - 5 C.C without needle Sterile disaposable Hypodermic plastic syringe - size 2 c.C with 23G., 24G.Sterile disaposable Hypodermic plastic syringe - size 2 C.C with 23G., 24G. Sterile disaposable Lancet needle for laboratary use in foli packThreeway stop cock specification </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;optmedicine&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

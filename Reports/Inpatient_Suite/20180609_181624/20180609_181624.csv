@@ -1,0 +1,240 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Inpatient_Suite,Chrome 66.0.3359.181,It Contains All The Inpatient Request,2018-06-09 21:18:28,2018-06-09 21:27:40,9m - 12.282s,PASSED
+,,,,,,
+Test Cases/INPATIENT TEST CASES/TC_INR_001 Verify Schedule 5 Inpatient Request Are Working Successfully Or Not,Chrome 66.0.3359.181,,2018-06-09 21:18:28,2018-06-09 21:21:32,3m - 3.268s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-06-09 21:18:29,2018-06-09 21:18:32,3.003s,PASSED
+"Statement - out.println(""Verify Schedule 5 Inpatient Request Are Working Successfully Or Not"")",Chrome 66.0.3359.181,,2018-06-09 21:18:32,2018-06-09 21:18:32,0.012s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-06-09 21:18:32,2018-06-09 21:18:34,1.646s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-06-09 21:18:34,2018-06-09 21:18:35,1.155s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:18:35,2018-06-09 21:18:37,2.018s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:18:37,2018-06-09 21:18:38,0.856s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:18:38,2018-06-09 21:18:38,0.158s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:18:38,2018-06-09 21:18:38,0.229s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:18:38,2018-06-09 21:18:41,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:18:41,2018-06-09 21:18:42,1.282s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:18:42,2018-06-09 21:18:45,3.001s,PASSED
+scrollToPosition,Chrome 66.0.3359.181,,2018-06-09 21:18:45,2018-06-09 21:18:45,0.022s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:18:45,2018-06-09 21:18:47,2.004s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-06-09 21:18:47,2018-06-09 21:18:48,1.084s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:18:48,2018-06-09 21:18:51,3.002s,PASSED
+refresh,Chrome 66.0.3359.181,,2018-06-09 21:18:51,2018-06-09 21:18:52,0.577s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:18:52,2018-06-09 21:18:55,3.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:18:55,2018-06-09 21:18:55,0.187s,PASSED
+"Statement - Inpatient_RequestNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/input_txtno), ""value"")",Chrome 66.0.3359.181,,2018-06-09 21:18:55,2018-06-09 21:18:55,0.060s,PASSED
+"Statement - RequestNo = Inpatient_RequestNumber.split(""/"")[2]",Chrome 66.0.3359.181,,2018-06-09 21:18:55,2018-06-09 21:18:55,0.005s,PASSED
+"Statement - out.println(""RqID : "" + RequestNo)",Chrome 66.0.3359.181,,2018-06-09 21:18:55,2018-06-09 21:18:55,0.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:18:55,2018-06-09 21:18:55,0.181s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i)),Chrome 66.0.3359.181,,2018-06-09 21:18:55,2018-06-09 21:18:56,0.083s,PASSED
+"Statement - For ([i = 1, i < selectedoptions, (i++)])",Chrome 66.0.3359.181,,2018-06-09 21:18:56,2018-06-09 21:19:04,8.099s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-06-09 21:19:04,2018-06-09 21:19:04,0.079s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:04,2018-06-09 21:19:04,0.098s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:04,2018-06-09 21:19:07,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:07,2018-06-09 21:19:07,0.545s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:07,2018-06-09 21:19:10,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:10,2018-06-09 21:19:11,0.114s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:11,2018-06-09 21:19:11,0.521s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:11,2018-06-09 21:19:14,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:14,2018-06-09 21:19:15,0.491s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:19:15,2018-06-09 21:19:15,0.125s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:19:15,2018-06-09 21:19:15,0.125s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:15,2018-06-09 21:19:18,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:18,2018-06-09 21:19:18,0.579s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:18,2018-06-09 21:19:21,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:21,2018-06-09 21:19:22,0.576s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:22,2018-06-09 21:19:24,2.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:19:24,2018-06-09 21:19:24,0.167s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:19:24,2018-06-09 21:19:24,0.173s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:24,2018-06-09 21:19:24,0.119s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:24,2018-06-09 21:19:26,2.001s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC - CMO/input_1), ""xpath"", ""equals"", ""//*[@id="" + RequestNo + ""]"", true)",Chrome 66.0.3359.181,,2018-06-09 21:19:26,2018-06-09 21:19:26,0.023s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:26,2018-06-09 21:19:27,0.097s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:27,2018-06-09 21:19:29,2.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:19:29,2018-06-09 21:19:29,0.164s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:29,2018-06-09 21:19:31,2.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:31,2018-06-09 21:19:31,0.093s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:31,2018-06-09 21:19:33,2.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:33,2018-06-09 21:19:33,0.568s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:33,2018-06-09 21:19:36,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:36,2018-06-09 21:19:36,0.096s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:36,2018-06-09 21:19:37,0.462s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:37,2018-06-09 21:19:40,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:40,2018-06-09 21:19:41,0.666s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:19:41,2018-06-09 21:19:41,0.113s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:19:41,2018-06-09 21:19:41,0.122s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:41,2018-06-09 21:19:44,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:44,2018-06-09 21:19:46,1.912s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:19:46,2018-06-09 21:19:49,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:49,2018-06-09 21:19:49,0.173s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:49,2018-06-09 21:19:50,1.186s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:19:50,2018-06-09 21:19:50,0.296s,PASSED
+"Statement - InpID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_1), ""xpath"", ""equals"", ""//*[@id="" + RequestNo + ""]"", true)",Chrome 66.0.3359.181,,2018-06-09 21:19:50,2018-06-09 21:19:50,0.017s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:19:50,2018-06-09 21:19:51,0.662s,PASSED
+Statement - medicine = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--Alcohol Rub i)),Chrome 66.0.3359.181,,2018-06-09 21:19:51,2018-06-09 21:19:51,0.065s,PASSED
+"Statement - For ([j = 1, j <= medicine - 1, (j++)])",Chrome 66.0.3359.181,,2018-06-09 21:19:51,2018-06-09 21:21:24,1m - 32.390s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-06-09 21:21:24,2018-06-09 21:21:24,0.049s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:21:24,2018-06-09 21:21:24,0.091s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:21:24,2018-06-09 21:21:27,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:21:27,2018-06-09 21:21:27,0.817s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:21:27,2018-06-09 21:21:30,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:21:30,2018-06-09 21:21:31,0.139s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:21:31,2018-06-09 21:21:31,0.408s,PASSED
+closeBrowser,Chrome 66.0.3359.181,,2018-06-09 21:21:31,2018-06-09 21:21:32,0.698s,PASSED
+"Statement - out.println(""Schedule 5 Inpatient Request Are Working Successfully"")",Chrome 66.0.3359.181,,2018-06-09 21:21:32,2018-06-09 21:21:32,0.000s,PASSED
+,,,,,,
+Test Cases/INPATIENT TEST CASES/TC_INR_002 Verify Schedule 8 Inpatient Request Are Working Successfully Or Not,Chrome 66.0.3359.181,,2018-06-09 21:21:32,2018-06-09 21:24:34,3m - 1.810s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-06-09 21:21:32,2018-06-09 21:21:34,1.979s,PASSED
+"Statement - out.println(""Verify Schedule 8 Inpatient Request Are Working Successfully Or Not"")",Chrome 66.0.3359.181,,2018-06-09 21:21:34,2018-06-09 21:21:34,0.000s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-06-09 21:21:34,2018-06-09 21:21:36,1.606s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-06-09 21:21:36,2018-06-09 21:21:37,1.127s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:21:37,2018-06-09 21:21:37,0.666s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:21:37,2018-06-09 21:21:38,0.117s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:21:38,2018-06-09 21:21:38,0.109s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:21:38,2018-06-09 21:21:41,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:21:41,2018-06-09 21:21:41,0.808s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:21:41,2018-06-09 21:21:44,3.001s,PASSED
+scrollToPosition,Chrome 66.0.3359.181,,2018-06-09 21:21:44,2018-06-09 21:21:44,0.013s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:21:44,2018-06-09 21:21:46,2.001s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-06-09 21:21:46,2018-06-09 21:21:47,0.935s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:21:47,2018-06-09 21:21:50,3.001s,PASSED
+refresh,Chrome 66.0.3359.181,,2018-06-09 21:21:50,2018-06-09 21:21:51,0.547s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:21:51,2018-06-09 21:21:54,3.000s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:21:54,2018-06-09 21:21:54,0.176s,PASSED
+"Statement - Inpatient_RequestNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/input_txtno), ""value"")",Chrome 66.0.3359.181,,2018-06-09 21:21:54,2018-06-09 21:21:54,0.041s,PASSED
+"Statement - RequestNo = Inpatient_RequestNumber.split(""/"")[2]",Chrome 66.0.3359.181,,2018-06-09 21:21:54,2018-06-09 21:21:54,0.000s,PASSED
+"Statement - out.println(""RqID : "" + RequestNo)",Chrome 66.0.3359.181,,2018-06-09 21:21:54,2018-06-09 21:21:54,0.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:21:54,2018-06-09 21:21:54,0.193s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i)),Chrome 66.0.3359.181,,2018-06-09 21:21:54,2018-06-09 21:21:54,0.072s,PASSED
+"Statement - For ([i = 1, i < selectedoptions, (i++)])",Chrome 66.0.3359.181,,2018-06-09 21:21:54,2018-06-09 21:22:03,8.475s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-06-09 21:22:03,2018-06-09 21:22:03,0.034s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:03,2018-06-09 21:22:03,0.086s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:03,2018-06-09 21:22:06,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:06,2018-06-09 21:22:07,0.553s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:07,2018-06-09 21:22:10,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:10,2018-06-09 21:22:10,0.089s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:10,2018-06-09 21:22:10,0.527s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:10,2018-06-09 21:22:13,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:13,2018-06-09 21:22:14,0.426s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:22:14,2018-06-09 21:22:14,0.108s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:22:14,2018-06-09 21:22:14,0.103s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:14,2018-06-09 21:22:17,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:17,2018-06-09 21:22:17,0.581s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:17,2018-06-09 21:22:20,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:20,2018-06-09 21:22:21,0.573s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:21,2018-06-09 21:22:23,2.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:22:23,2018-06-09 21:22:23,0.151s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:22:23,2018-06-09 21:22:23,0.151s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:23,2018-06-09 21:22:23,0.092s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:23,2018-06-09 21:22:25,2.001s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC - CMO/input_1), ""xpath"", ""equals"", ""//*[@id="" + RequestNo + ""]"", true)",Chrome 66.0.3359.181,,2018-06-09 21:22:25,2018-06-09 21:22:25,0.004s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:25,2018-06-09 21:22:26,0.109s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:26,2018-06-09 21:22:28,2.002s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:22:28,2018-06-09 21:22:28,0.164s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:28,2018-06-09 21:22:30,2.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:30,2018-06-09 21:22:30,0.085s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:30,2018-06-09 21:22:32,2.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:32,2018-06-09 21:22:32,0.614s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:32,2018-06-09 21:22:35,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:35,2018-06-09 21:22:35,0.084s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:35,2018-06-09 21:22:36,0.433s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:36,2018-06-09 21:22:39,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:39,2018-06-09 21:22:40,0.811s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:22:40,2018-06-09 21:22:40,0.112s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:22:40,2018-06-09 21:22:40,0.125s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:40,2018-06-09 21:22:43,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:43,2018-06-09 21:22:45,1.764s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:22:45,2018-06-09 21:22:48,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:48,2018-06-09 21:22:48,0.178s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:48,2018-06-09 21:22:49,1.051s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:22:49,2018-06-09 21:22:49,0.290s,PASSED
+"Statement - InpID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_1), ""xpath"", ""equals"", ""//*[@id="" + RequestNo + ""]"", true)",Chrome 66.0.3359.181,,2018-06-09 21:22:49,2018-06-09 21:22:49,0.004s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:22:49,2018-06-09 21:22:50,0.673s,PASSED
+Statement - medicine = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--Alcohol Rub i)),Chrome 66.0.3359.181,,2018-06-09 21:22:50,2018-06-09 21:22:50,0.064s,PASSED
+"Statement - For ([j = 1, j <= medicine - 1, (j++)])",Chrome 66.0.3359.181,,2018-06-09 21:22:50,2018-06-09 21:24:25,1m - 35.446s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-06-09 21:24:25,2018-06-09 21:24:25,0.044s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:24:25,2018-06-09 21:24:26,0.094s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:24:26,2018-06-09 21:24:29,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:24:29,2018-06-09 21:24:29,0.804s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:24:29,2018-06-09 21:24:32,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:24:32,2018-06-09 21:24:32,0.088s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:24:32,2018-06-09 21:24:33,0.430s,PASSED
+closeBrowser,Chrome 66.0.3359.181,,2018-06-09 21:24:33,2018-06-09 21:24:34,0.640s,PASSED
+"Statement - out.println(""Schedule 8 Inpatient Request Are Working Successfully"")",Chrome 66.0.3359.181,,2018-06-09 21:24:34,2018-06-09 21:24:34,0.001s,PASSED
+,,,,,,
+Test Cases/INPATIENT TEST CASES/TC_INR_003 Verify Schedule 12 Inpatient Request Are Working Successfully Or Not,Chrome 66.0.3359.181,,2018-06-09 21:24:34,2018-06-09 21:27:40,3m - 6.835s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-06-09 21:24:34,2018-06-09 21:24:36,2.092s,PASSED
+"Statement - out.println(""Verify Schedule 12 Inpatient Request Are Working Successfully Or Not"")",Chrome 66.0.3359.181,,2018-06-09 21:24:36,2018-06-09 21:24:36,0.000s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-06-09 21:24:36,2018-06-09 21:24:37,1.479s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-06-09 21:24:37,2018-06-09 21:24:39,1.125s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:24:39,2018-06-09 21:24:39,0.588s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:24:39,2018-06-09 21:24:39,0.115s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:24:39,2018-06-09 21:24:39,0.122s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:24:39,2018-06-09 21:24:42,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:24:42,2018-06-09 21:24:43,0.819s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:24:43,2018-06-09 21:24:46,3.001s,PASSED
+scrollToPosition,Chrome 66.0.3359.181,,2018-06-09 21:24:46,2018-06-09 21:24:46,0.012s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:24:46,2018-06-09 21:24:48,2.001s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-06-09 21:24:48,2018-06-09 21:24:49,0.718s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:24:49,2018-06-09 21:24:52,3.001s,PASSED
+refresh,Chrome 66.0.3359.181,,2018-06-09 21:24:52,2018-06-09 21:24:52,0.527s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:24:52,2018-06-09 21:24:55,3.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:24:55,2018-06-09 21:24:56,0.187s,PASSED
+"Statement - Inpatient_RequestNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/input_txtno), ""value"")",Chrome 66.0.3359.181,,2018-06-09 21:24:56,2018-06-09 21:24:56,0.036s,PASSED
+"Statement - RequestNo = Inpatient_RequestNumber.split(""/"")[2]",Chrome 66.0.3359.181,,2018-06-09 21:24:56,2018-06-09 21:24:56,0.001s,PASSED
+"Statement - out.println(""RqID : "" + RequestNo)",Chrome 66.0.3359.181,,2018-06-09 21:24:56,2018-06-09 21:24:56,0.000s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:24:56,2018-06-09 21:24:56,0.174s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC/select_--Select--Alcohol Rub i)),Chrome 66.0.3359.181,,2018-06-09 21:24:56,2018-06-09 21:24:56,0.064s,PASSED
+"Statement - For ([i = 1, i < selectedoptions, (i++)])",Chrome 66.0.3359.181,,2018-06-09 21:24:56,2018-06-09 21:25:05,9.016s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-06-09 21:25:05,2018-06-09 21:25:05,0.042s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:05,2018-06-09 21:25:05,0.079s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:05,2018-06-09 21:25:08,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:08,2018-06-09 21:25:09,0.515s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:09,2018-06-09 21:25:12,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:12,2018-06-09 21:25:12,0.081s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:12,2018-06-09 21:25:12,0.500s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:12,2018-06-09 21:25:15,3.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:15,2018-06-09 21:25:16,0.534s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:25:16,2018-06-09 21:25:16,0.103s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:25:16,2018-06-09 21:25:16,0.106s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:16,2018-06-09 21:25:19,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:19,2018-06-09 21:25:19,0.547s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:19,2018-06-09 21:25:22,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:22,2018-06-09 21:25:23,0.518s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:23,2018-06-09 21:25:25,2.002s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:25:25,2018-06-09 21:25:25,0.155s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:25:25,2018-06-09 21:25:25,0.175s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:25,2018-06-09 21:25:25,0.086s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:25,2018-06-09 21:25:27,2.001s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_KDMC - CMO/input_1), ""xpath"", ""equals"", ""//*[@id="" + RequestNo + ""]"", true)",Chrome 66.0.3359.181,,2018-06-09 21:25:27,2018-06-09 21:25:27,0.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:27,2018-06-09 21:25:27,0.083s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:27,2018-06-09 21:25:29,2.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.181,,2018-06-09 21:25:29,2018-06-09 21:25:30,0.146s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:30,2018-06-09 21:25:32,2.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:32,2018-06-09 21:25:32,0.083s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:32,2018-06-09 21:25:34,2.002s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:34,2018-06-09 21:25:34,0.503s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:34,2018-06-09 21:25:37,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:37,2018-06-09 21:25:37,0.093s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:37,2018-06-09 21:25:38,0.431s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:38,2018-06-09 21:25:41,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:41,2018-06-09 21:25:41,0.671s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:25:41,2018-06-09 21:25:42,0.137s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:25:42,2018-06-09 21:25:42,0.109s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:42,2018-06-09 21:25:45,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:45,2018-06-09 21:25:46,1.480s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:25:46,2018-06-09 21:25:49,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:49,2018-06-09 21:25:49,0.159s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:49,2018-06-09 21:25:50,0.808s,PASSED
+setText,Chrome 66.0.3359.181,,2018-06-09 21:25:50,2018-06-09 21:25:51,0.462s,PASSED
+"Statement - InpID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/input_1), ""xpath"", ""equals"", ""//*[@id="" + RequestNo + ""]"", true)",Chrome 66.0.3359.181,,2018-06-09 21:25:51,2018-06-09 21:25:51,0.003s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:25:51,2018-06-09 21:25:51,0.668s,PASSED
+Statement - medicine = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Inpatient Request/Page_Store/select_--Select--Alcohol Rub i)),Chrome 66.0.3359.181,,2018-06-09 21:25:51,2018-06-09 21:25:51,0.069s,PASSED
+"Statement - For ([j = 1, j <= medicine - 1, (j++)])",Chrome 66.0.3359.181,,2018-06-09 21:25:51,2018-06-09 21:27:32,1m - 40.974s,PASSED
+scrollToElement,Chrome 66.0.3359.181,,2018-06-09 21:27:32,2018-06-09 21:27:32,0.043s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:27:32,2018-06-09 21:27:32,0.096s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:27:32,2018-06-09 21:27:35,3.001s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:27:35,2018-06-09 21:27:36,0.803s,PASSED
+delay,Chrome 66.0.3359.181,,2018-06-09 21:27:36,2018-06-09 21:27:39,3.000s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:27:39,2018-06-09 21:27:39,0.085s,PASSED
+click,Chrome 66.0.3359.181,,2018-06-09 21:27:39,2018-06-09 21:27:40,0.412s,PASSED
+closeBrowser,Chrome 66.0.3359.181,,2018-06-09 21:27:40,2018-06-09 21:27:40,0.630s,PASSED
+"Statement - out.println(""Schedule 12 Inpatient Request Are Working Successfully"")",Chrome 66.0.3359.181,,2018-06-09 21:27:40,2018-06-09 21:27:40,0.001s,PASSED

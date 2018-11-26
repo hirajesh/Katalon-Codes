@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_MOH_12 To Verifiy Moh Request And GRN Schedule 12 Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cca69f98-f8a2-4aa3-9f15-5f57d0aacaa0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TEST,Chrome 66.0.3359.181,,2018-05-31 15:35:50,2018-05-31 15:36:07,16.124s,ERROR
+,,,,,,
+Test Cases/TEST/GRN RECEIVE IN CMS/dp,Chrome 66.0.3359.181,,2018-05-31 15:35:51,2018-05-31 15:36:06,15.165s,ERROR
+openBrowser,Chrome 66.0.3359.181,,2018-05-31 15:35:51,2018-05-31 15:35:54,2.895s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-31 15:35:54,2018-05-31 15:36:00,6.370s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-31 15:36:00,2018-05-31 15:36:01,0.823s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-31 15:36:01,2018-05-31 15:36:02,1.160s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-31 15:36:02,2018-05-31 15:36:05,3.019s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DemoTestData),Chrome 66.0.3359.181,,2018-05-31 15:36:05,2018-05-31 15:36:06,0.601s,PASSED

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select--Alcohol Rub i</name>
+   <tag></tag>
+   <elementGuidId>930cff71-70ab-4828-ba21-c38198b3143e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;optmedicine&quot;)[count(. | //select[@id = 'optmedicine']) = count(//select[@id = 'optmedicine'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>optmedicine</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--Alcohol Rub in handwash, cetyl trimethyl ammounium bromide 0.38 w/v 2 propanol IP 70% v/v with emollients and soothness Calamine LotionConcentrated Instrument Sterlization solution. Each 100 gm contans: Glutaraldehyde 7.0 gms, 1.6-Dihydroxy 2,5- Dioxahexane 8.2 gm, Polymethyl urea derivative 17.6 gm rust inhibitorsDrugs and Chemicals Benzyl Benzoate I.P. (Concentrated)Gamma Benzene HexachlorideGlycerine Pure I.P.Hydrogen Peroxide I.P.Isopropyl AlcoholMagnesium SulphateParaffin LiquidPotassium ParamaganatePovidone lodine U.S.P. should contain povidene lodine 7.5% Betadine scrub solutionSolution containing approx 2% gluteraldhyde with activatorSurface and Environmental disinfectant, composition each 100 gm contains - formaldehyde 11.2% w/v, Gluteraldyde 5.0%, Bensalkonium chloride 5% w/vsurface disinfectant - each 100 gms contain : Ethanol - 10 gms, 2-Propanol - 9 gms, 1-Propanol - 6 gms,  with sprayTurpentine Oil</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;optmedicine&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

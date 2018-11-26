@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PHAR_005 Verify Schedule 5 Pharmacy Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ea548ef-b5b3-4104-939e-ea396a9ed844</testCaseGuid>
+</TestCaseEntity>

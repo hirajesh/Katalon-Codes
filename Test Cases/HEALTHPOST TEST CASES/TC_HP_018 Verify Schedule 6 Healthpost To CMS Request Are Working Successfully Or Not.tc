@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_HP_018 Verify Schedule 6 Healthpost To CMS Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a05bb6b2-c80d-4a9d-8ac5-ab4c20c6d2f8</testCaseGuid>
+</TestCaseEntity>

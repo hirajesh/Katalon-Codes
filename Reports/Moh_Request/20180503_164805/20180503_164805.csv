@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Moh_Request,Chrome 66.0.3359.139,,2018-05-03 16:48:11,2018-05-03 16:49:06,55.431s,FAILED
+,,,,,,
+Test Cases/MohRequestSchedule2,Chrome 66.0.3359.139,,2018-05-03 16:48:11,2018-05-03 16:49:06,54.497s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-03 16:48:11,2018-05-03 16:48:14,2.816s,PASSED
+Statement - i = 1,Chrome 66.0.3359.139,,2018-05-03 16:48:14,2018-05-03 16:48:14,0.001s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-03 16:48:14,2018-05-03 16:48:19,5.065s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-03 16:48:19,2018-05-03 16:48:21,1.137s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-03 16:48:21,2018-05-03 16:48:21,0.882s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-03 16:48:21,2018-05-03 16:48:22,0.155s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-03 16:48:22,2018-05-03 16:48:22,0.139s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-03 16:48:22,2018-05-03 16:48:26,4.022s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-03 16:48:26,2018-05-03 16:48:27,1.444s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-03 16:48:27,2018-05-03 16:48:29,2.003s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-03 16:48:29,2018-05-03 16:48:30,0.628s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-03 16:48:30,2018-05-03 16:48:32,2.002s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-03 16:48:32,2018-05-03 16:48:32,0.226s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-03 16:48:32,2018-05-03 16:48:34,2.001s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(sd/Page_KDMC - CMS/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-03 16:48:34,2018-05-03 16:49:06,31.666s,FAILED

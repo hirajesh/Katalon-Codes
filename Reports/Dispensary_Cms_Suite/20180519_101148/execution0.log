@@ -1,0 +1,2983 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016286</millis>
+  <sequence>24263</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optmedicine\&amp;quot;)[count(. | //select[@id = &amp;apos;optmedicine&amp;apos;]) = count(//select[@id = &amp;apos;optmedicine&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016301</millis>
+  <sequence>24264</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index parameters</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016313</millis>
+  <sequence>24265</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; with index in [15]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016524</millis>
+  <sequence>24266</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option with index 15 is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016524</millis>
+  <sequence>24267</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [15] are selected on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016525</millis>
+  <sequence>24268</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016525</millis>
+  <sequence>24269</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016525</millis>
+  <sequence>24270</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016527</millis>
+  <sequence>24271</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016527</millis>
+  <sequence>24272</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016527</millis>
+  <sequence>24273</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016527</millis>
+  <sequence>24274</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016539</millis>
+  <sequence>24275</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016539</millis>
+  <sequence>24276</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016555</millis>
+  <sequence>24277</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016555</millis>
+  <sequence>24278</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016568</millis>
+  <sequence>24279</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016568</millis>
+  <sequence>24280</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; to value &amp;apos;100&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016596</millis>
+  <sequence>24281</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;100&amp;apos; is set on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016596</millis>
+  <sequence>24282</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016596</millis>
+  <sequence>24283</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016596</millis>
+  <sequence>24284</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016598</millis>
+  <sequence>24285</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016598</millis>
+  <sequence>24286</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016598</millis>
+  <sequence>24287</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnadd\&amp;quot;)[count(. | //button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016611</millis>
+  <sequence>24288</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnadd\&amp;quot;)[count(. | //button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016611</millis>
+  <sequence>24289</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016649</millis>
+  <sequence>24290</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016649</millis>
+  <sequence>24291</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016649</millis>
+  <sequence>24292</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016649</millis>
+  <sequence>24293</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016651</millis>
+  <sequence>24294</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016651</millis>
+  <sequence>24295</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index range</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016652</millis>
+  <sequence>24296</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Converting range parameter &amp;apos;10&amp;apos; to index array</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016652</millis>
+  <sequence>24297</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Range parameter &amp;apos;10&amp;apos; is converted to index array [10]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016652</millis>
+  <sequence>24298</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016652</millis>
+  <sequence>24299</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optcategory\&amp;quot;)[count(. | //select[@id = &amp;apos;optcategory&amp;apos;]) = count(//select[@id = &amp;apos;optcategory&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016678</millis>
+  <sequence>24300</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optcategory\&amp;quot;)[count(. | //select[@id = &amp;apos;optcategory&amp;apos;]) = count(//select[@id = &amp;apos;optcategory&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016693</millis>
+  <sequence>24301</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index parameters</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016705</millis>
+  <sequence>24302</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos; with index in [10]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016867</millis>
+  <sequence>24303</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option with index 10 is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016868</millis>
+  <sequence>24304</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [10] are selected on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016868</millis>
+  <sequence>24305</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016868</millis>
+  <sequence>24306</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016868</millis>
+  <sequence>24307</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016870</millis>
+  <sequence>24308</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016870</millis>
+  <sequence>24309</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index range</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016870</millis>
+  <sequence>24310</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Converting range parameter &amp;apos;16&amp;apos; to index array</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016870</millis>
+  <sequence>24311</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Range parameter &amp;apos;16&amp;apos; is converted to index array [16]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016870</millis>
+  <sequence>24312</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016871</millis>
+  <sequence>24313</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optmedicine\&amp;quot;)[count(. | //select[@id = &amp;apos;optmedicine&amp;apos;]) = count(//select[@id = &amp;apos;optmedicine&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016885</millis>
+  <sequence>24314</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optmedicine\&amp;quot;)[count(. | //select[@id = &amp;apos;optmedicine&amp;apos;]) = count(//select[@id = &amp;apos;optmedicine&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016900</millis>
+  <sequence>24315</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index parameters</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:16</date>
+  <millis>1526706016912</millis>
+  <sequence>24316</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; with index in [16]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017137</millis>
+  <sequence>24317</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option with index 16 is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017137</millis>
+  <sequence>24318</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [16] are selected on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017138</millis>
+  <sequence>24319</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017138</millis>
+  <sequence>24320</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017138</millis>
+  <sequence>24321</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017139</millis>
+  <sequence>24322</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017139</millis>
+  <sequence>24323</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017139</millis>
+  <sequence>24324</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017140</millis>
+  <sequence>24325</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017151</millis>
+  <sequence>24326</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017151</millis>
+  <sequence>24327</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017177</millis>
+  <sequence>24328</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017177</millis>
+  <sequence>24329</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017190</millis>
+  <sequence>24330</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017190</millis>
+  <sequence>24331</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; to value &amp;apos;100&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017221</millis>
+  <sequence>24332</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;100&amp;apos; is set on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017221</millis>
+  <sequence>24333</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017221</millis>
+  <sequence>24334</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017221</millis>
+  <sequence>24335</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017223</millis>
+  <sequence>24336</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017223</millis>
+  <sequence>24337</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017223</millis>
+  <sequence>24338</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnadd\&amp;quot;)[count(. | //button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017234</millis>
+  <sequence>24339</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnadd\&amp;quot;)[count(. | //button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017234</millis>
+  <sequence>24340</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017282</millis>
+  <sequence>24341</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017283</millis>
+  <sequence>24342</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017283</millis>
+  <sequence>24343</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017283</millis>
+  <sequence>24344</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017285</millis>
+  <sequence>24345</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017285</millis>
+  <sequence>24346</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index range</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017285</millis>
+  <sequence>24347</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Converting range parameter &amp;apos;10&amp;apos; to index array</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017285</millis>
+  <sequence>24348</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Range parameter &amp;apos;10&amp;apos; is converted to index array [10]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017285</millis>
+  <sequence>24349</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017285</millis>
+  <sequence>24350</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optcategory\&amp;quot;)[count(. | //select[@id = &amp;apos;optcategory&amp;apos;]) = count(//select[@id = &amp;apos;optcategory&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017300</millis>
+  <sequence>24351</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optcategory\&amp;quot;)[count(. | //select[@id = &amp;apos;optcategory&amp;apos;]) = count(//select[@id = &amp;apos;optcategory&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017315</millis>
+  <sequence>24352</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index parameters</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017326</millis>
+  <sequence>24353</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos; with index in [10]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017489</millis>
+  <sequence>24354</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option with index 10 is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017489</millis>
+  <sequence>24355</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [10] are selected on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017489</millis>
+  <sequence>24356</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017489</millis>
+  <sequence>24357</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017489</millis>
+  <sequence>24358</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017491</millis>
+  <sequence>24359</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017491</millis>
+  <sequence>24360</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index range</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017491</millis>
+  <sequence>24361</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Converting range parameter &amp;apos;17&amp;apos; to index array</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017491</millis>
+  <sequence>24362</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Range parameter &amp;apos;17&amp;apos; is converted to index array [17]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017491</millis>
+  <sequence>24363</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017491</millis>
+  <sequence>24364</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optmedicine\&amp;quot;)[count(. | //select[@id = &amp;apos;optmedicine&amp;apos;]) = count(//select[@id = &amp;apos;optmedicine&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017508</millis>
+  <sequence>24365</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optmedicine\&amp;quot;)[count(. | //select[@id = &amp;apos;optmedicine&amp;apos;]) = count(//select[@id = &amp;apos;optmedicine&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017524</millis>
+  <sequence>24366</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index parameters</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017535</millis>
+  <sequence>24367</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; with index in [17]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017755</millis>
+  <sequence>24368</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option with index 17 is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017756</millis>
+  <sequence>24369</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [17] are selected on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017756</millis>
+  <sequence>24370</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017756</millis>
+  <sequence>24371</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017756</millis>
+  <sequence>24372</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017757</millis>
+  <sequence>24373</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017758</millis>
+  <sequence>24374</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017758</millis>
+  <sequence>24375</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017758</millis>
+  <sequence>24376</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017769</millis>
+  <sequence>24377</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017769</millis>
+  <sequence>24378</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017782</millis>
+  <sequence>24379</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017782</millis>
+  <sequence>24380</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017810</millis>
+  <sequence>24381</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017810</millis>
+  <sequence>24382</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; to value &amp;apos;100&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017838</millis>
+  <sequence>24383</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;100&amp;apos; is set on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017838</millis>
+  <sequence>24384</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017838</millis>
+  <sequence>24385</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017838</millis>
+  <sequence>24386</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017840</millis>
+  <sequence>24387</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017840</millis>
+  <sequence>24388</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017840</millis>
+  <sequence>24389</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnadd\&amp;quot;)[count(. | //button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017852</millis>
+  <sequence>24390</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnadd\&amp;quot;)[count(. | //button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017852</millis>
+  <sequence>24391</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017900</millis>
+  <sequence>24392</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017901</millis>
+  <sequence>24393</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017901</millis>
+  <sequence>24394</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017901</millis>
+  <sequence>24395</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017903</millis>
+  <sequence>24396</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017903</millis>
+  <sequence>24397</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index range</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017903</millis>
+  <sequence>24398</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Converting range parameter &amp;apos;10&amp;apos; to index array</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017903</millis>
+  <sequence>24399</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Range parameter &amp;apos;10&amp;apos; is converted to index array [10]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017903</millis>
+  <sequence>24400</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017904</millis>
+  <sequence>24401</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optcategory\&amp;quot;)[count(. | //select[@id = &amp;apos;optcategory&amp;apos;]) = count(//select[@id = &amp;apos;optcategory&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017917</millis>
+  <sequence>24402</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optcategory\&amp;quot;)[count(. | //select[@id = &amp;apos;optcategory&amp;apos;]) = count(//select[@id = &amp;apos;optcategory&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017933</millis>
+  <sequence>24403</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index parameters</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:17</date>
+  <millis>1526706017952</millis>
+  <sequence>24404</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos; with index in [10]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018111</millis>
+  <sequence>24405</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option with index 10 is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018111</millis>
+  <sequence>24406</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [10] are selected on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Schedule 1Inj&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018111</millis>
+  <sequence>24407</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018111</millis>
+  <sequence>24408</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018112</millis>
+  <sequence>24409</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018113</millis>
+  <sequence>24410</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018114</millis>
+  <sequence>24411</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index range</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018114</millis>
+  <sequence>24412</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Converting range parameter &amp;apos;18&amp;apos; to index array</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018114</millis>
+  <sequence>24413</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Range parameter &amp;apos;18&amp;apos; is converted to index array [18]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018114</millis>
+  <sequence>24414</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018114</millis>
+  <sequence>24415</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optmedicine\&amp;quot;)[count(. | //select[@id = &amp;apos;optmedicine&amp;apos;]) = count(//select[@id = &amp;apos;optmedicine&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018125</millis>
+  <sequence>24416</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;optmedicine\&amp;quot;)[count(. | //select[@id = &amp;apos;optmedicine&amp;apos;]) = count(//select[@id = &amp;apos;optmedicine&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018142</millis>
+  <sequence>24417</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index parameters</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018156</millis>
+  <sequence>24418</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos; with index in [18]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018394</millis>
+  <sequence>24419</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option with index 18 is selected</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018394</millis>
+  <sequence>24420</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with index in [18] are selected on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/select_--Select--Adernaline 0.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018394</millis>
+  <sequence>24421</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByIndex</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018394</millis>
+  <sequence>24422</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018394</millis>
+  <sequence>24423</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018396</millis>
+  <sequence>24424</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018396</millis>
+  <sequence>24425</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018396</millis>
+  <sequence>24426</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018396</millis>
+  <sequence>24427</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018408</millis>
+  <sequence>24428</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018408</millis>
+  <sequence>24429</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018423</millis>
+  <sequence>24430</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018423</millis>
+  <sequence>24431</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018434</millis>
+  <sequence>24432</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;txttreat\&amp;quot;)[count(. | //input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;]) = count(//input[@id = &amp;apos;txttreat&amp;apos; and @type = &amp;apos;text&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018434</millis>
+  <sequence>24433</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos; to value &amp;apos;100&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018463</millis>
+  <sequence>24434</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;100&amp;apos; is set on object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_txttreat&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018463</millis>
+  <sequence>24435</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018463</millis>
+  <sequence>24436</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018463</millis>
+  <sequence>24437</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018465</millis>
+  <sequence>24438</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018465</millis>
+  <sequence>24439</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018465</millis>
+  <sequence>24440</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnadd\&amp;quot;)[count(. | //button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018478</millis>
+  <sequence>24441</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnadd\&amp;quot;)[count(. | //button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnadd&amp;apos; and (text() = &amp;apos;Add&amp;apos; or . = &amp;apos;Add&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018478</millis>
+  <sequence>24442</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018519</millis>
+  <sequence>24443</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_Add&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018519</millis>
+  <sequence>24444</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018519</millis>
+  <sequence>24445</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - For ([e = 1, e &amp;lt;= medicineslength - 1, (e++)])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018519</millis>
+  <sequence>24446</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">71</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018519</millis>
+  <sequence>24447</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018521</millis>
+  <sequence>24448</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018522</millis>
+  <sequence>24449</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018522</millis>
+  <sequence>24450</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018522</millis>
+  <sequence>24451</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnsave\&amp;quot;)[count(. | //input[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnsave&amp;apos;]) = count(//input[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnsave&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018547</millis>
+  <sequence>24452</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnsave\&amp;quot;)[count(. | //input[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnsave&amp;apos;]) = count(//input[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnsave&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018547</millis>
+  <sequence>24453</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scrolling to object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018558</millis>
+  <sequence>24454</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018558</millis>
+  <sequence>24455</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018558</millis>
+  <sequence>24456</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">73</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018559</millis>
+  <sequence>24457</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018560</millis>
+  <sequence>24458</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018560</millis>
+  <sequence>24459</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018560</millis>
+  <sequence>24460</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnsave\&amp;quot;)[count(. | //input[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnsave&amp;apos;]) = count(//input[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnsave&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018573</millis>
+  <sequence>24461</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnsave\&amp;quot;)[count(. | //input[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnsave&amp;apos;]) = count(//input[@type = &amp;apos;button&amp;apos; and @id = &amp;apos;btnsave&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018573</millis>
+  <sequence>24462</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018634</millis>
+  <sequence>24463</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/input_btnsave&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018634</millis>
+  <sequence>24464</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018634</millis>
+  <sequence>24465</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:18</date>
+  <millis>1526706018635</millis>
+  <sequence>24466</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021635</millis>
+  <sequence>24467</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021635</millis>
+  <sequence>24468</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021635</millis>
+  <sequence>24469</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DispensaryToCms/Page_Dispensary Store/font_PRNO18052018174))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">77</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021635</millis>
+  <sequence>24470</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/font_PRNO18052018174&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021638</millis>
+  <sequence>24471</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021639</millis>
+  <sequence>24472</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021639</millis>
+  <sequence>24473</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/font_PRNO18052018174&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;skin-blue  pace-done modal-open\&amp;quot;]/div[@class=\&amp;quot;bootbox modal fade bootbox-alert in\&amp;quot;]/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-body\&amp;quot;]/div[@class=\&amp;quot;bootbox-body\&amp;quot;]/b[1]/font[1]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021675</millis>
+  <sequence>24474</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/font_PRNO18052018174&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;skin-blue  pace-done modal-open\&amp;quot;]/div[@class=\&amp;quot;bootbox modal fade bootbox-alert in\&amp;quot;]/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-body\&amp;quot;]/div[@class=\&amp;quot;bootbox-body\&amp;quot;]/b[1]/font[1]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021675</millis>
+  <sequence>24475</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Getting text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/font_PRNO18052018174&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021702</millis>
+  <sequence>24476</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/font_PRNO18052018174&amp;apos; is: &amp;apos;PRNO/19052018/204&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021702</millis>
+  <sequence>24477</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DispensaryToCms/Page_Dispensary Store/font_PRNO18052018174))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021702</millis>
+  <sequence>24478</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - out.println(RN1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">79</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021702</millis>
+  <sequence>24479</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - out.println(RN1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021703</millis>
+  <sequence>24480</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - RID = RN1.split(\&amp;quot;/\&amp;quot;)[2]</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">81</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021703</millis>
+  <sequence>24481</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - RID = RN1.split(\&amp;quot;/\&amp;quot;)[2]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021703</millis>
+  <sequence>24482</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">83</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021703</millis>
+  <sequence>24483</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_OK&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021706</millis>
+  <sequence>24484</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021706</millis>
+  <sequence>24485</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021706</millis>
+  <sequence>24486</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_OK&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;skin-blue  pace-done modal-open\&amp;quot;]/div[@class=\&amp;quot;bootbox modal fade bootbox-alert in\&amp;quot;]/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-primary\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021730</millis>
+  <sequence>24487</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_OK&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;skin-blue  pace-done modal-open\&amp;quot;]/div[@class=\&amp;quot;bootbox modal fade bootbox-alert in\&amp;quot;]/div[@class=\&amp;quot;modal-dialog\&amp;quot;]/div[@class=\&amp;quot;modal-content\&amp;quot;]/div[@class=\&amp;quot;modal-footer\&amp;quot;]/button[@class=\&amp;quot;btn btn-primary\&amp;quot;][count(. | //button[@type = &amp;apos;button&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)]) = count(//button[@type = &amp;apos;button&amp;apos; and (text() = &amp;apos;OK&amp;apos; or . = &amp;apos;OK&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:21</date>
+  <millis>1526706021730</millis>
+  <sequence>24488</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_OK&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:22</date>
+  <millis>1526706022198</millis>
+  <sequence>24489</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/button_OK&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:22</date>
+  <millis>1526706022199</millis>
+  <sequence>24490</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:22</date>
+  <millis>1526706022199</millis>
+  <sequence>24491</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">85</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:22</date>
+  <millis>1526706022199</millis>
+  <sequence>24492</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025200</millis>
+  <sequence>24493</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025200</millis>
+  <sequence>24494</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025200</millis>
+  <sequence>24495</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">87</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025200</millis>
+  <sequence>24496</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_dropdown-toggle&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025202</millis>
+  <sequence>24497</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025202</millis>
+  <sequence>24498</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025202</millis>
+  <sequence>24499</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_dropdown-toggle&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;skin-blue  pace-done\&amp;quot;]/header[@class=\&amp;quot;header\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/nav[@class=\&amp;quot;navbar navbar-static-top\&amp;quot;]/div[@class=\&amp;quot;navbar-right\&amp;quot;]/ul[@class=\&amp;quot;nav navbar-nav\&amp;quot;]/li[@class=\&amp;quot;dropdown user user-menu\&amp;quot;]/a[@class=\&amp;quot;dropdown-toggle\&amp;quot;][count(. | //*[@class = &amp;apos;dropdown-toggle&amp;apos; and @data-toggle = &amp;apos;dropdown&amp;apos;]) = count(//*[@class = &amp;apos;dropdown-toggle&amp;apos; and @data-toggle = &amp;apos;dropdown&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025223</millis>
+  <sequence>24500</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_dropdown-toggle&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;skin-blue  pace-done\&amp;quot;]/header[@class=\&amp;quot;header\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/nav[@class=\&amp;quot;navbar navbar-static-top\&amp;quot;]/div[@class=\&amp;quot;navbar-right\&amp;quot;]/ul[@class=\&amp;quot;nav navbar-nav\&amp;quot;]/li[@class=\&amp;quot;dropdown user user-menu\&amp;quot;]/a[@class=\&amp;quot;dropdown-toggle\&amp;quot;][count(. | //*[@class = &amp;apos;dropdown-toggle&amp;apos; and @data-toggle = &amp;apos;dropdown&amp;apos;]) = count(//*[@class = &amp;apos;dropdown-toggle&amp;apos; and @data-toggle = &amp;apos;dropdown&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025224</millis>
+  <sequence>24501</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_dropdown-toggle&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025279</millis>
+  <sequence>24502</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_dropdown-toggle&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025280</millis>
+  <sequence>24503</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025280</millis>
+  <sequence>24504</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">89</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025280</millis>
+  <sequence>24505</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_Sign out&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025281</millis>
+  <sequence>24506</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025282</millis>
+  <sequence>24507</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025282</millis>
+  <sequence>24508</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_Sign out&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;aSign\&amp;quot;)[count(. | //a[@id = &amp;apos;aSign&amp;apos; and (text() = &amp;apos;Sign out&amp;apos; or . = &amp;apos;Sign out&amp;apos;)]) = count(//a[@id = &amp;apos;aSign&amp;apos; and (text() = &amp;apos;Sign out&amp;apos; or . = &amp;apos;Sign out&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025302</millis>
+  <sequence>24509</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_Sign out&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;aSign\&amp;quot;)[count(. | //a[@id = &amp;apos;aSign&amp;apos; and (text() = &amp;apos;Sign out&amp;apos; or . = &amp;apos;Sign out&amp;apos;)]) = count(//a[@id = &amp;apos;aSign&amp;apos; and (text() = &amp;apos;Sign out&amp;apos; or . = &amp;apos;Sign out&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025303</millis>
+  <sequence>24510</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_Sign out&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025893</millis>
+  <sequence>24511</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/DispensaryToCms/Page_Dispensary Store/a_Sign out&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025893</millis>
+  <sequence>24512</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025893</millis>
+  <sequence>24513</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">91</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:25</date>
+  <millis>1526706025894</millis>
+  <sequence>24514</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:28</date>
+  <millis>1526706028894</millis>
+  <sequence>24515</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:28</date>
+  <millis>1526706028894</millis>
+  <sequence>24516</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:28</date>
+  <millis>1526706028894</millis>
+  <sequence>24517</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">97</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:28</date>
+  <millis>1526706028894</millis>
+  <sequence>24518</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:28</date>
+  <millis>1526706028894</millis>
+  <sequence>24519</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;http://192.168.137.1/multihospital_new/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:29</date>
+  <millis>1526706029405</millis>
+  <sequence>24520</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://192.168.137.1/multihospital_new/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:29</date>
+  <millis>1526706029406</millis>
+  <sequence>24521</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:29</date>
+  <millis>1526706029406</millis>
+  <sequence>24522</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">99</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2018-05-19T10:30:29</date>
+  <millis>1526706029406</millis>
+  <sequence>24523</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/DispensaryToCms/Page_KDMC/a_CMO&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:29</date>
+  <millis>1526706029408</millis>
+  <sequence>24524</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:29</date>
+  <millis>1526706029408</millis>
+  <sequence>24525</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:29</date>
+  <millis>1526706029408</millis>
+  <sequence>24526</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/DispensaryToCms/Page_KDMC/a_CMO&amp;apos; located by &amp;apos;By.xpath: //a[@href = &amp;apos;CMOLogin.aspx&amp;apos; and @title = &amp;apos;Chief Medical Officers&amp;apos; and (text() = &amp;apos;CMO&amp;apos; or . = &amp;apos;CMO&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:29</date>
+  <millis>1526706029428</millis>
+  <sequence>24527</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/DispensaryToCms/Page_KDMC/a_CMO&amp;apos; located by &amp;apos;By.xpath: //a[@href = &amp;apos;CMOLogin.aspx&amp;apos; and @title = &amp;apos;Chief Medical Officers&amp;apos; and (text() = &amp;apos;CMO&amp;apos; or . = &amp;apos;CMO&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-19T10:30:29</date>
+  <millis>1526706029428</millis>
+  <sequence>24528</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/DispensaryToCms/Page_KDMC/a_CMO&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>

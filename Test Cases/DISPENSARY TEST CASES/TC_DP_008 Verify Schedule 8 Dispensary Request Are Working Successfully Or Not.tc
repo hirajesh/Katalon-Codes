@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DP_008 Verify Schedule 8 Dispensary Request Are Working Successfully Or Not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aca165a3-580d-4c0d-8d92-e37e8c9a56f0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,748 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Pharmacy_Suite,Chrome 66.0.3359.139,,2018-05-16 19:33:18,2018-05-16 20:01:00,27m - 41.623s,FAILED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_002 Verify Schedule 2 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:33:19,2018-05-16 19:36:33,3m - 14.674s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:33:19,2018-05-16 19:33:22,3.160s,PASSED
+"Statement - out.println(""Verify Schedule 2 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:33:22,2018-05-16 19:33:22,0.012s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:33:22,2018-05-16 19:33:26,3.786s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:33:26,2018-05-16 19:33:27,1.149s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:33:27,2018-05-16 19:33:28,0.746s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:33:28,2018-05-16 19:33:28,0.126s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:33:28,2018-05-16 19:33:28,0.115s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:33:28,2018-05-16 19:33:31,3.017s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:33:31,2018-05-16 19:33:32,0.972s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:33:32,2018-05-16 19:33:35,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:33:35,2018-05-16 19:33:36,1.171s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:33:36,2018-05-16 19:33:39,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:33:39,2018-05-16 19:33:40,0.085s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:33:40,2018-05-16 19:33:40,0.843s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:33:40,2018-05-16 19:33:41,0.187s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:33:41,2018-05-16 19:33:41,0.099s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:33:41,2018-05-16 19:35:41,2m - 0.307s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:35:41,2018-05-16 19:35:41,0.046s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:35:41,2018-05-16 19:35:41,0.001s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:35:41,2018-05-16 19:35:41,0.003s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:35:41,2018-05-16 19:35:41,0.040s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:35:41,2018-05-16 19:35:41,0.105s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:35:41,2018-05-16 19:35:44,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:35:44,2018-05-16 19:35:45,0.671s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:35:45,2018-05-16 19:35:48,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:35:48,2018-05-16 19:35:49,0.721s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:35:49,2018-05-16 19:35:52,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:35:52,2018-05-16 19:35:52,0.115s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:35:52,2018-05-16 19:35:52,0.592s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:35:52,2018-05-16 19:35:55,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:35:55,2018-05-16 19:35:56,0.667s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:35:56,2018-05-16 19:35:56,0.103s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:35:56,2018-05-16 19:35:56,0.098s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:35:56,2018-05-16 19:35:59,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:35:59,2018-05-16 19:36:00,0.969s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:36:00,2018-05-16 19:36:01,1.118s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:36:01,2018-05-16 19:36:02,0.284s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:36:02,2018-05-16 19:36:02,0.157s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:36:02,2018-05-16 19:36:02,0.089s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:36:02,2018-05-16 19:36:02,0.012s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:36:02,2018-05-16 19:36:33,31.487s,FAILED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_003 Verify Schedule 3 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:36:33,2018-05-16 19:40:21,3m - 47.633s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:36:34,2018-05-16 19:36:36,2.635s,PASSED
+"Statement - out.println(""Verify Schedule 3 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:36:36,2018-05-16 19:36:36,0.001s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:36:36,2018-05-16 19:36:38,2.073s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:36:38,2018-05-16 19:36:39,1.123s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:36:39,2018-05-16 19:36:40,0.446s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:36:40,2018-05-16 19:36:40,0.115s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:36:40,2018-05-16 19:36:40,0.105s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:36:40,2018-05-16 19:36:43,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:36:43,2018-05-16 19:36:44,1.071s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:36:44,2018-05-16 19:36:47,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:36:47,2018-05-16 19:36:49,1.610s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:36:49,2018-05-16 19:36:52,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:36:52,2018-05-16 19:36:52,0.154s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:36:52,2018-05-16 19:36:53,0.765s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:36:53,2018-05-16 19:36:53,0.169s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:36:53,2018-05-16 19:36:53,0.068s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:36:53,2018-05-16 19:37:12,18.629s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:37:12,2018-05-16 19:37:12,0.041s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:37:12,2018-05-16 19:37:12,0.001s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:37:12,2018-05-16 19:37:12,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:37:12,2018-05-16 19:37:12,0.033s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:12,2018-05-16 19:37:12,0.098s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:12,2018-05-16 19:37:15,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:15,2018-05-16 19:37:16,0.997s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:16,2018-05-16 19:37:19,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:19,2018-05-16 19:37:19,0.776s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:19,2018-05-16 19:37:22,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:22,2018-05-16 19:37:23,0.097s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:23,2018-05-16 19:37:23,0.506s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:23,2018-05-16 19:37:26,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:26,2018-05-16 19:37:27,0.463s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:37:27,2018-05-16 19:37:27,0.100s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:37:27,2018-05-16 19:37:27,0.100s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:27,2018-05-16 19:37:30,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:30,2018-05-16 19:37:30,0.755s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:30,2018-05-16 19:37:31,0.557s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:37:31,2018-05-16 19:37:31,0.168s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:37:31,2018-05-16 19:37:31,0.150s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:31,2018-05-16 19:37:31,0.083s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:37:31,2018-05-16 19:37:31,0.006s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:31,2018-05-16 19:37:32,0.591s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:32,2018-05-16 19:37:35,3.000s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:37:35,2018-05-16 19:37:35,0.215s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:35,2018-05-16 19:37:35,0.083s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:35,2018-05-16 19:37:38,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:38,2018-05-16 19:37:39,0.430s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:39,2018-05-16 19:37:42,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:42,2018-05-16 19:37:42,0.103s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:42,2018-05-16 19:37:42,0.379s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:42,2018-05-16 19:37:45,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:45,2018-05-16 19:37:46,0.506s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:37:46,2018-05-16 19:37:46,0.127s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:37:46,2018-05-16 19:37:46,0.100s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:46,2018-05-16 19:37:49,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:49,2018-05-16 19:37:50,0.876s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:50,2018-05-16 19:37:53,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:53,2018-05-16 19:37:53,0.099s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:53,2018-05-16 19:37:54,0.593s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:54,2018-05-16 19:37:56,2.002s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:37:56,2018-05-16 19:37:56,0.248s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:56,2018-05-16 19:37:58,2.001s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:37:58,2018-05-16 19:37:58,0.012s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:37:58,2018-05-16 19:37:58,0.555s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:37:58,2018-05-16 19:38:00,2.002s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/select_--Select--Amlodepin -5)),Chrome 66.0.3359.139,,2018-05-16 19:38:00,2018-05-16 19:38:00,0.067s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.139,,2018-05-16 19:38:00,2018-05-16 19:40:13,2m - 12.525s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:40:13,2018-05-16 19:40:13,0.060s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:13,2018-05-16 19:40:13,0.099s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:40:13,2018-05-16 19:40:16,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:16,2018-05-16 19:40:17,0.627s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:40:17,2018-05-16 19:40:20,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:20,2018-05-16 19:40:20,0.112s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:20,2018-05-16 19:40:20,0.395s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 19:40:20,2018-05-16 19:40:21,0.640s,PASSED
+"Statement - out.println(""Schedule 3 Pharmacy Request Are Working Successfully"")",Chrome 66.0.3359.139,,2018-05-16 19:40:21,2018-05-16 19:40:21,0.001s,PASSED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_004 Verify Schedule 4 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:40:21,2018-05-16 19:42:37,2m - 16.271s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:40:21,2018-05-16 19:40:23,1.964s,PASSED
+"Statement - out.println(""Verify Schedule 4 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:40:23,2018-05-16 19:40:23,0.000s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:40:23,2018-05-16 19:40:25,1.448s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:40:25,2018-05-16 19:40:26,1.133s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:26,2018-05-16 19:40:27,0.821s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:40:27,2018-05-16 19:40:27,0.111s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:40:27,2018-05-16 19:40:27,0.093s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:40:27,2018-05-16 19:40:30,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:30,2018-05-16 19:40:31,1.113s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:40:31,2018-05-16 19:40:34,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:34,2018-05-16 19:40:35,1.303s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:40:35,2018-05-16 19:40:38,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:38,2018-05-16 19:40:38,0.098s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:38,2018-05-16 19:40:39,0.807s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:40:39,2018-05-16 19:40:39,0.167s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:40:39,2018-05-16 19:40:39,0.065s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:40:39,2018-05-16 19:40:46,6.237s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:40:46,2018-05-16 19:40:46,0.032s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:40:46,2018-05-16 19:40:46,0.000s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:40:46,2018-05-16 19:40:46,0.002s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:40:46,2018-05-16 19:40:46,0.030s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:46,2018-05-16 19:40:46,0.072s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:40:46,2018-05-16 19:40:49,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:49,2018-05-16 19:40:49,0.661s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:40:49,2018-05-16 19:40:52,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:52,2018-05-16 19:40:53,1.020s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:40:53,2018-05-16 19:40:56,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:56,2018-05-16 19:40:57,0.129s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:40:57,2018-05-16 19:40:57,0.725s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:40:57,2018-05-16 19:41:00,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:00,2018-05-16 19:41:01,0.546s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:41:01,2018-05-16 19:41:01,0.118s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:41:01,2018-05-16 19:41:01,0.129s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:01,2018-05-16 19:41:04,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:04,2018-05-16 19:41:05,0.770s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:05,2018-05-16 19:41:05,0.554s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:41:05,2018-05-16 19:41:06,0.175s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:41:06,2018-05-16 19:41:06,0.145s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:06,2018-05-16 19:41:06,0.076s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:41:06,2018-05-16 19:41:06,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:06,2018-05-16 19:41:06,0.592s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:06,2018-05-16 19:41:09,3.002s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:41:09,2018-05-16 19:41:10,0.158s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:10,2018-05-16 19:41:10,0.088s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:10,2018-05-16 19:41:13,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:13,2018-05-16 19:41:13,0.444s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:13,2018-05-16 19:41:16,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:16,2018-05-16 19:41:16,0.103s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:16,2018-05-16 19:41:17,0.456s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:17,2018-05-16 19:41:20,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:20,2018-05-16 19:41:20,0.644s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:41:20,2018-05-16 19:41:20,0.107s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:41:20,2018-05-16 19:41:20,0.114s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:20,2018-05-16 19:41:23,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:23,2018-05-16 19:41:24,0.988s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:24,2018-05-16 19:41:27,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:27,2018-05-16 19:41:28,0.091s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:28,2018-05-16 19:41:28,0.704s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:28,2018-05-16 19:41:30,2.001s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:41:30,2018-05-16 19:41:30,0.237s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:30,2018-05-16 19:41:32,2.001s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:41:32,2018-05-16 19:41:32,0.003s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:41:32,2018-05-16 19:41:33,0.486s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:41:33,2018-05-16 19:41:35,2.001s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/select_--Select--Amlodepin -5)),Chrome 66.0.3359.139,,2018-05-16 19:41:35,2018-05-16 19:41:35,0.079s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.139,,2018-05-16 19:41:35,2018-05-16 19:42:29,53.757s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:42:29,2018-05-16 19:42:29,0.032s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:42:29,2018-05-16 19:42:29,0.087s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:42:29,2018-05-16 19:42:32,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:42:32,2018-05-16 19:42:33,0.657s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:42:33,2018-05-16 19:42:36,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:42:36,2018-05-16 19:42:36,0.099s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:42:36,2018-05-16 19:42:37,0.849s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 19:42:37,2018-05-16 19:42:37,0.648s,PASSED
+"Statement - out.println(""Schedule 4 Pharmacy Request Are Working Successfully"")",Chrome 66.0.3359.139,,2018-05-16 19:42:37,2018-05-16 19:42:37,0.000s,PASSED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_005 Verify Schedule 5 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:42:37,2018-05-16 19:44:58,2m - 21.050s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:42:37,2018-05-16 19:42:40,2.234s,PASSED
+"Statement - out.println(""Verify Schedule 5 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:42:40,2018-05-16 19:42:40,0.000s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:42:40,2018-05-16 19:42:42,2.800s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:42:42,2018-05-16 19:42:44,1.137s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:42:44,2018-05-16 19:42:44,0.491s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:42:44,2018-05-16 19:42:44,0.119s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:42:44,2018-05-16 19:42:44,0.109s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:42:44,2018-05-16 19:42:47,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:42:47,2018-05-16 19:42:48,0.658s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:42:48,2018-05-16 19:42:51,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:42:51,2018-05-16 19:42:52,1.503s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:42:52,2018-05-16 19:42:55,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:42:55,2018-05-16 19:42:56,0.089s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:42:56,2018-05-16 19:42:56,0.675s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:42:56,2018-05-16 19:42:56,0.188s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:42:56,2018-05-16 19:42:57,0.073s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:42:57,2018-05-16 19:43:03,6.909s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:43:03,2018-05-16 19:43:03,0.038s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:43:03,2018-05-16 19:43:03,0.000s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:43:03,2018-05-16 19:43:03,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:43:03,2018-05-16 19:43:03,0.040s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:03,2018-05-16 19:43:04,0.075s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:04,2018-05-16 19:43:07,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:07,2018-05-16 19:43:07,0.688s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:07,2018-05-16 19:43:10,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:10,2018-05-16 19:43:11,0.955s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:11,2018-05-16 19:43:14,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:14,2018-05-16 19:43:14,0.085s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:14,2018-05-16 19:43:15,0.617s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:15,2018-05-16 19:43:18,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:18,2018-05-16 19:43:19,0.609s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:43:19,2018-05-16 19:43:19,0.100s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:43:19,2018-05-16 19:43:19,0.104s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:19,2018-05-16 19:43:22,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:22,2018-05-16 19:43:22,0.564s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:22,2018-05-16 19:43:23,0.383s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:43:23,2018-05-16 19:43:23,0.152s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:43:23,2018-05-16 19:43:23,0.142s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:23,2018-05-16 19:43:23,0.081s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:43:23,2018-05-16 19:43:23,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:23,2018-05-16 19:43:24,0.591s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:24,2018-05-16 19:43:27,3.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:43:27,2018-05-16 19:43:27,0.143s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:27,2018-05-16 19:43:27,0.071s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:27,2018-05-16 19:43:30,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:30,2018-05-16 19:43:30,0.622s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:30,2018-05-16 19:43:33,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:33,2018-05-16 19:43:34,0.092s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:34,2018-05-16 19:43:35,0.948s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:35,2018-05-16 19:43:38,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:38,2018-05-16 19:43:38,0.584s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:43:38,2018-05-16 19:43:38,0.106s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:43:38,2018-05-16 19:43:38,0.107s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:38,2018-05-16 19:43:41,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:41,2018-05-16 19:43:42,0.920s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:42,2018-05-16 19:43:45,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:45,2018-05-16 19:43:45,0.089s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:45,2018-05-16 19:43:46,0.576s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:46,2018-05-16 19:43:48,2.001s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:43:48,2018-05-16 19:43:48,0.268s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:48,2018-05-16 19:43:50,2.001s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:43:50,2018-05-16 19:43:50,0.005s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:43:50,2018-05-16 19:43:51,0.771s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:43:51,2018-05-16 19:43:53,2.001s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/select_--Select--Amlodepin -5)),Chrome 66.0.3359.139,,2018-05-16 19:43:53,2018-05-16 19:43:53,0.074s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.139,,2018-05-16 19:43:53,2018-05-16 19:44:50,57.438s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:44:50,2018-05-16 19:44:51,0.034s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:44:51,2018-05-16 19:44:51,0.089s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:44:51,2018-05-16 19:44:54,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:44:54,2018-05-16 19:44:54,0.539s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:44:54,2018-05-16 19:44:57,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:44:57,2018-05-16 19:44:57,0.079s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:44:57,2018-05-16 19:44:58,0.392s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 19:44:58,2018-05-16 19:44:58,0.645s,PASSED
+"Statement - out.println(""Schedule 5 Pharmacy Request Are Working Successfully"")",Chrome 66.0.3359.139,,2018-05-16 19:44:58,2018-05-16 19:44:58,0.000s,PASSED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_006 Verify Schedule 6 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:44:58,2018-05-16 19:47:04,2m - 5.422s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:44:58,2018-05-16 19:45:00,1.955s,PASSED
+"Statement - out.println(""Verify Schedule 6 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:45:00,2018-05-16 19:45:00,0.001s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:45:00,2018-05-16 19:45:02,1.403s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:45:02,2018-05-16 19:45:03,1.131s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:03,2018-05-16 19:45:03,0.484s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:45:03,2018-05-16 19:45:04,0.101s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:45:04,2018-05-16 19:45:04,0.098s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:04,2018-05-16 19:45:07,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:07,2018-05-16 19:45:07,0.734s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:07,2018-05-16 19:45:10,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:10,2018-05-16 19:45:12,1.228s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:12,2018-05-16 19:45:15,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:15,2018-05-16 19:45:15,0.080s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:15,2018-05-16 19:45:16,0.825s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:45:16,2018-05-16 19:45:16,0.194s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:45:16,2018-05-16 19:45:16,0.064s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:45:16,2018-05-16 19:45:21,5.629s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:45:21,2018-05-16 19:45:21,0.039s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:45:21,2018-05-16 19:45:21,0.001s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:45:21,2018-05-16 19:45:21,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:45:21,2018-05-16 19:45:21,0.032s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:21,2018-05-16 19:45:22,0.082s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:22,2018-05-16 19:45:25,3.005s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:25,2018-05-16 19:45:25,0.721s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:25,2018-05-16 19:45:28,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:28,2018-05-16 19:45:29,0.751s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:29,2018-05-16 19:45:32,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:32,2018-05-16 19:45:32,0.084s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:32,2018-05-16 19:45:33,0.460s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:33,2018-05-16 19:45:36,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:36,2018-05-16 19:45:36,0.343s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:45:36,2018-05-16 19:45:36,0.103s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:45:36,2018-05-16 19:45:36,0.103s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:36,2018-05-16 19:45:39,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:39,2018-05-16 19:45:40,0.563s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:40,2018-05-16 19:45:40,0.385s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:45:40,2018-05-16 19:45:40,0.155s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:45:40,2018-05-16 19:45:40,0.165s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:40,2018-05-16 19:45:40,0.078s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:45:40,2018-05-16 19:45:40,0.003s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:40,2018-05-16 19:45:41,0.623s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:41,2018-05-16 19:45:44,3.004s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:45:44,2018-05-16 19:45:44,0.165s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:44,2018-05-16 19:45:44,0.080s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:44,2018-05-16 19:45:47,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:47,2018-05-16 19:45:48,0.428s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:48,2018-05-16 19:45:51,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:51,2018-05-16 19:45:51,0.072s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:51,2018-05-16 19:45:51,0.422s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:51,2018-05-16 19:45:54,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:54,2018-05-16 19:45:55,0.343s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:45:55,2018-05-16 19:45:55,0.113s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:45:55,2018-05-16 19:45:55,0.097s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:55,2018-05-16 19:45:58,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:45:58,2018-05-16 19:45:59,0.815s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:45:59,2018-05-16 19:46:02,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:46:02,2018-05-16 19:46:02,0.095s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:46:02,2018-05-16 19:46:02,0.581s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:46:02,2018-05-16 19:46:04,2.000s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:46:04,2018-05-16 19:46:05,0.250s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:46:05,2018-05-16 19:46:07,2.001s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:46:07,2018-05-16 19:46:07,0.003s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:46:07,2018-05-16 19:46:07,0.541s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:46:07,2018-05-16 19:46:09,2.000s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/select_--Select--Amlodepin -5)),Chrome 66.0.3359.139,,2018-05-16 19:46:09,2018-05-16 19:46:09,0.062s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.139,,2018-05-16 19:46:09,2018-05-16 19:46:56,46.560s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:46:56,2018-05-16 19:46:56,0.033s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:46:56,2018-05-16 19:46:56,0.089s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:46:56,2018-05-16 19:46:59,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:46:59,2018-05-16 19:46:59,0.607s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:46:59,2018-05-16 19:47:02,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:02,2018-05-16 19:47:03,0.114s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:03,2018-05-16 19:47:03,0.377s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 19:47:03,2018-05-16 19:47:04,0.704s,PASSED
+"Statement - out.println(""Schedule 6 Pharmacy Request Are Working Successfully"")",Chrome 66.0.3359.139,,2018-05-16 19:47:04,2018-05-16 19:47:04,0.000s,PASSED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_007 Verify Schedule 7 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:47:04,2018-05-16 19:50:16,3m - 12.161s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:47:04,2018-05-16 19:47:06,1.996s,PASSED
+"Statement - out.println(""Verify Schedule 7 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:47:06,2018-05-16 19:47:06,0.000s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:47:06,2018-05-16 19:47:08,1.770s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:47:08,2018-05-16 19:47:09,1.147s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:09,2018-05-16 19:47:09,0.535s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:47:09,2018-05-16 19:47:09,0.113s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:47:09,2018-05-16 19:47:10,0.113s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:10,2018-05-16 19:47:13,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:13,2018-05-16 19:47:13,0.719s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:13,2018-05-16 19:47:16,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:16,2018-05-16 19:47:18,1.581s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:18,2018-05-16 19:47:21,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:21,2018-05-16 19:47:21,0.104s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:21,2018-05-16 19:47:22,1.064s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:47:22,2018-05-16 19:47:22,0.225s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:47:22,2018-05-16 19:47:22,0.062s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:47:22,2018-05-16 19:47:34,11.410s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:47:34,2018-05-16 19:47:34,0.035s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:47:34,2018-05-16 19:47:34,0.000s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:47:34,2018-05-16 19:47:34,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:47:34,2018-05-16 19:47:34,0.046s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:34,2018-05-16 19:47:34,0.094s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:34,2018-05-16 19:47:37,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:37,2018-05-16 19:47:38,0.755s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:38,2018-05-16 19:47:41,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:41,2018-05-16 19:47:41,0.683s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:41,2018-05-16 19:47:44,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:44,2018-05-16 19:47:44,0.083s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:44,2018-05-16 19:47:45,0.437s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:45,2018-05-16 19:47:48,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:48,2018-05-16 19:47:48,0.421s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:47:48,2018-05-16 19:47:48,0.102s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:47:48,2018-05-16 19:47:49,0.108s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:49,2018-05-16 19:47:52,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:52,2018-05-16 19:47:52,0.616s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:52,2018-05-16 19:47:53,0.406s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:47:53,2018-05-16 19:47:53,0.155s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:47:53,2018-05-16 19:47:53,0.135s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:53,2018-05-16 19:47:53,0.094s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:47:53,2018-05-16 19:47:53,0.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:53,2018-05-16 19:47:54,0.587s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:54,2018-05-16 19:47:57,3.002s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:47:57,2018-05-16 19:47:57,0.134s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:47:57,2018-05-16 19:47:57,0.080s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:47:57,2018-05-16 19:48:00,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:48:00,2018-05-16 19:48:00,0.397s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:48:00,2018-05-16 19:48:03,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:48:03,2018-05-16 19:48:03,0.086s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:48:03,2018-05-16 19:48:04,0.362s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:48:04,2018-05-16 19:48:07,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:48:07,2018-05-16 19:48:07,0.442s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:48:07,2018-05-16 19:48:07,0.109s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:48:07,2018-05-16 19:48:07,0.099s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:48:07,2018-05-16 19:48:10,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:48:10,2018-05-16 19:48:11,0.834s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:48:11,2018-05-16 19:48:14,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:48:14,2018-05-16 19:48:14,0.104s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:48:14,2018-05-16 19:48:15,0.580s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:48:15,2018-05-16 19:48:17,2.001s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:48:17,2018-05-16 19:48:17,0.235s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:48:17,2018-05-16 19:48:19,2.001s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:48:19,2018-05-16 19:48:19,0.003s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:48:19,2018-05-16 19:48:20,0.684s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:48:20,2018-05-16 19:48:22,2.002s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/select_--Select--Amlodepin -5)),Chrome 66.0.3359.139,,2018-05-16 19:48:22,2018-05-16 19:48:22,0.082s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.139,,2018-05-16 19:48:22,2018-05-16 19:50:08,1m - 46.097s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:50:08,2018-05-16 19:50:08,0.032s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:08,2018-05-16 19:50:08,0.091s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:08,2018-05-16 19:50:11,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:11,2018-05-16 19:50:12,0.690s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:12,2018-05-16 19:50:15,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:15,2018-05-16 19:50:15,0.130s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:15,2018-05-16 19:50:15,0.393s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 19:50:15,2018-05-16 19:50:16,0.635s,PASSED
+"Statement - out.println(""Schedule 7 Pharmacy Request Are Working Successfully"")",Chrome 66.0.3359.139,,2018-05-16 19:50:16,2018-05-16 19:50:16,0.001s,PASSED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_008 Verify Schedule 8 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:50:16,2018-05-16 19:52:41,2m - 24.954s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:50:16,2018-05-16 19:50:18,2.314s,PASSED
+"Statement - out.println(""Verify Schedule 8 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:50:18,2018-05-16 19:50:18,0.000s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:50:18,2018-05-16 19:50:20,1.715s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:50:20,2018-05-16 19:50:21,1.119s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:21,2018-05-16 19:50:22,0.602s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:50:22,2018-05-16 19:50:22,0.100s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:50:22,2018-05-16 19:50:22,0.100s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:22,2018-05-16 19:50:25,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:25,2018-05-16 19:50:26,0.740s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:26,2018-05-16 19:50:29,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:29,2018-05-16 19:50:30,1.456s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:30,2018-05-16 19:50:33,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:33,2018-05-16 19:50:33,0.102s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:33,2018-05-16 19:50:34,0.816s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:50:34,2018-05-16 19:50:34,0.206s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:50:34,2018-05-16 19:50:34,0.066s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:50:34,2018-05-16 19:50:42,7.630s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:50:42,2018-05-16 19:50:42,0.036s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:50:42,2018-05-16 19:50:42,0.001s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:50:42,2018-05-16 19:50:42,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:50:42,2018-05-16 19:50:42,0.034s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:42,2018-05-16 19:50:42,0.087s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:42,2018-05-16 19:50:45,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:45,2018-05-16 19:50:46,0.613s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:46,2018-05-16 19:50:49,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:49,2018-05-16 19:50:50,1.103s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:50,2018-05-16 19:50:53,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:53,2018-05-16 19:50:53,0.123s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:53,2018-05-16 19:50:54,0.545s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:54,2018-05-16 19:50:57,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:50:57,2018-05-16 19:50:57,0.449s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:50:57,2018-05-16 19:50:57,0.098s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:50:57,2018-05-16 19:50:57,0.096s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:50:57,2018-05-16 19:51:00,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:00,2018-05-16 19:51:01,1.016s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:01,2018-05-16 19:51:02,1.156s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:51:02,2018-05-16 19:51:03,0.169s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:51:03,2018-05-16 19:51:03,0.137s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:03,2018-05-16 19:51:03,0.079s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:51:03,2018-05-16 19:51:03,0.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:03,2018-05-16 19:51:03,0.603s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:51:03,2018-05-16 19:51:06,3.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:51:06,2018-05-16 19:51:07,0.196s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:07,2018-05-16 19:51:07,0.081s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:51:07,2018-05-16 19:51:10,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:10,2018-05-16 19:51:10,0.411s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:51:10,2018-05-16 19:51:13,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:13,2018-05-16 19:51:13,0.088s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:13,2018-05-16 19:51:14,0.428s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:51:14,2018-05-16 19:51:17,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:17,2018-05-16 19:51:17,0.547s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:51:17,2018-05-16 19:51:17,0.112s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:51:17,2018-05-16 19:51:17,0.110s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:51:17,2018-05-16 19:51:20,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:20,2018-05-16 19:51:21,0.818s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:51:21,2018-05-16 19:51:24,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:24,2018-05-16 19:51:24,0.121s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:24,2018-05-16 19:51:25,0.596s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:51:25,2018-05-16 19:51:27,2.000s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:51:27,2018-05-16 19:51:27,0.231s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:51:27,2018-05-16 19:51:29,2.001s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:51:29,2018-05-16 19:51:29,0.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:51:29,2018-05-16 19:51:30,0.533s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:51:30,2018-05-16 19:51:32,2.001s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/select_--Select--Amlodepin -5)),Chrome 66.0.3359.139,,2018-05-16 19:51:32,2018-05-16 19:51:32,0.073s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.139,,2018-05-16 19:51:32,2018-05-16 19:52:33,1m - 1.195s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:52:33,2018-05-16 19:52:33,0.035s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:52:33,2018-05-16 19:52:33,0.087s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:52:33,2018-05-16 19:52:36,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:52:36,2018-05-16 19:52:37,0.657s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:52:37,2018-05-16 19:52:40,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:52:40,2018-05-16 19:52:40,0.097s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:52:40,2018-05-16 19:52:40,0.352s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 19:52:40,2018-05-16 19:52:41,0.640s,PASSED
+"Statement - out.println(""Schedule 8 Pharmacy Request Are Working Successfully"")",Chrome 66.0.3359.139,,2018-05-16 19:52:41,2018-05-16 19:52:41,0.000s,PASSED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_009 Verify Schedule 9 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:52:41,2018-05-16 19:55:15,2m - 33.991s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:52:41,2018-05-16 19:52:43,2.013s,PASSED
+"Statement - out.println(""Verify Schedule 9 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:52:43,2018-05-16 19:52:43,0.000s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:52:43,2018-05-16 19:52:45,1.565s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:52:45,2018-05-16 19:52:46,1.133s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:52:46,2018-05-16 19:52:46,0.651s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:52:46,2018-05-16 19:52:46,0.108s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:52:46,2018-05-16 19:52:47,0.097s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:52:47,2018-05-16 19:52:50,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:52:50,2018-05-16 19:52:50,0.526s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:52:50,2018-05-16 19:52:53,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:52:53,2018-05-16 19:52:54,1.244s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:52:54,2018-05-16 19:52:57,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:52:57,2018-05-16 19:52:57,0.108s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:52:57,2018-05-16 19:52:58,0.714s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:52:58,2018-05-16 19:52:58,0.235s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:52:58,2018-05-16 19:52:58,0.065s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:52:58,2018-05-16 19:53:17,18.651s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:53:17,2018-05-16 19:53:17,0.036s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:53:17,2018-05-16 19:53:17,0.000s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:53:17,2018-05-16 19:53:17,0.001s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:53:17,2018-05-16 19:53:17,0.036s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:17,2018-05-16 19:53:17,0.086s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:17,2018-05-16 19:53:20,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:20,2018-05-16 19:53:21,0.620s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:21,2018-05-16 19:53:24,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:24,2018-05-16 19:53:25,0.895s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:25,2018-05-16 19:53:28,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:28,2018-05-16 19:53:28,0.103s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:28,2018-05-16 19:53:28,0.437s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:28,2018-05-16 19:53:31,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:31,2018-05-16 19:53:32,0.604s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:53:32,2018-05-16 19:53:32,0.112s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:53:32,2018-05-16 19:53:32,0.121s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:32,2018-05-16 19:53:35,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:35,2018-05-16 19:53:36,0.510s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:36,2018-05-16 19:53:36,0.437s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:53:36,2018-05-16 19:53:36,0.150s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:53:36,2018-05-16 19:53:36,0.140s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:36,2018-05-16 19:53:36,0.095s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:53:36,2018-05-16 19:53:37,0.003s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:37,2018-05-16 19:53:37,0.589s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:37,2018-05-16 19:53:40,3.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:53:40,2018-05-16 19:53:40,0.159s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:40,2018-05-16 19:53:40,0.072s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:40,2018-05-16 19:53:43,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:43,2018-05-16 19:53:44,0.406s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:44,2018-05-16 19:53:47,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:47,2018-05-16 19:53:47,0.075s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:47,2018-05-16 19:53:47,0.358s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:47,2018-05-16 19:53:50,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:50,2018-05-16 19:53:50,0.299s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:53:50,2018-05-16 19:53:51,0.116s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:53:51,2018-05-16 19:53:51,0.104s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:51,2018-05-16 19:53:54,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:54,2018-05-16 19:53:55,0.864s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:55,2018-05-16 19:53:58,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:58,2018-05-16 19:53:58,0.093s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:53:58,2018-05-16 19:53:58,0.575s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:53:58,2018-05-16 19:54:00,2.002s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:54:00,2018-05-16 19:54:00,0.250s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:54:00,2018-05-16 19:54:02,2.001s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:54:02,2018-05-16 19:54:02,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:54:02,2018-05-16 19:54:03,0.516s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:54:03,2018-05-16 19:54:05,2.001s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/select_--Select--Amlodepin -5)),Chrome 66.0.3359.139,,2018-05-16 19:54:05,2018-05-16 19:54:05,0.077s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.139,,2018-05-16 19:54:05,2018-05-16 19:55:15,1m - 9.720s,FAILED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_010 Verify Schedule 10 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:55:15,2018-05-16 19:57:44,2m - 29.031s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:55:15,2018-05-16 19:55:18,2.789s,PASSED
+"Statement - out.println(""Verify Schedule 10 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:55:18,2018-05-16 19:55:18,0.000s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:55:18,2018-05-16 19:55:19,1.616s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:55:19,2018-05-16 19:55:21,1.124s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:21,2018-05-16 19:55:21,0.613s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:55:21,2018-05-16 19:55:21,0.103s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:55:21,2018-05-16 19:55:21,0.106s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:55:21,2018-05-16 19:55:24,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:24,2018-05-16 19:55:25,0.547s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:55:25,2018-05-16 19:55:28,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:28,2018-05-16 19:55:30,1.845s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:55:30,2018-05-16 19:55:33,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:33,2018-05-16 19:55:33,0.088s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:33,2018-05-16 19:55:34,0.855s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:55:34,2018-05-16 19:55:34,0.227s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:55:34,2018-05-16 19:55:34,0.068s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:55:34,2018-05-16 19:55:43,8.676s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:55:43,2018-05-16 19:55:43,0.041s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:55:43,2018-05-16 19:55:43,0.000s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:55:43,2018-05-16 19:55:43,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:55:43,2018-05-16 19:55:43,0.034s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:43,2018-05-16 19:55:43,0.078s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:55:43,2018-05-16 19:55:46,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:46,2018-05-16 19:55:46,0.610s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:55:46,2018-05-16 19:55:49,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:49,2018-05-16 19:55:50,0.937s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:55:50,2018-05-16 19:55:53,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:53,2018-05-16 19:55:54,0.136s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:54,2018-05-16 19:55:54,0.483s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:55:54,2018-05-16 19:55:57,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:55:57,2018-05-16 19:55:57,0.461s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:55:57,2018-05-16 19:55:58,0.107s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:55:58,2018-05-16 19:55:58,0.094s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:55:58,2018-05-16 19:56:01,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:01,2018-05-16 19:56:01,0.615s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:01,2018-05-16 19:56:02,0.511s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:56:02,2018-05-16 19:56:02,0.148s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:56:02,2018-05-16 19:56:02,0.145s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:02,2018-05-16 19:56:02,0.081s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:56:02,2018-05-16 19:56:02,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:02,2018-05-16 19:56:03,0.643s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:56:03,2018-05-16 19:56:06,3.000s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:56:06,2018-05-16 19:56:06,0.173s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:06,2018-05-16 19:56:06,0.093s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:56:06,2018-05-16 19:56:09,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:09,2018-05-16 19:56:10,0.443s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:56:10,2018-05-16 19:56:13,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:13,2018-05-16 19:56:13,0.106s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:13,2018-05-16 19:56:13,0.367s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:56:13,2018-05-16 19:56:16,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:16,2018-05-16 19:56:16,0.317s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:56:16,2018-05-16 19:56:16,0.106s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:56:16,2018-05-16 19:56:17,0.099s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:56:17,2018-05-16 19:56:20,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:20,2018-05-16 19:56:20,0.780s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:56:20,2018-05-16 19:56:23,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:23,2018-05-16 19:56:23,0.112s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:23,2018-05-16 19:56:24,0.614s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:56:24,2018-05-16 19:56:26,2.002s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:56:26,2018-05-16 19:56:26,0.297s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:56:26,2018-05-16 19:56:28,2.000s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:56:28,2018-05-16 19:56:28,0.003s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:56:28,2018-05-16 19:56:29,0.499s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:56:29,2018-05-16 19:56:31,2.001s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/select_--Select--Amlodepin -5)),Chrome 66.0.3359.139,,2018-05-16 19:56:31,2018-05-16 19:56:31,0.102s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.139,,2018-05-16 19:56:31,2018-05-16 19:57:36,1m - 5.050s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:57:36,2018-05-16 19:57:36,0.036s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:57:36,2018-05-16 19:57:36,0.085s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:57:36,2018-05-16 19:57:39,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:57:39,2018-05-16 19:57:40,0.632s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:57:40,2018-05-16 19:57:43,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:57:43,2018-05-16 19:57:43,0.089s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:57:43,2018-05-16 19:57:43,0.366s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 19:57:43,2018-05-16 19:57:44,0.640s,PASSED
+"Statement - out.println(""Schedule 10 Pharmacy Request Are Working Successfully"")",Chrome 66.0.3359.139,,2018-05-16 19:57:44,2018-05-16 19:57:44,0.001s,PASSED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_011 Verify Schedule 11 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:57:44,2018-05-16 19:58:31,47.548s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:57:44,2018-05-16 19:57:46,1.972s,PASSED
+"Statement - out.println(""Verify Schedule 11 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:57:46,2018-05-16 19:57:46,0.001s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:57:46,2018-05-16 19:57:48,1.463s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:57:48,2018-05-16 19:57:49,1.120s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:57:49,2018-05-16 19:57:49,0.632s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:57:49,2018-05-16 19:57:49,0.101s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:57:49,2018-05-16 19:57:49,0.110s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:57:49,2018-05-16 19:57:52,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:57:52,2018-05-16 19:57:53,0.829s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:57:53,2018-05-16 19:57:56,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:57:56,2018-05-16 19:57:58,1.332s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:57:58,2018-05-16 19:58:01,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:58:01,2018-05-16 19:58:01,0.103s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:58:01,2018-05-16 19:58:01,0.627s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:58:01,2018-05-16 19:58:02,0.235s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:58:02,2018-05-16 19:58:02,0.082s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:58:02,2018-05-16 19:58:31,29.693s,FAILED
+,,,,,,
+Test Cases/PHARMACY TEST CASES/TC_PHAR_012 Verify Schedule 12 Pharmacy Request Are Working Successfully Or Not,Chrome 66.0.3359.139,,2018-05-16 19:58:31,2018-05-16 20:01:00,2m - 28.449s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-16 19:58:32,2018-05-16 19:58:34,2.561s,PASSED
+"Statement - out.println(""Verify Schedule 12 Pharmacy Request Are Working Successfully Or Not"")",Chrome 66.0.3359.139,,2018-05-16 19:58:34,2018-05-16 19:58:34,0.001s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-16 19:58:34,2018-05-16 19:58:36,1.552s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-16 19:58:36,2018-05-16 19:58:37,1.121s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:58:37,2018-05-16 19:58:38,0.786s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:58:38,2018-05-16 19:58:38,0.103s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:58:38,2018-05-16 19:58:38,0.108s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:58:38,2018-05-16 19:58:41,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:58:41,2018-05-16 19:58:42,0.732s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:58:42,2018-05-16 19:58:45,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:58:45,2018-05-16 19:58:46,1.403s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:58:46,2018-05-16 19:58:49,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:58:49,2018-05-16 19:58:49,0.119s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:58:49,2018-05-16 19:58:50,0.824s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:58:50,2018-05-16 19:58:50,0.266s,PASSED
+Statement - MedicineLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/select_--Select--Albendazole)),Chrome 66.0.3359.139,,2018-05-16 19:58:50,2018-05-16 19:58:50,0.079s,PASSED
+"Statement - For ([l = 1, l <= MedicineLength - 1, (l++)])",Chrome 66.0.3359.139,,2018-05-16 19:58:50,2018-05-16 19:58:59,8.742s,PASSED
+"Statement - RN1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC-Pharmacy/input_txtno), ""value"")",Chrome 66.0.3359.139,,2018-05-16 19:58:59,2018-05-16 19:58:59,0.035s,PASSED
+Statement - out.println(RN1),Chrome 66.0.3359.139,,2018-05-16 19:58:59,2018-05-16 19:58:59,0.001s,PASSED
+"Statement - RID = RN1.split(""/"")[2]",Chrome 66.0.3359.139,,2018-05-16 19:58:59,2018-05-16 19:58:59,0.000s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 19:58:59,2018-05-16 19:58:59,0.031s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:58:59,2018-05-16 19:58:59,0.088s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:58:59,2018-05-16 19:59:02,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:02,2018-05-16 19:59:03,0.610s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:03,2018-05-16 19:59:06,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:06,2018-05-16 19:59:07,1.049s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:07,2018-05-16 19:59:10,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:10,2018-05-16 19:59:10,0.102s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:10,2018-05-16 19:59:10,0.455s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:10,2018-05-16 19:59:13,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:13,2018-05-16 19:59:14,0.399s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:59:14,2018-05-16 19:59:14,0.107s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:59:14,2018-05-16 19:59:14,0.095s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:14,2018-05-16 19:59:17,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:17,2018-05-16 19:59:18,0.777s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:18,2018-05-16 19:59:18,0.509s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:59:18,2018-05-16 19:59:18,0.146s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:59:18,2018-05-16 19:59:19,0.142s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:19,2018-05-16 19:59:19,0.087s,PASSED
+"Statement - ID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_KDMC - CMO/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:59:19,2018-05-16 19:59:19,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:19,2018-05-16 19:59:19,0.626s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:19,2018-05-16 19:59:22,3.001s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-16 19:59:22,2018-05-16 19:59:22,0.162s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:22,2018-05-16 19:59:23,0.086s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:23,2018-05-16 19:59:26,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:26,2018-05-16 19:59:26,0.420s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:26,2018-05-16 19:59:29,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:29,2018-05-16 19:59:29,0.078s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:29,2018-05-16 19:59:29,0.356s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:29,2018-05-16 19:59:32,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:32,2018-05-16 19:59:33,0.355s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:59:33,2018-05-16 19:59:33,0.115s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:59:33,2018-05-16 19:59:33,0.097s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:33,2018-05-16 19:59:36,3.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:36,2018-05-16 19:59:37,0.834s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:37,2018-05-16 19:59:40,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:40,2018-05-16 19:59:40,0.108s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:40,2018-05-16 19:59:40,0.549s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:40,2018-05-16 19:59:42,2.001s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-16 19:59:42,2018-05-16 19:59:43,0.280s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:43,2018-05-16 19:59:45,2.001s,PASSED
+"Statement - ChooseRequest = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/input_2), ""xpath"", ""equals"", ""//*[@id="" + RID + ""]"", true)",Chrome 66.0.3359.139,,2018-05-16 19:59:45,2018-05-16 19:59:45,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 19:59:45,2018-05-16 19:59:45,0.530s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 19:59:45,2018-05-16 19:59:47,2.000s,PASSED
+Statement - selectedoptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PharmacyRequest/Page_Store/select_--Select--Amlodepin -5)),Chrome 66.0.3359.139,,2018-05-16 19:59:47,2018-05-16 19:59:47,0.057s,PASSED
+"Statement - For ([a = 1, a <= selectedoptions - 1, (a++)])",Chrome 66.0.3359.139,,2018-05-16 19:59:47,2018-05-16 20:00:52,1m - 4.705s,PASSED
+scrollToElement,Chrome 66.0.3359.139,,2018-05-16 20:00:52,2018-05-16 20:00:52,0.035s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 20:00:52,2018-05-16 20:00:52,0.095s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 20:00:52,2018-05-16 20:00:55,3.000s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 20:00:55,2018-05-16 20:00:56,0.594s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-16 20:00:56,2018-05-16 20:00:59,3.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 20:00:59,2018-05-16 20:00:59,0.093s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 20:00:59,2018-05-16 20:00:59,0.351s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 20:00:59,2018-05-16 20:01:00,0.644s,PASSED
+"Statement - out.println(""Schedule 12 Pharmacy Request Are Working Successfully"")",Chrome 66.0.3359.139,,2018-05-16 20:01:00,2018-05-16 20:01:00,0.000s,PASSED

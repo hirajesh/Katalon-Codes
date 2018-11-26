@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select--Hamen Chandra</name>
+   <tag></tag>
+   <elementGuidId>6cbde4c6-c7ac-42d7-8427-269e5baf4bb9</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>flddealer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--Hamen Chandra Pharmacist-DEAL201701060Rajkumar Pharmacy Pvt Ltd-DEAL201701063Ramdev Medical-DEAL201701064MK Royal Pharmacy-DEAL201701255Power Pharmacy-DEAL201703116Hema Pharamacy-DEAL2017031410Pharma Medicines-DEAL2017031711Chandru Pharmacy-DEAL2017031712Lokesh Pharma-DEAL2017031814Kumar-DEAL2017032517PERUMAL PHARMACY-DEAL2017042619PK ROYAL-DEAL2017042620TABLETS PHARMACY-DEAL2017042721SkinCarePharma-DEAL2017052023BSR PVT-DEAL2017052624Med Plus Pharma-DEAL2017061225</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;flddealer&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

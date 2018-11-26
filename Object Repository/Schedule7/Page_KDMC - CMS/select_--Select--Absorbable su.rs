@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select--Absorbable su</name>
+   <tag></tag>
+   <elementGuidId>4783749d-eda6-4035-ad63-6bf5d1deecc6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>optmedicine</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--Absorbable surgical catgut chromic USP/BP in size 1-0 with 1/2 circle needle in sterile foil pack 40 m length, 76 cmAbsorbable synthetic suture (polygycolic acid/polyglactin) size 1 with round body 40mm, 1/2 circle heavy 110 cm needle (Vicryl-1RB) 90cmAbsorbable synthetic suture (polygycolic acid/polyglactin) size 1 with round body 40mm, 1/2 circle heavy 90 cm reverse cutting needle (Vicryl-1)Absorbable synthetic suture (Polygycolic acid/polyglactin) size 3-0with 20 mm 1/2 circle round body needle, 901 cm (Vicry 1-3-0 round body)Bandage open woven as per schedule F-II of drugs and cosmetics act. 1940 size - 3 inches (7.5cm x 3 mtr.)Bandage open woven as per schedule F-II of drugs and cosmetics act. 1940 size - 6 inches (15cm x 3 mtr.)Cotton Soft roll Size 4 inches-4Cotton Soft roll Size 6 inches-6Cotton wool absorbent plain, B.P/I.P. iwht proper inter-leaving with paper between thin and long layers with smooth surface and without lump at the endDigital Thermameter Disposable HIV kits with goglesElastic Addasive bandage B.P. Cannula fixing tape.Ethilon 2-0 cutting/reverse needle 3 metric 70 cm.Ethilon 3-0 cutting/reverse needle 26mm /3/8 circle reverse cutting 70 cm.Guaze, white bleached, in pieces of 18 metres in folds of 1 meter as per schedule F-II of drugs and cosmetics act, 1940 with latest amendment single width 90 cms.P.O.P Bandage (As per B27 of drug and Cosmetics Act 1940 size - 15cm x 4 Mtrs.P.O.P Bandage (As per F(ii) of drug and Cosmetics Act 1940 size - 10cm x 4 Mtrs.Polypropyene mesh size 12x12 cmPolypropyene mesh size 6x11 cm Silk/syinthetic sutures non-capiliary in sterile foil pack, size 3-0 with 20mm, cutting needle 1/2 circle round body 76 cms (mersilk 3-0)Sticking plaster 10 meters X 7.5 cms B.P.C. or similar productSurgcal underpad size: 90cm x 60cm, (use in O.T and labour wardUmbilical cord clamp secification - having good quality of plastic and eazy to handle with grips to the cord</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;optmedicine&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

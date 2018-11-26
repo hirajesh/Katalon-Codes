@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST" time="1" tests="0" failures="0" errors="4">
+   <testsuite name="TEST" tests="0" failures="0" errors="4" time="1" timestamp="2018-07-31 17:52:29" hostname="Quality Analyst - DESKTOP-BLFTK83" id="Test Suites/TEST">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\TEST\\20180731_175223"/>
+         <property name="logFiles" value="C:\\Users\\Quality Analyst\\Katalon Studio\\ds\\Reports\\TEST\\20180731_175223\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Quality Analyst - DESKTOP-BLFTK83"/>
+         <property name="hostAddress" value="192.168.154.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-07-31 17:52:30 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-07-31 17:52:30 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-07-31 17:52:30 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-07-31 17:52:30 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-07-31 17:52:30 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-07-31 17:52:30 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST/GRN RECEIVE IN CMS/dp" classname="Test Cases/TEST/GRN RECEIVE IN CMS/dp" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-07-31 17:52:31 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-07-31 17:52:31 - [TEST_CASE][ERROR] - Test Cases/TEST/GRN RECEIVE IN CMS/dp: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-31 17:52:29 - [TEST_SUITE][ERROR] - TEST: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2018-07-31 17:52:29 - [TEST_SUITE][ERROR] - TEST: Test Cases/TEST/GRN RECEIVE IN CMS/dp FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Quality%20Analyst/Katalon%20Studio/ds/Scripts/TEST/GRN%20RECEIVE%20IN%20CMS/dp/Script1526644651791.groovy: 28: unable to resolve class Var 
+ @ line 28, column 5.
+   Var demoPassword
+       ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

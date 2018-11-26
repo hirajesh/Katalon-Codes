@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-06-10T19:32:30</date>
+  <millis>1528639350649</millis>
+  <sequence>49318</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-10T19:32:30</date>
+  <millis>1528639350649</millis>
+  <sequence>49319</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-10T19:32:30</date>
+  <millis>1528639350650</millis>
+  <sequence>49320</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/HEALTHPOST TEST CASES/TC_HP_014 Verify Schedule 2 Healthpost To CMS Request Are Working Successfully Or Not</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-10T19:32:30</date>
+  <millis>1528639350650</millis>
+  <sequence>49321</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/HEALTHPOST TEST CASES/TC_HP_014 Verify Schedule 2 Healthpost To CMS Request Are Working Successfully Or Not</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-10T19:32:30</date>
+  <millis>1528639350677</millis>
+  <sequence>49322</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/HealthPost_CMS_Suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
